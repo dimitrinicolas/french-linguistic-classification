@@ -1,0 +1,20 @@
+{
+  "name": "french-linguistic",
+  "description": "French linguistic classification",
+  "author": "Dimitri NICOLAS <dimitri@ooeo.fr>",
+  "license": "MIT",
+  "homepage": "https://github.com/dimitrinicolas/french-linguistic",
+  "scripts": {
+    "build": "mmdc -i ./src/diagram.mmd -o ./bin/diagram.svg && sed -i -e 's/\\<br\\>/\\<br \\/\\>/g' ./bin/diagram.svg"
+  },
+  "keywords": [
+    "french",
+    "linguistic",
+    "classification",
+    "lemma",
+    "morpheme"
+  ],
+  "dependencies": {
+    "mermaid.cli": "^0.5.1"
+  }
+}
