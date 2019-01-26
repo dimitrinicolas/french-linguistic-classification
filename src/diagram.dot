@@ -1,0 +1,437 @@
+digraph {
+  graph [
+    rankdir = LR
+    splines = polyline
+  ]
+
+  node [
+    shape = record
+  ]
+
+  /**
+   * Test resources: fane, moeurs, un=une extra-terrestre: invariable, abimer=abîmer
+   */
+
+  /**
+   * DYNAMIC
+   */
+  
+  /**
+   * Group
+   */
+
+  Group [
+    label = <
+      Group - <i>Groupe</i>|
+      \{Group=\} parent - <i>Groupe parent</i>|
+      \{Lemma[]\} lemmas - <i>Liste de lemmes</i>|
+      \{Function[]\} function - <i>Fonction du groupe</i>
+    >
+  ]
+  
+  /**
+   * Function
+   */
+
+  Function [
+    label = <
+      Function - <i>Fonction</i>|
+      \{Group\} related - <i>Par rapport au groupe</i>
+    >
+  ]
+
+    Subject [ label = <Subject - <i>Sujet</i>> ]
+    ObjectComplement [ label = <ObjectComplement - <i>Complément d'objet</i>> ]
+
+      DirectObjectComplement [ label = <DirectObjectComplement - <i>Complément d'objet direct</i>> ]
+      SecondObjectComplement [ label = <DirectObjectComplement - <i>Complément d'objet second</i>> ]
+      IndirectObjectComplement [ label = <DirectObjectComplement - <i>Complément d'objet indirect</i>> ]
+
+      ObjectComplement -> { DirectObjectComplement SecondObjectComplement IndirectObjectComplement }
+
+    ObjectOfPreposition [ label = <ObjectOfPreposition - <i>ObjectOfPreposition</i>> ]
+    PedicateNominative [ label = <PedicateNominative - <i>Attribut</i>> ]
+    Appositive [ label = <Appositive - <i>Apposition</i>> ]
+
+    Function -> { Subject ObjectComplement ObjectOfPreposition PedicateNominative Appositive}
+
+  /**
+   * QUASI-STATIC
+   */
+  
+  /**
+   * Phoneme
+   */
+
+  Phoneme [
+    label = <
+      Phoneme - <i>Phonème</i>|
+      \{string\} content - <i>Contenu</i>
+    >
+  ]
+  
+  /**
+   * Morpheme
+   */
+
+  // Un autre exemple est couraient, qui est composé de cour- « courir », -ai- (marque de l'imparfait) et -ent (3e personne du pluriel à l'écrit, « ils »)
+  // Cet exemple est sans segmentation de mot : pomme de terre n'est pas composé de trois morphèmes mais bien d'un seul morphème, qui contient la signification « pomme de terre », le légume en question.
+  // https://books.openedition.org/pup/485?lang=fr
+  // http://archive.sfl.cnrs.fr/sites/sfl/IMG/pdf/corr-Res-Sem1-12010.pdf
+
+  Morpheme [
+    label = <
+      Morpheme - <i>Morphème</i>|
+      \{string\} content - <i>Contenu</i>|
+      \{boolean\} free - <i>Libre (existe en tant que lemme) sinon lié</i>
+    >
+  ]
+
+    // Classe fermée
+    GrammaticalMorpheme [
+      label = <
+        GrammaticalMorpheme - <i>Grammème</i>|
+        e.g. tu, à, et
+      >
+    ]
+
+    // Classe ouverte
+    Affix [
+      label = <
+        Affix - <i>Affixe</i>|
+        \{string=\} meaning - <i>Signification</i>
+      >
+    ]
+
+      Prefix [ label = <Prefix - <i>Prefixe</i>> ]
+      Suffix [ label = <Suffix - <i>Suffixe</i>> ]
+
+      Affix -> { Prefix Suffix }
+
+    Lexeme [ label = <Lexeme - <i>Lexème</i>> ]
+
+    Morpheme -> { GrammaticalMorpheme Affix Lexeme }
+  
+  /**
+   * Locution
+   */
+
+  Locution [
+    label = <
+      Locution - <i>Flexion</i>|
+      \{Lemma[]\} lemmas - Liste de lemmes
+    >
+  ]
+
+    NominalLocution [
+      label = <
+        NominalLocution - <i>Locution nominale</i>|
+        e.g. éducation physique
+      >
+    ]
+    VerbalLocution [
+      label = <
+        VerbalLocution - <i>Locution verbale</i>|
+        e.g. prendre l'air
+      >
+    ]
+    AdjectivalLocution [
+      label = <
+        AdjectivalLocution - <i>Locution adjectivale</i>|
+        e.g. comme il faut
+      >
+    ]
+    AdverbialLocution [
+      label = <
+        AdverbialLocution - <i>Locution adverbiale</i>|
+        e.g. la plupart de
+      >
+    ]
+    ConjunctiveLocution [
+      label = <
+        ConjunctiveLocution - <i>Locution conjonctive</i>|
+        e.g. même si
+      >
+    ]
+    InterjectiveLocution [
+      label = <
+        InterjectiveLocution - <i>Locution interjective</i>|
+        e.g. Par exemple !
+      >
+    ]
+    PrepositionalLocution [
+      label = <
+        PrepositionalLocution - <i>Locution prépositionnelle</i>|
+        e.g. à cause de
+      >
+    ]
+    PronominalLocution [
+      label = <
+        PronominalLocution - <i>Locution pronominale</i>|
+        e.g. quelque chose
+      >
+    ]
+    DeterminerLocution [
+      label = <
+        DeterminerLocution - <i>Locution déterminant</i>|
+        e.g. n’importe quel
+      >
+    ]
+
+    Locution -> { NominalLocution VerbalLocution AdjectivalLocution AdverbialLocution ConjunctiveLocution InterjectiveLocution PrepositionalLocution PronominalLocution DeterminerLocution }
+  
+  /**
+   * VerbGroup
+   */
+
+  VerbGroup [ label = <VerbGroup - <i>Groupe de verbe</i>> ]
+
+    FirstVerbGroup [
+      label = <
+        FirstVerbGroup - <i>Premiere groupe</i>|
+        Infinitif en -er, sauf aller
+      >
+    ]
+    SecondVerbGroup [
+      label = <
+        SecondVerbGroup - <i>Deuxième groupe</i>|
+        Infinitif en -ir, qui à certaines formes allongent leur radical de l’affixe –iss-
+      >
+    ]
+    ThirdVerbGroup [
+      label = <
+        ThirdVerbGroup - <i>Troisième groupe</i>|
+        Infinitif en -ir sans élargissement, en -oir, en -re et aller
+      >
+    ]
+
+    VerbGroup -> { FirstVerbGroup SecondVerbGroup ThirdVerbGroup }
+  
+  /**
+   * Person
+   */
+
+  Person [ label = <Person - <i>Personne</i>> ]
+
+    FirstPerson [ label = <FirstPerson - <i>Premiere personne</i>> ]
+    SecondPerson [ label = <SecondPerson - <i>Deuxième personne</i>> ]
+    ThirdPerson [ label = <ThirdPerson - <i>Troisième personne</i>> ]
+
+    Person -> { FirstPerson SecondPerson ThirdPerson }
+  
+  /**
+   * Tense
+   */
+
+  Tense [ label = <Tense - <i>Temps</i>> ]
+
+    Present [ label = <Present - <i>Présent</i>> ]
+    Futur [ label = <Futur - <i>Futur</i>> ]
+    Past [ label = <Past - <i>Passé</i>> ]
+    Imperfect [ label = <Imperfect - <i>Imparfait</i>> ]
+    SimplePast [ label = <SimplePast - <i>Passé simple</i>> ]
+
+    Tense -> { Present Futur Past Imperfect SimplePast }
+  
+  /**
+   * Mood
+   */
+
+  Mood [ label = <Mood - <i>Mode</i>> ]
+
+    Inifinitive [ label = <Infinitive - <i>Infinitif</i>> ]
+    Indicative [ label = <Indicative - <i>Indicatif</i>> ]
+    Participle [ label = <Participle - <i>Participe</i>> ]
+    Subjunctive [ label = <Subjunctive - <i>Subjonctif</i>> ]
+    Imperative [ label = <Imperative - <i>Impératif</i>> ]
+    Conditional [ label = <Conditional - <i>Conditionnel</i>> ]
+
+    Mood -> { Inifinitive Indicative Participle Subjunctive Imperative Conditional }
+  
+  /**
+   * Gender
+   */
+
+  Gender [ label = <Gender - <i>Genre</i>> ]
+
+    Masculine [ label = <Masculine - <i>Masculin</i>> ]
+    Feminine [ label = <Feminine - <i>Feminin</i>> ]
+    InvariableGender [ label = <InvariableGender - <i>Genre invariable</i>> ]
+    EpiceneGender [ label = <EpiceneGender - <i>Épicène</i>> ]
+
+    Gender -> { Masculine Feminine InvariableGender EpiceneGender }
+  
+  /**
+   * Number
+   */
+
+  Number [ label = <Number - <i>Nombre</i>> ]
+
+    Singular [ label = <Singular - <i>Singulier</i>> ]
+    Plural [ label = <Plural - <i>Pluriel</i>> ]
+    InvariableNumber [ label = <InvariableNumber - <i>Invariable en nombre</i>> ]
+
+    Number -> { Singular Plural InvariableNumber }
+
+  /**
+   * Inflection
+   */
+
+  Inflection [
+    label = <
+      Inflection - <i>Flexion</i>|
+      \{Lemma\} lemma - <i>Lèmme</i>|
+      \{Morphemes[]\} morphemes - <i>Morphèmes</i>
+    >
+  ]
+
+    Declension [
+      label = <
+        Declension - <i>Déclinaison</i>|
+        \{Number\} number - Nombre|
+        \{Gender\} gender - Genre
+      >
+    ]
+    Conjugation [
+      label = <
+        Conjugation - <i>Conjugaison</i>|
+        \{Mood\} mood - Mode|
+        \{Tense\} tense - Temps|
+        \{Person\} mood - Personne|
+        \{Number\} number - Nombre|
+        \{Gender\} gender - Genre
+      >
+    ]
+
+    Inflection -> { Declension Conjugation }
+
+  /**
+   * Lemma
+   */
+
+  Lemma [
+    label = <
+      Lemma - <i>Lemme</i>|
+      \{Morphemes[]\} morphemes - <i>Morphèmes</i>|
+      \{string\} meaning - <i>Signification</i>
+    >
+  ]
+
+    Noun [
+      label = <
+        Noun - <i>Nom</i>|
+        \{boolean\} animate - Animé
+      >
+    ]
+
+      CommonNoun [
+        label = <
+          CommonNoun - <i>Nom commun</i>|
+          \{boolean\} countable - <i>Dénombrable</i>|
+          \{boolean\} concrete - <i>Concret</i>|
+          \{Gender\} gender - <i>Genre</i>|
+          \{boolean\} collective - <i>Nom collectif</i>
+        >
+      ]
+      ProperNoun [
+        label = <
+          ProperNoun - <i>Nom propre</i>|
+          e.g. Nicolas
+        >
+      ]
+
+      Noun -> { CommonNoun ProperNoun }
+
+        CommonStandardNoun [
+          label = <
+            CommonStandardNoun - <i>Nom commun standard</i>|
+            e.g. maison
+          >
+        ]
+        CommonCompoundNoun [
+          label = <
+            CommonCompoundNoun - <i>Nom commun composé</i>|
+            \{Noun[]\} nouns - <i>Noms</i>|
+            \{''\|' '\|'-'\} junction - <i>Jonction</i>|
+            e.g. chou-fleur
+          >
+        ]
+        CommonComplexNoun [
+          label = <
+            CommonComplexNoun - <i>Nom commun complexe</i>|
+            \{Noun[]\} nouns - <i>Noms</i>|
+            \{''\|' '\|'-'\} junction - <i>Jonction</i>
+          >
+        ]
+
+        CommonNoun -> { CommonStandardNoun CommonCompoundNoun CommonComplexNoun }
+
+          CommonComplexSyntagmaNoun [
+            label = <
+              CommonComplexSyntagmaNoun - <i>Nom commun complexe syntagme</i>|
+              e.g. grand-chose
+            >
+          ]
+          CommonComplexExpressionNoun [
+            label = <
+              CommonComplexExpressionNoun - <i>Nom commun complexe expression complète</i>|
+              e.g. je-ne-sais-quoi
+            >
+          ]
+
+          CommonComplexNoun -> { CommonComplexSyntagmaNoun CommonComplexExpressionNoun }
+
+    Determiner [ label = <Determiner - <i>Déterminant</i>> ]
+
+      DemonstrativeDeterminer [
+        label = <
+          DemonstrativeDeterminer - <i>Déterminant démonstratif</i>|
+          e.g. ce
+        >
+      ]
+      IndefiniteDeterminer [
+        label = <
+          IndefiniteDeterminer - <i>Déterminant indéfini</i>|
+          e.g. un
+        >
+      ]
+      DefiniteDeterminer [
+        label = <
+          DefiniteDeterminer - <i>Déterminant défini</i>|
+          e.g. le
+        >
+      ]
+      ExclamatoryDeterminer [
+        label = <
+          ExclamatoryDeterminer - <i>Déterminant exclamatif</i>|
+          e.g. Quelle
+        >
+      ]
+      PossessiveDeterminer [
+        label = <
+          PossessiveDeterminer - <i>Déterminant possesif</i>|
+          e.g. mon
+        >
+      ]
+
+      Determiner -> { DemonstrativeDeterminer IndefiniteDeterminer DefiniteDeterminer ExclamatoryDeterminer PossessiveDeterminer}
+
+    Pronoun [ label = <Pronoun - <i>Pronom</i>> ]
+    Verb [
+      label = <
+        Verb - <i>Verbe</i>|
+        \{boolean\} auxiliary - <i>Auxiliaire</i>|
+        \{VerbGroup\} verbGroup - <i>Groupe de verbe</i>
+      >
+    ]
+    Adverb [ label = <Adverb - <i>Adverbe</i>> ]
+    Adjective [ label = <Adjective - <i>Adjectif</i>> ]
+    Interjection [ label = <Interjection - <i>Interjection</i>> ]
+    Preposition [ label = <Preposition - <i>Préposition</i>> ]
+    Conjunction [ label = <Conjunction - <i>Conjonction</i>> ]
+    Numeral [ label = <Numeral - <i>Nombre</i>> ]
+    Other [ label = <Other - <i>Autre</i>> ]
+    
+    Lemma -> { Noun Determiner Pronoun Verb Adverb Adjective Interjection Preposition Conjunction Numeral Other }
+
+}

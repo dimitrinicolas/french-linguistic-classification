@@ -1,4 +1,1167 @@
-<svg id="mermaid-1548512924369" width="100%" xmlns="http://www.w3.org/2000/svg" style="max-width: 2246.671875px;" viewBox="0 0 2246.671875 2692.5"><style>#mermaid-1548512924369 .label{font-family:trebuchet ms,verdana,arial;color:#333}#mermaid-1548512924369 .node circle,#mermaid-1548512924369 .node ellipse,#mermaid-1548512924369 .node polygon,#mermaid-1548512924369 .node rect{fill:#ececff;stroke:#9370db;stroke-width:1px}#mermaid-1548512924369 .node.clickable{cursor:pointer}#mermaid-1548512924369 .arrowheadPath{fill:#333}#mermaid-1548512924369 .edgePath .path{stroke:#333;stroke-width:1.5px}#mermaid-1548512924369 .edgeLabel{background-color:#e8e8e8}#mermaid-1548512924369 .cluster rect{fill:#ffffde!important;stroke:#aa3!important;stroke-width:1px!important}#mermaid-1548512924369 .cluster text{fill:#333}#mermaid-1548512924369 div.mermaidTooltip{position:absolute;text-align:center;max-width:200px;padding:2px;font-family:trebuchet ms,verdana,arial;font-size:12px;background:#ffffde;border:1px solid #aa3;border-radius:2px;pointer-events:none;z-index:100}#mermaid-1548512924369 .actor{stroke:#ccf;fill:#ececff}#mermaid-1548512924369 text.actor{fill:#000;stroke:none}#mermaid-1548512924369 .actor-line{stroke:grey}#mermaid-1548512924369 .messageLine0{marker-end:"url(#arrowhead)"}#mermaid-1548512924369 .messageLine0,#mermaid-1548512924369 .messageLine1{stroke-width:1.5;stroke-dasharray:"2 2";stroke:#333}#mermaid-1548512924369 #arrowhead{fill:#333}#mermaid-1548512924369 #crosshead path{fill:#333!important;stroke:#333!important}#mermaid-1548512924369 .messageText{fill:#333;stroke:none}#mermaid-1548512924369 .labelBox{stroke:#ccf;fill:#ececff}#mermaid-1548512924369 .labelText,#mermaid-1548512924369 .loopText{fill:#000;stroke:none}#mermaid-1548512924369 .loopLine{stroke-width:2;stroke-dasharray:"2 2";marker-end:"url(#arrowhead)";stroke:#ccf}#mermaid-1548512924369 .note{stroke:#aa3;fill:#fff5ad}#mermaid-1548512924369 .noteText{fill:#000;stroke:none;font-family:trebuchet ms,verdana,arial;font-size:14px}#mermaid-1548512924369 .section{stroke:none;opacity:.2}#mermaid-1548512924369 .section0{fill:rgba(102,102,255,.49)}#mermaid-1548512924369 .section2{fill:#fff400}#mermaid-1548512924369 .section1,#mermaid-1548512924369 .section3{fill:#fff;opacity:.2}#mermaid-1548512924369 .sectionTitle0,#mermaid-1548512924369 .sectionTitle1,#mermaid-1548512924369 .sectionTitle2,#mermaid-1548512924369 .sectionTitle3{fill:#333}#mermaid-1548512924369 .sectionTitle{text-anchor:start;font-size:11px;text-height:14px}#mermaid-1548512924369 .grid .tick{stroke:#d3d3d3;opacity:.3;shape-rendering:crispEdges}#mermaid-1548512924369 .grid path{stroke-width:0}#mermaid-1548512924369 .today{fill:none;stroke:red;stroke-width:2px}#mermaid-1548512924369 .task{stroke-width:2}#mermaid-1548512924369 .taskText{text-anchor:middle;font-size:11px}#mermaid-1548512924369 .taskTextOutsideRight{fill:#000;text-anchor:start;font-size:11px}#mermaid-1548512924369 .taskTextOutsideLeft{fill:#000;text-anchor:end;font-size:11px}#mermaid-1548512924369 .taskText0,#mermaid-1548512924369 .taskText1,#mermaid-1548512924369 .taskText2,#mermaid-1548512924369 .taskText3{fill:#fff}#mermaid-1548512924369 .task0,#mermaid-1548512924369 .task1,#mermaid-1548512924369 .task2,#mermaid-1548512924369 .task3{fill:#8a90dd;stroke:#534fbc}#mermaid-1548512924369 .taskTextOutside0,#mermaid-1548512924369 .taskTextOutside1,#mermaid-1548512924369 .taskTextOutside2,#mermaid-1548512924369 .taskTextOutside3{fill:#000}#mermaid-1548512924369 .active0,#mermaid-1548512924369 .active1,#mermaid-1548512924369 .active2,#mermaid-1548512924369 .active3{fill:#bfc7ff;stroke:#534fbc}#mermaid-1548512924369 .activeText0,#mermaid-1548512924369 .activeText1,#mermaid-1548512924369 .activeText2,#mermaid-1548512924369 .activeText3{fill:#000!important}#mermaid-1548512924369 .done0,#mermaid-1548512924369 .done1,#mermaid-1548512924369 .done2,#mermaid-1548512924369 .done3{stroke:grey;fill:#d3d3d3;stroke-width:2}#mermaid-1548512924369 .doneText0,#mermaid-1548512924369 .doneText1,#mermaid-1548512924369 .doneText2,#mermaid-1548512924369 .doneText3{fill:#000!important}#mermaid-1548512924369 .crit0,#mermaid-1548512924369 .crit1,#mermaid-1548512924369 .crit2,#mermaid-1548512924369 .crit3{stroke:#f88;fill:red;stroke-width:2}#mermaid-1548512924369 .activeCrit0,#mermaid-1548512924369 .activeCrit1,#mermaid-1548512924369 .activeCrit2,#mermaid-1548512924369 .activeCrit3{stroke:#f88;fill:#bfc7ff;stroke-width:2}#mermaid-1548512924369 .doneCrit0,#mermaid-1548512924369 .doneCrit1,#mermaid-1548512924369 .doneCrit2,#mermaid-1548512924369 .doneCrit3{stroke:#f88;fill:#d3d3d3;stroke-width:2;cursor:pointer;shape-rendering:crispEdges}#mermaid-1548512924369 .activeCritText0,#mermaid-1548512924369 .activeCritText1,#mermaid-1548512924369 .activeCritText2,#mermaid-1548512924369 .activeCritText3,#mermaid-1548512924369 .doneCritText0,#mermaid-1548512924369 .doneCritText1,#mermaid-1548512924369 .doneCritText2,#mermaid-1548512924369 .doneCritText3{fill:#000!important}#mermaid-1548512924369 .titleText{text-anchor:middle;font-size:18px;fill:#000}#mermaid-1548512924369 g.classGroup text{fill:#9370db;stroke:none;font-family:trebuchet ms,verdana,arial;font-size:10px}#mermaid-1548512924369 g.classGroup rect{fill:#ececff;stroke:#9370db}#mermaid-1548512924369 g.classGroup line{stroke:#9370db;stroke-width:1}#mermaid-1548512924369 .classLabel .box{stroke:none;stroke-width:0;fill:#ececff;opacity:.5}#mermaid-1548512924369 .classLabel .label{fill:#9370db;font-size:10px}#mermaid-1548512924369 .relation{stroke:#9370db;stroke-width:1;fill:none}#mermaid-1548512924369 #compositionEnd,#mermaid-1548512924369 #compositionStart{fill:#9370db;stroke:#9370db;stroke-width:1}#mermaid-1548512924369 #aggregationEnd,#mermaid-1548512924369 #aggregationStart{fill:#ececff;stroke:#9370db;stroke-width:1}#mermaid-1548512924369 #dependencyEnd,#mermaid-1548512924369 #dependencyStart,#mermaid-1548512924369 #extensionEnd,#mermaid-1548512924369 #extensionStart{fill:#9370db;stroke:#9370db;stroke-width:1}#mermaid-1548512924369 .branch-label,#mermaid-1548512924369 .commit-id,#mermaid-1548512924369 .commit-msg{fill:#d3d3d3;color:#d3d3d3}</style><style>#mermaid-1548512924369 {
-    color: rgb(0, 0, 0);
-    font: normal normal 400 normal 16px / normal "Times New Roman";
-  }</style><g transform="translate(-12, -12)"><g class="output"><g class="clusters"></g><g class="edgePaths"><g class="edgePath" style="opacity: 1;"><path class="path" d="M252.620304438951,738L485.765625,185.5L577.96875,185.5" marker-end="url(#arrowhead57)" style="fill:none"></path><defs><marker id="arrowhead57" viewBox="0 0 10 10" refX="9" refY="5" markerUnits="strokeWidth" markerWidth="8" markerHeight="6" orient="auto"><path d="M 0 0 L 10 5 L 0 10 z" class="arrowheadPath" style="stroke-width: 1; stroke-dasharray: 1, 0;"></path></marker></defs></g><g class="edgePath" style="opacity: 1;"><path class="path" d="M257.34610585518476,738L485.765625,347.5L580.5703125,347.5" marker-end="url(#arrowhead58)" style="fill:none"></path><defs><marker id="arrowhead58" viewBox="0 0 10 10" refX="9" refY="5" markerUnits="strokeWidth" markerWidth="8" markerHeight="6" orient="auto"><path d="M 0 0 L 10 5 L 0 10 z" class="arrowheadPath" style="stroke-width: 1; stroke-dasharray: 1, 0;"></path></marker></defs></g><g class="edgePath" style="opacity: 1;"><path class="path" d="M261.9141334152799,738L485.765625,436.5L609.765625,436.5" marker-end="url(#arrowhead59)" style="fill:none"></path><defs><marker id="arrowhead59" viewBox="0 0 10 10" refX="9" refY="5" markerUnits="strokeWidth" markerWidth="8" markerHeight="6" orient="auto"><path d="M 0 0 L 10 5 L 0 10 z" class="arrowheadPath" style="stroke-width: 1; stroke-dasharray: 1, 0;"></path></marker></defs></g><g class="edgePath" style="opacity: 1;"><path class="path" d="M269.849071557971,738L485.765625,525.5L628.578125,525.5" marker-end="url(#arrowhead60)" style="fill:none"></path><defs><marker id="arrowhead60" viewBox="0 0 10 10" refX="9" refY="5" markerUnits="strokeWidth" markerWidth="8" markerHeight="6" orient="auto"><path d="M 0 0 L 10 5 L 0 10 z" class="arrowheadPath" style="stroke-width: 1; stroke-dasharray: 1, 0;"></path></marker></defs></g><g class="edgePath" style="opacity: 1;"><path class="path" d="M287.04577356557377,738L485.765625,614.5L611.7890625,614.5" marker-end="url(#arrowhead61)" style="fill:none"></path><defs><marker id="arrowhead61" viewBox="0 0 10 10" refX="9" refY="5" markerUnits="strokeWidth" markerWidth="8" markerHeight="6" orient="auto"><path d="M 0 0 L 10 5 L 0 10 z" class="arrowheadPath" style="stroke-width: 1; stroke-dasharray: 1, 0;"></path></marker></defs></g><g class="edgePath" style="opacity: 1;"><path class="path" d="M352.44740403543307,738L485.765625,703.5L603.1875,703.5" marker-end="url(#arrowhead62)" style="fill:none"></path><defs><marker id="arrowhead62" viewBox="0 0 10 10" refX="9" refY="5" markerUnits="strokeWidth" markerWidth="8" markerHeight="6" orient="auto"><path d="M 0 0 L 10 5 L 0 10 z" class="arrowheadPath" style="stroke-width: 1; stroke-dasharray: 1, 0;"></path></marker></defs></g><g class="edgePath" style="opacity: 1;"><path class="path" d="M393.8359375,782.9467350122576L485.765625,792.5L580.96875,792.5" marker-end="url(#arrowhead63)" style="fill:none"></path><defs><marker id="arrowhead63" viewBox="0 0 10 10" refX="9" refY="5" markerUnits="strokeWidth" markerWidth="8" markerHeight="6" orient="auto"><path d="M 0 0 L 10 5 L 0 10 z" class="arrowheadPath" style="stroke-width: 1; stroke-dasharray: 1, 0;"></path></marker></defs></g><g class="edgePath" style="opacity: 1;"><path class="path" d="M302.5321711244542,796L485.765625,881.5L585.5625,881.5" marker-end="url(#arrowhead64)" style="fill:none"></path><defs><marker id="arrowhead64" viewBox="0 0 10 10" refX="9" refY="5" markerUnits="strokeWidth" markerWidth="8" markerHeight="6" orient="auto"><path d="M 0 0 L 10 5 L 0 10 z" class="arrowheadPath" style="stroke-width: 1; stroke-dasharray: 1, 0;"></path></marker></defs></g><g class="edgePath" style="opacity: 1;"><path class="path" d="M275.35137054668303,796L485.765625,970.5L579.875,970.5" marker-end="url(#arrowhead65)" style="fill:none"></path><defs><marker id="arrowhead65" viewBox="0 0 10 10" refX="9" refY="5" markerUnits="strokeWidth" markerWidth="8" markerHeight="6" orient="auto"><path d="M 0 0 L 10 5 L 0 10 z" class="arrowheadPath" style="stroke-width: 1; stroke-dasharray: 1, 0;"></path></marker></defs></g><g class="edgePath" style="opacity: 1;"><path class="path" d="M264.71136485042734,796L485.765625,1059.5L608.078125,1059.5" marker-end="url(#arrowhead66)" style="fill:none"></path><defs><marker id="arrowhead66" viewBox="0 0 10 10" refX="9" refY="5" markerUnits="strokeWidth" markerWidth="8" markerHeight="6" orient="auto"><path d="M 0 0 L 10 5 L 0 10 z" class="arrowheadPath" style="stroke-width: 1; stroke-dasharray: 1, 0;"></path></marker></defs></g><g class="edgePath" style="opacity: 1;"><path class="path" d="M259.03576548165137,796L485.765625,1148.5L626.0625,1148.5" marker-end="url(#arrowhead67)" style="fill:none"></path><defs><marker id="arrowhead67" viewBox="0 0 10 10" refX="9" refY="5" markerUnits="strokeWidth" markerWidth="8" markerHeight="6" orient="auto"><path d="M 0 0 L 10 5 L 0 10 z" class="arrowheadPath" style="stroke-width: 1; stroke-dasharray: 1, 0;"></path></marker></defs></g><g class="edgePath" style="opacity: 1;"><path class="path" d="M393.8359375,1276.7304435034544L485.765625,1256.5L574.5859375,1256.5" marker-end="url(#arrowhead68)" style="fill:none"></path><defs><marker id="arrowhead68" viewBox="0 0 10 10" refX="9" refY="5" markerUnits="strokeWidth" markerWidth="8" markerHeight="6" orient="auto"><path d="M 0 0 L 10 5 L 0 10 z" class="arrowheadPath" style="stroke-width: 1; stroke-dasharray: 1, 0;"></path></marker></defs></g><g class="edgePath" style="opacity: 1;"><path class="path" d="M389.158218503937,1349L485.765625,1374L579.953125,1374" marker-end="url(#arrowhead69)" style="fill:none"></path><defs><marker id="arrowhead69" viewBox="0 0 10 10" refX="9" refY="5" markerUnits="strokeWidth" markerWidth="8" markerHeight="6" orient="auto"><path d="M 0 0 L 10 5 L 0 10 z" class="arrowheadPath" style="stroke-width: 1; stroke-dasharray: 1, 0;"></path></marker></defs></g><g class="edgePath" style="opacity: 1;"><path class="path" d="M762.6960616438356,156.5L882.15625,112.5L907.15625,112.5" marker-end="url(#arrowhead70)" style="fill:none"></path><defs><marker id="arrowhead70" viewBox="0 0 10 10" refX="9" refY="5" markerUnits="strokeWidth" markerWidth="8" markerHeight="6" orient="auto"><path d="M 0 0 L 10 5 L 0 10 z" class="arrowheadPath" style="stroke-width: 1; stroke-dasharray: 1, 0;"></path></marker></defs></g><g class="edgePath" style="opacity: 1;"><path class="path" d="M1182.296875,58.7650055264549L1207.296875,49L1238.1796875,49" marker-end="url(#arrowhead71)" style="fill:none"></path><defs><marker id="arrowhead71" viewBox="0 0 10 10" refX="9" refY="5" markerUnits="strokeWidth" markerWidth="8" markerHeight="6" orient="auto"><path d="M 0 0 L 10 5 L 0 10 z" class="arrowheadPath" style="stroke-width: 1; stroke-dasharray: 1, 0;"></path></marker></defs></g><g class="edgePath" style="opacity: 1;"><path class="path" d="M1182.296875,166.2349944735451L1207.296875,176L1232.296875,176" marker-end="url(#arrowhead72)" style="fill:none"></path><defs><marker id="arrowhead72" viewBox="0 0 10 10" refX="9" refY="5" markerUnits="strokeWidth" markerWidth="8" markerHeight="6" orient="auto"><path d="M 0 0 L 10 5 L 0 10 z" class="arrowheadPath" style="stroke-width: 1; stroke-dasharray: 1, 0;"></path></marker></defs></g><g class="edgePath" style="opacity: 1;"><path class="path" d="M1078.9675623855312,170L1207.296875,385.5L1235.859375,385.5" marker-end="url(#arrowhead73)" style="fill:none"></path><defs><marker id="arrowhead73" viewBox="0 0 10 10" refX="9" refY="5" markerUnits="strokeWidth" markerWidth="8" markerHeight="6" orient="auto"><path d="M 0 0 L 10 5 L 0 10 z" class="arrowheadPath" style="stroke-width: 1; stroke-dasharray: 1, 0;"></path></marker></defs></g><g class="edgePath" style="opacity: 1;"><path class="path" d="M1602.6875,385.5L1631.25,385.5L1699.2890625,385.5" marker-end="url(#arrowhead74)" style="fill:none"></path><defs><marker id="arrowhead74" viewBox="0 0 10 10" refX="9" refY="5" markerUnits="strokeWidth" markerWidth="8" markerHeight="6" orient="auto"><path d="M 0 0 L 10 5 L 0 10 z" class="arrowheadPath" style="stroke-width: 1; stroke-dasharray: 1, 0;"></path></marker></defs></g><g class="edgePath" style="opacity: 1;"><path class="path" d="M1494.8391565393517,424L1631.25,493.5L1656.25,493.5" marker-end="url(#arrowhead75)" style="fill:none"></path><defs><marker id="arrowhead75" viewBox="0 0 10 10" refX="9" refY="5" markerUnits="strokeWidth" markerWidth="8" markerHeight="6" orient="auto"><path d="M 0 0 L 10 5 L 0 10 z" class="arrowheadPath" style="stroke-width: 1; stroke-dasharray: 1, 0;"></path></marker></defs></g><g class="edgePath" style="opacity: 1;"><path class="path" d="M774.4753321850394,214.5L882.15625,249L942.796875,249" marker-end="url(#arrowhead76)" style="fill:none"></path><defs><marker id="arrowhead76" viewBox="0 0 10 10" refX="9" refY="5" markerUnits="strokeWidth" markerWidth="8" markerHeight="6" orient="auto"><path d="M 0 0 L 10 5 L 0 10 z" class="arrowheadPath" style="stroke-width: 1; stroke-dasharray: 1, 0;"></path></marker></defs></g><g class="edgePath" style="opacity: 1;"><path class="path" d="M787.3515625,347.5L882.15625,347.5L970.078125,347.5" marker-end="url(#arrowhead77)" style="fill:none"></path><defs><marker id="arrowhead77" viewBox="0 0 10 10" refX="9" refY="5" markerUnits="strokeWidth" markerWidth="8" markerHeight="6" orient="auto"><path d="M 0 0 L 10 5 L 0 10 z" class="arrowheadPath" style="stroke-width: 1; stroke-dasharray: 1, 0;"></path></marker></defs></g><g class="edgePath" style="opacity: 1;"><path class="path" d="M372.1624710648148,1507L485.765625,1482L541.375,1482" marker-end="url(#arrowhead78)" style="fill:none"></path><defs><marker id="arrowhead78" viewBox="0 0 10 10" refX="9" refY="5" markerUnits="strokeWidth" markerWidth="8" markerHeight="6" orient="auto"><path d="M 0 0 L 10 5 L 0 10 z" class="arrowheadPath" style="stroke-width: 1; stroke-dasharray: 1, 0;"></path></marker></defs></g><g class="edgePath" style="opacity: 1;"><path class="path" d="M826.546875,1482L882.15625,1482L919.734375,1482" marker-end="url(#arrowhead79)" style="fill:none"></path><defs><marker id="arrowhead79" viewBox="0 0 10 10" refX="9" refY="5" markerUnits="strokeWidth" markerWidth="8" markerHeight="6" orient="auto"><path d="M 0 0 L 10 5 L 0 10 z" class="arrowheadPath" style="stroke-width: 1; stroke-dasharray: 1, 0;"></path></marker></defs></g><g class="edgePath" style="opacity: 1;"><path class="path" d="M1169.71875,1447.7861742515258L1207.296875,1437.5L1354.7890625,1437.5" marker-end="url(#arrowhead80)" style="fill:none"></path><defs><marker id="arrowhead80" viewBox="0 0 10 10" refX="9" refY="5" markerUnits="strokeWidth" markerWidth="8" markerHeight="6" orient="auto"><path d="M 0 0 L 10 5 L 0 10 z" class="arrowheadPath" style="stroke-width: 1; stroke-dasharray: 1, 0;"></path></marker></defs></g><g class="edgePath" style="opacity: 1;"><path class="path" d="M1169.71875,1516.2138257484742L1207.296875,1526.5L1356.3046875,1526.5" marker-end="url(#arrowhead81)" style="fill:none"></path><defs><marker id="arrowhead81" viewBox="0 0 10 10" refX="9" refY="5" markerUnits="strokeWidth" markerWidth="8" markerHeight="6" orient="auto"><path d="M 0 0 L 10 5 L 0 10 z" class="arrowheadPath" style="stroke-width: 1; stroke-dasharray: 1, 0;"></path></marker></defs></g><g class="edgePath" style="opacity: 1;"><path class="path" d="M372.1624710648148,1565L485.765625,1590L580.296875,1590" marker-end="url(#arrowhead82)" style="fill:none"></path><defs><marker id="arrowhead82" viewBox="0 0 10 10" refX="9" refY="5" markerUnits="strokeWidth" markerWidth="8" markerHeight="6" orient="auto"><path d="M 0 0 L 10 5 L 0 10 z" class="arrowheadPath" style="stroke-width: 1; stroke-dasharray: 1, 0;"></path></marker></defs></g><g class="edgePath" style="opacity: 1;"><path class="path" d="M314.15625,1726.2650991753956L485.765625,1688.5L606.640625,1688.5" marker-end="url(#arrowhead83)" style="fill:none"></path><defs><marker id="arrowhead83" viewBox="0 0 10 10" refX="9" refY="5" markerUnits="strokeWidth" markerWidth="8" markerHeight="6" orient="auto"><path d="M 0 0 L 10 5 L 0 10 z" class="arrowheadPath" style="stroke-width: 1; stroke-dasharray: 1, 0;"></path></marker></defs></g><g class="edgePath" style="opacity: 1;"><path class="path" d="M314.15625,1755.8787608647203L485.765625,1787L622.03125,1787" marker-end="url(#arrowhead84)" style="fill:none"></path><defs><marker id="arrowhead84" viewBox="0 0 10 10" refX="9" refY="5" markerUnits="strokeWidth" markerWidth="8" markerHeight="6" orient="auto"><path d="M 0 0 L 10 5 L 0 10 z" class="arrowheadPath" style="stroke-width: 1; stroke-dasharray: 1, 0;"></path></marker></defs></g><g class="edgePath" style="opacity: 1;"><path class="path" d="M288.715790719697,1762L485.765625,1841.5L571.9375,1856.5" marker-end="url(#arrowhead85)" style="fill:none"></path><defs><marker id="arrowhead85" viewBox="0 0 10 10" refX="9" refY="5" markerUnits="strokeWidth" markerWidth="8" markerHeight="6" orient="auto"><path d="M 0 0 L 10 5 L 0 10 z" class="arrowheadPath" style="stroke-width: 1; stroke-dasharray: 1, 0;"></path></marker></defs></g><g class="edgePath" style="opacity: 1;"><path class="path" d="M305.8359375,1957.6673883281862L485.765625,1965L600.9140625,1965" marker-end="url(#arrowhead86)" style="fill:none"></path><defs><marker id="arrowhead86" viewBox="0 0 10 10" refX="9" refY="5" markerUnits="strokeWidth" markerWidth="8" markerHeight="6" orient="auto"><path d="M 0 0 L 10 5 L 0 10 z" class="arrowheadPath" style="stroke-width: 1; stroke-dasharray: 1, 0;"></path></marker></defs></g><g class="edgePath" style="opacity: 1;"><path class="path" d="M288.715790719697,1974.5L485.765625,2054L604.8203125,2054" marker-end="url(#arrowhead87)" style="fill:none"></path><defs><marker id="arrowhead87" viewBox="0 0 10 10" refX="9" refY="5" markerUnits="strokeWidth" markerWidth="8" markerHeight="6" orient="auto"><path d="M 0 0 L 10 5 L 0 10 z" class="arrowheadPath" style="stroke-width: 1; stroke-dasharray: 1, 0;"></path></marker></defs></g><g class="edgePath" style="opacity: 1;"><path class="path" d="M305.8359375,1943.1301219395714L485.765625,1910.5L571.9375,1895.5" marker-end="url(#arrowhead88)" style="fill:none"></path><defs><marker id="arrowhead88" viewBox="0 0 10 10" refX="9" refY="5" markerUnits="strokeWidth" markerWidth="8" markerHeight="6" orient="auto"><path d="M 0 0 L 10 5 L 0 10 z" class="arrowheadPath" style="stroke-width: 1; stroke-dasharray: 1, 0;"></path></marker></defs></g><g class="edgePath" style="opacity: 1;"><path class="path" d="M261.9141334152799,2444.5L485.765625,2143L620.40625,2143" marker-end="url(#arrowhead89)" style="fill:none"></path><defs><marker id="arrowhead89" viewBox="0 0 10 10" refX="9" refY="5" markerUnits="strokeWidth" markerWidth="8" markerHeight="6" orient="auto"><path d="M 0 0 L 10 5 L 0 10 z" class="arrowheadPath" style="stroke-width: 1; stroke-dasharray: 1, 0;"></path></marker></defs></g><g class="edgePath" style="opacity: 1;"><path class="path" d="M269.849071557971,2444.5L485.765625,2232L523.5703125,2232" marker-end="url(#arrowhead90)" style="fill:none"></path><defs><marker id="arrowhead90" viewBox="0 0 10 10" refX="9" refY="5" markerUnits="strokeWidth" markerWidth="8" markerHeight="6" orient="auto"><path d="M 0 0 L 10 5 L 0 10 z" class="arrowheadPath" style="stroke-width: 1; stroke-dasharray: 1, 0;"></path></marker></defs></g><g class="edgePath" style="opacity: 1;"><path class="path" d="M287.04577356557377,2444.5L485.765625,2321L510.765625,2321" marker-end="url(#arrowhead91)" style="fill:none"></path><defs><marker id="arrowhead91" viewBox="0 0 10 10" refX="9" refY="5" markerUnits="strokeWidth" markerWidth="8" markerHeight="6" orient="auto"><path d="M 0 0 L 10 5 L 0 10 z" class="arrowheadPath" style="stroke-width: 1; stroke-dasharray: 1, 0;"></path></marker></defs></g><g class="edgePath" style="opacity: 1;"><path class="path" d="M352.44740403543307,2444.5L485.765625,2410L551.03125,2410" marker-end="url(#arrowhead92)" style="fill:none"></path><defs><marker id="arrowhead92" viewBox="0 0 10 10" refX="9" refY="5" markerUnits="strokeWidth" markerWidth="8" markerHeight="6" orient="auto"><path d="M 0 0 L 10 5 L 0 10 z" class="arrowheadPath" style="stroke-width: 1; stroke-dasharray: 1, 0;"></path></marker></defs></g><g class="edgePath" style="opacity: 1;"><path class="path" d="M393.0859375,2489.3687955681494L485.765625,2499L520.3125,2499" marker-end="url(#arrowhead93)" style="fill:none"></path><defs><marker id="arrowhead93" viewBox="0 0 10 10" refX="9" refY="5" markerUnits="strokeWidth" markerWidth="8" markerHeight="6" orient="auto"><path d="M 0 0 L 10 5 L 0 10 z" class="arrowheadPath" style="stroke-width: 1; stroke-dasharray: 1, 0;"></path></marker></defs></g><g class="edgePath" style="opacity: 1;"><path class="path" d="M302.5321711244542,2502.5L485.765625,2588L565.859375,2588" marker-end="url(#arrowhead94)" style="fill:none"></path><defs><marker id="arrowhead94" viewBox="0 0 10 10" refX="9" refY="5" markerUnits="strokeWidth" markerWidth="8" markerHeight="6" orient="auto"><path d="M 0 0 L 10 5 L 0 10 z" class="arrowheadPath" style="stroke-width: 1; stroke-dasharray: 1, 0;"></path></marker></defs></g><g class="edgePath" style="opacity: 1;"><path class="path" d="M275.35137054668303,2502.5L485.765625,2677L591.4609375,2677" marker-end="url(#arrowhead95)" style="fill:none"></path><defs><marker id="arrowhead95" viewBox="0 0 10 10" refX="9" refY="5" markerUnits="strokeWidth" markerWidth="8" markerHeight="6" orient="auto"><path d="M 0 0 L 10 5 L 0 10 z" class="arrowheadPath" style="stroke-width: 1; stroke-dasharray: 1, 0;"></path></marker></defs></g></g><g class="edgeLabels"><g class="edgeLabel" transform="" style="opacity: 1;"><g transform="translate(0,0)" class="label"><foreignObject width="0" height="0"><div xmlns="http://www.w3.org/1999/xhtml" style="display: inline-block; white-space: nowrap;"><span class="edgeLabel"></span></div></foreignObject></g></g><g class="edgeLabel" transform="" style="opacity: 1;"><g transform="translate(0,0)" class="label"><foreignObject width="0" height="0"><div xmlns="http://www.w3.org/1999/xhtml" style="display: inline-block; white-space: nowrap;"><span class="edgeLabel"></span></div></foreignObject></g></g><g class="edgeLabel" transform="" style="opacity: 1;"><g transform="translate(0,0)" class="label"><foreignObject width="0" height="0"><div xmlns="http://www.w3.org/1999/xhtml" style="display: inline-block; white-space: nowrap;"><span class="edgeLabel"></span></div></foreignObject></g></g><g class="edgeLabel" transform="" style="opacity: 1;"><g transform="translate(0,0)" class="label"><foreignObject width="0" height="0"><div xmlns="http://www.w3.org/1999/xhtml" style="display: inline-block; white-space: nowrap;"><span class="edgeLabel"></span></div></foreignObject></g></g><g class="edgeLabel" transform="" style="opacity: 1;"><g transform="translate(0,0)" class="label"><foreignObject width="0" height="0"><div xmlns="http://www.w3.org/1999/xhtml" style="display: inline-block; white-space: nowrap;"><span class="edgeLabel"></span></div></foreignObject></g></g><g class="edgeLabel" transform="" style="opacity: 1;"><g transform="translate(0,0)" class="label"><foreignObject width="0" height="0"><div xmlns="http://www.w3.org/1999/xhtml" style="display: inline-block; white-space: nowrap;"><span class="edgeLabel"></span></div></foreignObject></g></g><g class="edgeLabel" transform="" style="opacity: 1;"><g transform="translate(0,0)" class="label"><foreignObject width="0" height="0"><div xmlns="http://www.w3.org/1999/xhtml" style="display: inline-block; white-space: nowrap;"><span class="edgeLabel"></span></div></foreignObject></g></g><g class="edgeLabel" transform="" style="opacity: 1;"><g transform="translate(0,0)" class="label"><foreignObject width="0" height="0"><div xmlns="http://www.w3.org/1999/xhtml" style="display: inline-block; white-space: nowrap;"><span class="edgeLabel"></span></div></foreignObject></g></g><g class="edgeLabel" transform="" style="opacity: 1;"><g transform="translate(0,0)" class="label"><foreignObject width="0" height="0"><div xmlns="http://www.w3.org/1999/xhtml" style="display: inline-block; white-space: nowrap;"><span class="edgeLabel"></span></div></foreignObject></g></g><g class="edgeLabel" transform="" style="opacity: 1;"><g transform="translate(0,0)" class="label"><foreignObject width="0" height="0"><div xmlns="http://www.w3.org/1999/xhtml" style="display: inline-block; white-space: nowrap;"><span class="edgeLabel"></span></div></foreignObject></g></g><g class="edgeLabel" transform="" style="opacity: 1;"><g transform="translate(0,0)" class="label"><foreignObject width="0" height="0"><div xmlns="http://www.w3.org/1999/xhtml" style="display: inline-block; white-space: nowrap;"><span class="edgeLabel"></span></div></foreignObject></g></g><g class="edgeLabel" transform="" style="opacity: 1;"><g transform="translate(0,0)" class="label"><foreignObject width="0" height="0"><div xmlns="http://www.w3.org/1999/xhtml" style="display: inline-block; white-space: nowrap;"><span class="edgeLabel"></span></div></foreignObject></g></g><g class="edgeLabel" transform="" style="opacity: 1;"><g transform="translate(0,0)" class="label"><foreignObject width="0" height="0"><div xmlns="http://www.w3.org/1999/xhtml" style="display: inline-block; white-space: nowrap;"><span class="edgeLabel"></span></div></foreignObject></g></g><g class="edgeLabel" transform="" style="opacity: 1;"><g transform="translate(0,0)" class="label"><foreignObject width="0" height="0"><div xmlns="http://www.w3.org/1999/xhtml" style="display: inline-block; white-space: nowrap;"><span class="edgeLabel"></span></div></foreignObject></g></g><g class="edgeLabel" transform="" style="opacity: 1;"><g transform="translate(0,0)" class="label"><foreignObject width="0" height="0"><div xmlns="http://www.w3.org/1999/xhtml" style="display: inline-block; white-space: nowrap;"><span class="edgeLabel"></span></div></foreignObject></g></g><g class="edgeLabel" transform="" style="opacity: 1;"><g transform="translate(0,0)" class="label"><foreignObject width="0" height="0"><div xmlns="http://www.w3.org/1999/xhtml" style="display: inline-block; white-space: nowrap;"><span class="edgeLabel"></span></div></foreignObject></g></g><g class="edgeLabel" transform="" style="opacity: 1;"><g transform="translate(0,0)" class="label"><foreignObject width="0" height="0"><div xmlns="http://www.w3.org/1999/xhtml" style="display: inline-block; white-space: nowrap;"><span class="edgeLabel"></span></div></foreignObject></g></g><g class="edgeLabel" transform="" style="opacity: 1;"><g transform="translate(0,0)" class="label"><foreignObject width="0" height="0"><div xmlns="http://www.w3.org/1999/xhtml" style="display: inline-block; white-space: nowrap;"><span class="edgeLabel"></span></div></foreignObject></g></g><g class="edgeLabel" transform="" style="opacity: 1;"><g transform="translate(0,0)" class="label"><foreignObject width="0" height="0"><div xmlns="http://www.w3.org/1999/xhtml" style="display: inline-block; white-space: nowrap;"><span class="edgeLabel"></span></div></foreignObject></g></g><g class="edgeLabel" transform="" style="opacity: 1;"><g transform="translate(0,0)" class="label"><foreignObject width="0" height="0"><div xmlns="http://www.w3.org/1999/xhtml" style="display: inline-block; white-space: nowrap;"><span class="edgeLabel"></span></div></foreignObject></g></g><g class="edgeLabel" transform="" style="opacity: 1;"><g transform="translate(0,0)" class="label"><foreignObject width="0" height="0"><div xmlns="http://www.w3.org/1999/xhtml" style="display: inline-block; white-space: nowrap;"><span class="edgeLabel"></span></div></foreignObject></g></g><g class="edgeLabel" transform="" style="opacity: 1;"><g transform="translate(0,0)" class="label"><foreignObject width="0" height="0"><div xmlns="http://www.w3.org/1999/xhtml" style="display: inline-block; white-space: nowrap;"><span class="edgeLabel"></span></div></foreignObject></g></g><g class="edgeLabel" transform="" style="opacity: 1;"><g transform="translate(0,0)" class="label"><foreignObject width="0" height="0"><div xmlns="http://www.w3.org/1999/xhtml" style="display: inline-block; white-space: nowrap;"><span class="edgeLabel"></span></div></foreignObject></g></g><g class="edgeLabel" transform="" style="opacity: 1;"><g transform="translate(0,0)" class="label"><foreignObject width="0" height="0"><div xmlns="http://www.w3.org/1999/xhtml" style="display: inline-block; white-space: nowrap;"><span class="edgeLabel"></span></div></foreignObject></g></g><g class="edgeLabel" transform="" style="opacity: 1;"><g transform="translate(0,0)" class="label"><foreignObject width="0" height="0"><div xmlns="http://www.w3.org/1999/xhtml" style="display: inline-block; white-space: nowrap;"><span class="edgeLabel"></span></div></foreignObject></g></g><g class="edgeLabel" transform="" style="opacity: 1;"><g transform="translate(0,0)" class="label"><foreignObject width="0" height="0"><div xmlns="http://www.w3.org/1999/xhtml" style="display: inline-block; white-space: nowrap;"><span class="edgeLabel"></span></div></foreignObject></g></g><g class="edgeLabel" transform="" style="opacity: 1;"><g transform="translate(0,0)" class="label"><foreignObject width="0" height="0"><div xmlns="http://www.w3.org/1999/xhtml" style="display: inline-block; white-space: nowrap;"><span class="edgeLabel"></span></div></foreignObject></g></g><g class="edgeLabel" transform="" style="opacity: 1;"><g transform="translate(0,0)" class="label"><foreignObject width="0" height="0"><div xmlns="http://www.w3.org/1999/xhtml" style="display: inline-block; white-space: nowrap;"><span class="edgeLabel"></span></div></foreignObject></g></g><g class="edgeLabel" transform="" style="opacity: 1;"><g transform="translate(0,0)" class="label"><foreignObject width="0" height="0"><div xmlns="http://www.w3.org/1999/xhtml" style="display: inline-block; white-space: nowrap;"><span class="edgeLabel"></span></div></foreignObject></g></g><g class="edgeLabel" transform="" style="opacity: 1;"><g transform="translate(0,0)" class="label"><foreignObject width="0" height="0"><div xmlns="http://www.w3.org/1999/xhtml" style="display: inline-block; white-space: nowrap;"><span class="edgeLabel"></span></div></foreignObject></g></g><g class="edgeLabel" transform="" style="opacity: 1;"><g transform="translate(0,0)" class="label"><foreignObject width="0" height="0"><div xmlns="http://www.w3.org/1999/xhtml" style="display: inline-block; white-space: nowrap;"><span class="edgeLabel"></span></div></foreignObject></g></g><g class="edgeLabel" transform="" style="opacity: 1;"><g transform="translate(0,0)" class="label"><foreignObject width="0" height="0"><div xmlns="http://www.w3.org/1999/xhtml" style="display: inline-block; white-space: nowrap;"><span class="edgeLabel"></span></div></foreignObject></g></g><g class="edgeLabel" transform="" style="opacity: 1;"><g transform="translate(0,0)" class="label"><foreignObject width="0" height="0"><div xmlns="http://www.w3.org/1999/xhtml" style="display: inline-block; white-space: nowrap;"><span class="edgeLabel"></span></div></foreignObject></g></g><g class="edgeLabel" transform="" style="opacity: 1;"><g transform="translate(0,0)" class="label"><foreignObject width="0" height="0"><div xmlns="http://www.w3.org/1999/xhtml" style="display: inline-block; white-space: nowrap;"><span class="edgeLabel"></span></div></foreignObject></g></g><g class="edgeLabel" transform="" style="opacity: 1;"><g transform="translate(0,0)" class="label"><foreignObject width="0" height="0"><div xmlns="http://www.w3.org/1999/xhtml" style="display: inline-block; white-space: nowrap;"><span class="edgeLabel"></span></div></foreignObject></g></g><g class="edgeLabel" transform="" style="opacity: 1;"><g transform="translate(0,0)" class="label"><foreignObject width="0" height="0"><div xmlns="http://www.w3.org/1999/xhtml" style="display: inline-block; white-space: nowrap;"><span class="edgeLabel"></span></div></foreignObject></g></g><g class="edgeLabel" transform="" style="opacity: 1;"><g transform="translate(0,0)" class="label"><foreignObject width="0" height="0"><div xmlns="http://www.w3.org/1999/xhtml" style="display: inline-block; white-space: nowrap;"><span class="edgeLabel"></span></div></foreignObject></g></g><g class="edgeLabel" transform="" style="opacity: 1;"><g transform="translate(0,0)" class="label"><foreignObject width="0" height="0"><div xmlns="http://www.w3.org/1999/xhtml" style="display: inline-block; white-space: nowrap;"><span class="edgeLabel"></span></div></foreignObject></g></g><g class="edgeLabel" transform="" style="opacity: 1;"><g transform="translate(0,0)" class="label"><foreignObject width="0" height="0"><div xmlns="http://www.w3.org/1999/xhtml" style="display: inline-block; white-space: nowrap;"><span class="edgeLabel"></span></div></foreignObject></g></g></g><g class="nodes"><g class="node" id="Lemma" transform="translate(240.3828125,767)" style="opacity: 1;"><rect rx="0" ry="0" x="-153.453125" y="-29" width="306.90625" height="58"></rect><g class="label" transform="translate(0,0)"><g transform="translate(-143.453125,-19)"><foreignObject width="286.90625" height="38"><div xmlns="http://www.w3.org/1999/xhtml" style="display: inline-block; white-space: nowrap;">Lemma - Lemme<br />{Morphemes[]} Morphemes - Morphèmes</div></foreignObject></g></g></g><g class="node" id="Noun" transform="translate(683.9609375,185.5)" style="opacity: 1;"><rect rx="0" ry="0" x="-105.9921875" y="-29" width="211.984375" height="58"></rect><g class="label" transform="translate(0,0)"><g transform="translate(-95.9921875,-19)"><foreignObject width="191.984375" height="38"><div xmlns="http://www.w3.org/1999/xhtml" style="display: inline-block; white-space: nowrap;">Noun - Nom<br />{boolean} animate - Animé</div></foreignObject></g></g></g><g class="node" id="Determiner" transform="translate(683.9609375,347.5)" style="opacity: 1;"><rect rx="0" ry="0" x="-103.390625" y="-19.5" width="206.78125" height="39"></rect><g class="label" transform="translate(0,0)"><g transform="translate(-93.390625,-9.5)"><foreignObject width="186.78125" height="19"><div xmlns="http://www.w3.org/1999/xhtml" style="display: inline-block; white-space: nowrap;">Determiner - Déterminant</div></foreignObject></g></g></g><g class="node" id="Pronoun" transform="translate(683.9609375,436.5)" style="opacity: 1;"><rect rx="0" ry="0" x="-74.1953125" y="-19.5" width="148.390625" height="39"></rect><g class="label" transform="translate(0,0)"><g transform="translate(-64.1953125,-9.5)"><foreignObject width="128.390625" height="19"><div xmlns="http://www.w3.org/1999/xhtml" style="display: inline-block; white-space: nowrap;">Pronoun - Pronom</div></foreignObject></g></g></g><g class="node" id="Verb" transform="translate(683.9609375,525.5)" style="opacity: 1;"><rect rx="0" ry="0" x="-55.3828125" y="-19.5" width="110.765625" height="39"></rect><g class="label" transform="translate(0,0)"><g transform="translate(-45.3828125,-9.5)"><foreignObject width="90.765625" height="19"><div xmlns="http://www.w3.org/1999/xhtml" style="display: inline-block; white-space: nowrap;">Verb - Verbe</div></foreignObject></g></g></g><g class="node" id="Adverb" transform="translate(683.9609375,614.5)" style="opacity: 1;"><rect rx="0" ry="0" x="-72.171875" y="-19.5" width="144.34375" height="39"></rect><g class="label" transform="translate(0,0)"><g transform="translate(-62.171875,-9.5)"><foreignObject width="124.34375" height="19"><div xmlns="http://www.w3.org/1999/xhtml" style="display: inline-block; white-space: nowrap;">Adverb - Adverbe</div></foreignObject></g></g></g><g class="node" id="Adjective" transform="translate(683.9609375,703.5)" style="opacity: 1;"><rect rx="0" ry="0" x="-80.7734375" y="-19.5" width="161.546875" height="39"></rect><g class="label" transform="translate(0,0)"><g transform="translate(-70.7734375,-9.5)"><foreignObject width="141.546875" height="19"><div xmlns="http://www.w3.org/1999/xhtml" style="display: inline-block; white-space: nowrap;">Adjective - Adjectif</div></foreignObject></g></g></g><g class="node" id="Interjection" transform="translate(683.9609375,792.5)" style="opacity: 1;"><rect rx="0" ry="0" x="-102.9921875" y="-19.5" width="205.984375" height="39"></rect><g class="label" transform="translate(0,0)"><g transform="translate(-92.9921875,-9.5)"><foreignObject width="185.984375" height="19"><div xmlns="http://www.w3.org/1999/xhtml" style="display: inline-block; white-space: nowrap;">Interjection - Interjection</div></foreignObject></g></g></g><g class="node" id="Preposition" transform="translate(683.9609375,881.5)" style="opacity: 1;"><rect rx="0" ry="0" x="-98.3984375" y="-19.5" width="196.796875" height="39"></rect><g class="label" transform="translate(0,0)"><g transform="translate(-88.3984375,-9.5)"><foreignObject width="176.796875" height="19"><div xmlns="http://www.w3.org/1999/xhtml" style="display: inline-block; white-space: nowrap;">Preposition - Préposition</div></foreignObject></g></g></g><g class="node" id="Conjunction" transform="translate(683.9609375,970.5)" style="opacity: 1;"><rect rx="0" ry="0" x="-104.0859375" y="-19.5" width="208.171875" height="39"></rect><g class="label" transform="translate(0,0)"><g transform="translate(-94.0859375,-9.5)"><foreignObject width="188.171875" height="19"><div xmlns="http://www.w3.org/1999/xhtml" style="display: inline-block; white-space: nowrap;">Conjunction - Conjonction</div></foreignObject></g></g></g><g class="node" id="Numeral" transform="translate(683.9609375,1059.5)" style="opacity: 1;"><rect rx="0" ry="0" x="-75.8828125" y="-19.5" width="151.765625" height="39"></rect><g class="label" transform="translate(0,0)"><g transform="translate(-65.8828125,-9.5)"><foreignObject width="131.765625" height="19"><div xmlns="http://www.w3.org/1999/xhtml" style="display: inline-block; white-space: nowrap;">Numeral - Nombre</div></foreignObject></g></g></g><g class="node" id="Other" transform="translate(683.9609375,1148.5)" style="opacity: 1;"><rect rx="0" ry="0" x="-57.8984375" y="-19.5" width="115.796875" height="39"></rect><g class="label" transform="translate(0,0)"><g transform="translate(-47.8984375,-9.5)"><foreignObject width="95.796875" height="19"><div xmlns="http://www.w3.org/1999/xhtml" style="display: inline-block; white-space: nowrap;">Other - Autre</div></foreignObject></g></g></g><g class="node" id="Inflection" transform="translate(240.3828125,1310.5)" style="opacity: 1;"><rect rx="0" ry="0" x="-153.453125" y="-38.5" width="306.90625" height="77"></rect><g class="label" transform="translate(0,0)"><g transform="translate(-143.453125,-28.5)"><foreignObject width="286.90625" height="57"><div xmlns="http://www.w3.org/1999/xhtml" style="display: inline-block; white-space: nowrap;">Inflection - Flexion<br />{Lemma} lemma - Lèmme<br />{Morphemes[]} Morphemes - Morphèmes</div></foreignObject></g></g></g><g class="node" id="Declension" transform="translate(683.9609375,1256.5)" style="opacity: 1;"><rect rx="0" ry="0" x="-109.375" y="-38.5" width="218.75" height="77"></rect><g class="label" transform="translate(0,0)"><g transform="translate(-99.375,-28.5)"><foreignObject width="198.75" height="57"><div xmlns="http://www.w3.org/1999/xhtml" style="display: inline-block; white-space: nowrap;">Declension - Déclinaison<br />{Number} number - Nombre<br />{Gender} gender - Genre</div></foreignObject></g></g></g><g class="node" id="Conjugation" transform="translate(683.9609375,1374)" style="opacity: 1;"><rect rx="0" ry="0" x="-104.0078125" y="-19.5" width="208.015625" height="39"></rect><g class="label" transform="translate(0,0)"><g transform="translate(-94.0078125,-9.5)"><foreignObject width="188.015625" height="19"><div xmlns="http://www.w3.org/1999/xhtml" style="display: inline-block; white-space: nowrap;">Conjugation - Conjugaison</div></foreignObject></g></g></g><g class="node" id="CommonNoun" transform="translate(1044.7265625,112.5)" style="opacity: 1;"><rect rx="0" ry="0" x="-137.5703125" y="-57.5" width="275.140625" height="115"></rect><g class="label" transform="translate(0,0)"><g transform="translate(-127.5703125,-47.5)"><foreignObject width="255.140625" height="95"><div xmlns="http://www.w3.org/1999/xhtml" style="display: inline-block; white-space: nowrap;">CommonNoun - Nom commun<br />{boolean} countable - Dénombrable<br />{boolean} concrete - Concret<br />{Gender} gender - Genre<br />{boolean} collective - Nom collectif</div></foreignObject></g></g></g><g class="node" id="CommonStandardNoun" transform="translate(1419.2734375,49)" style="opacity: 1;"><rect rx="0" ry="0" x="-181.09375" y="-29" width="362.1875" height="58"></rect><g class="label" transform="translate(0,0)"><g transform="translate(-171.09375,-19)"><foreignObject width="342.1875" height="38"><div xmlns="http://www.w3.org/1999/xhtml" style="display: inline-block; white-space: nowrap;">CommonStandardNoun - Nom commun standard<br />e.g. maison</div></foreignObject></g></g></g><g class="node" id="CommonCompoundNoun" transform="translate(1419.2734375,176)" style="opacity: 1;"><rect rx="0" ry="0" x="-186.9765625" y="-48" width="373.953125" height="96"></rect><g class="label" transform="translate(0,0)"><g transform="translate(-176.9765625,-38)"><foreignObject width="353.953125" height="76"><div xmlns="http://www.w3.org/1999/xhtml" style="display: inline-block; white-space: nowrap;">CommonCompoundNoun - Nom commun composé<br />{Noun[]} nouns - Noms<br />{''|' '|'-'} junction - Jonction<br />e.g.  chou-fleur</div></foreignObject></g></g></g><g class="node" id="CommonComplexNoun" transform="translate(1419.2734375,385.5)" style="opacity: 1;"><rect rx="0" ry="0" x="-183.4140625" y="-38.5" width="366.828125" height="77"></rect><g class="label" transform="translate(0,0)"><g transform="translate(-173.4140625,-28.5)"><foreignObject width="346.828125" height="57"><div xmlns="http://www.w3.org/1999/xhtml" style="display: inline-block; white-space: nowrap;">CommonComplexNoun - Nom commun complexe<br />{Noun[]} nouns - Noms<br />{''|' '|'-'} junction - Jonction</div></foreignObject></g></g></g><g class="node" id="CommonComplexSyntagmaNoun" transform="translate(1953.4609375,385.5)" style="opacity: 1;"><rect rx="0" ry="0" x="-254.171875" y="-29" width="508.34375" height="58"></rect><g class="label" transform="translate(0,0)"><g transform="translate(-244.171875,-19)"><foreignObject width="488.34375" height="38"><div xmlns="http://www.w3.org/1999/xhtml" style="display: inline-block; white-space: nowrap;">CommonComplexSyntagmaNoun - Nom commun complexe syntagme<br />e.g. grand-chose</div></foreignObject></g></g></g><g class="node" id="CommonComplexExpressionNoun" transform="translate(1953.4609375,493.5)" style="opacity: 1;"><rect rx="0" ry="0" x="-297.2109375" y="-29" width="594.421875" height="58"></rect><g class="label" transform="translate(0,0)"><g transform="translate(-287.2109375,-19)"><foreignObject width="574.421875" height="38"><div xmlns="http://www.w3.org/1999/xhtml" style="display: inline-block; white-space: nowrap;">CommonComplexExpressionNoun - Nom commun complexe expression complète<br />e.g. je-ne-sais-quoi</div></foreignObject></g></g></g><g class="node" id="ProperNoun" transform="translate(1044.7265625,249)" style="opacity: 1;"><rect rx="0" ry="0" x="-101.9296875" y="-29" width="203.859375" height="58"></rect><g class="label" transform="translate(0,0)"><g transform="translate(-91.9296875,-19)"><foreignObject width="183.859375" height="38"><div xmlns="http://www.w3.org/1999/xhtml" style="display: inline-block; white-space: nowrap;">ProperNoun - Nom propre<br />e.g. Nicolas</div></foreignObject></g></g></g><g class="node" id="DeterminerArticle" transform="translate(1044.7265625,347.5)" style="opacity: 1;"><rect rx="0" ry="0" x="-74.6484375" y="-19.5" width="149.296875" height="39"></rect><g class="label" transform="translate(0,0)"><g transform="translate(-64.6484375,-9.5)"><foreignObject width="129.296875" height="19"><div xmlns="http://www.w3.org/1999/xhtml" style="display: inline-block; white-space: nowrap;">DeterminerArticle</div></foreignObject></g></g></g><g class="node" id="NominalGroup" transform="translate(240.3828125,1428)" style="opacity: 1;"><rect rx="0" ry="0" x="-140.8359375" y="-29" width="281.671875" height="58"></rect><g class="label" transform="translate(0,0)"><g transform="translate(-130.8359375,-19)"><foreignObject width="261.671875" height="38"><div xmlns="http://www.w3.org/1999/xhtml" style="display: inline-block; white-space: nowrap;">NominalGroup - Groupe nominal<br />{Lemme[] lemmas - Liste de lemmes</div></foreignObject></g></g></g><g class="node" id="Morpheme" transform="translate(240.3828125,1536)" style="opacity: 1;"><rect rx="0" ry="0" x="-220.3828125" y="-29" width="440.765625" height="58"></rect><g class="label" transform="translate(0,0)"><g transform="translate(-210.3828125,-19)"><foreignObject width="420.765625" height="38"><div xmlns="http://www.w3.org/1999/xhtml" style="display: inline-block; white-space: nowrap;">Morpheme - Morphème<br />{boolean} free - Libre (existe en tant que lemme) sinon lié</div></foreignObject></g></g></g><g class="node" id="GrammaticalMorpheme" transform="translate(683.9609375,1482)" style="opacity: 1;"><rect rx="0" ry="0" x="-142.5859375" y="-29" width="285.171875" height="58"></rect><g class="label" transform="translate(0,0)"><g transform="translate(-132.5859375,-19)"><foreignObject width="265.171875" height="38"><div xmlns="http://www.w3.org/1999/xhtml" style="display: inline-block; white-space: nowrap;">GrammaticalMorpheme - Grammème<br />e.g. tu, à, et, etc.</div></foreignObject></g></g></g><g class="node" id="Affix" transform="translate(1044.7265625,1482)" style="opacity: 1;"><rect rx="0" ry="0" x="-124.9921875" y="-38.5" width="249.984375" height="77"></rect><g class="label" transform="translate(0,0)"><g transform="translate(-114.9921875,-28.5)"><foreignObject width="229.984375" height="57"><div xmlns="http://www.w3.org/1999/xhtml" style="display: inline-block; white-space: nowrap;">Affix - Affixe<br />{string} content - Contenu<br />{string=} meaning - Signification</div></foreignObject></g></g></g><g class="node" id="Prefix" transform="translate(1419.2734375,1437.5)" style="opacity: 1;"><rect rx="0" ry="0" x="-64.484375" y="-19.5" width="128.96875" height="39"></rect><g class="label" transform="translate(0,0)"><g transform="translate(-54.484375,-9.5)"><foreignObject width="108.96875" height="19"><div xmlns="http://www.w3.org/1999/xhtml" style="display: inline-block; white-space: nowrap;">Prefix - Prefixe</div></foreignObject></g></g></g><g class="node" id="Suffix" transform="translate(1419.2734375,1526.5)" style="opacity: 1;"><rect rx="0" ry="0" x="-62.96875" y="-19.5" width="125.9375" height="39"></rect><g class="label" transform="translate(0,0)"><g transform="translate(-52.96875,-9.5)"><foreignObject width="105.9375" height="19"><div xmlns="http://www.w3.org/1999/xhtml" style="display: inline-block; white-space: nowrap;">Suffix - Suffixe</div></foreignObject></g></g></g><g class="node" id="Lexeme" transform="translate(683.9609375,1590)" style="opacity: 1;"><rect rx="0" ry="0" x="-103.6640625" y="-29" width="207.328125" height="58"></rect><g class="label" transform="translate(0,0)"><g transform="translate(-93.6640625,-19)"><foreignObject width="187.328125" height="38"><div xmlns="http://www.w3.org/1999/xhtml" style="display: inline-block; white-space: nowrap;">Lexeme - Lexème<br />{string} content - Contenu</div></foreignObject></g></g></g><g class="node" id="Phoneme" transform="translate(240.3828125,1644)" style="opacity: 1;"><rect rx="0" ry="0" x="-103.6640625" y="-29" width="207.328125" height="58"></rect><g class="label" transform="translate(0,0)"><g transform="translate(-93.6640625,-19)"><foreignObject width="187.328125" height="38"><div xmlns="http://www.w3.org/1999/xhtml" style="display: inline-block; white-space: nowrap;">Phoneme - Phonème<br />{string} content - Contenu</div></foreignObject></g></g></g><g class="node" id="Number" transform="translate(240.3828125,1742.5)" style="opacity: 1;"><rect rx="0" ry="0" x="-73.7734375" y="-19.5" width="147.546875" height="39"></rect><g class="label" transform="translate(0,0)"><g transform="translate(-63.7734375,-9.5)"><foreignObject width="127.546875" height="19"><div xmlns="http://www.w3.org/1999/xhtml" style="display: inline-block; white-space: nowrap;">Number - Nombre</div></foreignObject></g></g></g><g class="node" id="Singular" transform="translate(683.9609375,1688.5)" style="opacity: 1;"><rect rx="0" ry="0" x="-77.3203125" y="-19.5" width="154.640625" height="39"></rect><g class="label" transform="translate(0,0)"><g transform="translate(-67.3203125,-9.5)"><foreignObject width="134.640625" height="19"><div xmlns="http://www.w3.org/1999/xhtml" style="display: inline-block; white-space: nowrap;">Singular - Singulier</div></foreignObject></g></g></g><g class="node" id="Plural" transform="translate(683.9609375,1787)" style="opacity: 1;"><rect rx="0" ry="0" x="-61.9296875" y="-19.5" width="123.859375" height="39"></rect><g class="label" transform="translate(0,0)"><g transform="translate(-51.9296875,-9.5)"><foreignObject width="103.859375" height="19"><div xmlns="http://www.w3.org/1999/xhtml" style="display: inline-block; white-space: nowrap;">Plural - Pluriel</div></foreignObject></g></g></g><g class="node" id="Invariable" transform="translate(683.9609375,1876)" style="opacity: 1;"><rect rx="0" ry="0" x="-112.828125" y="-19.5" width="225.65625" height="39"></rect><g class="label" transform="translate(0,0)"><g transform="translate(-102.828125,-9.5)"><foreignObject width="205.65625" height="19"><div xmlns="http://www.w3.org/1999/xhtml" style="display: inline-block; white-space: nowrap;">Invariable - Genre invariable</div></foreignObject></g></g></g><g class="node" id="Gender" transform="translate(240.3828125,1955)" style="opacity: 1;"><rect rx="0" ry="0" x="-65.453125" y="-19.5" width="130.90625" height="39"></rect><g class="label" transform="translate(0,0)"><g transform="translate(-55.453125,-9.5)"><foreignObject width="110.90625" height="19"><div xmlns="http://www.w3.org/1999/xhtml" style="display: inline-block; white-space: nowrap;">Gender - Genre</div></foreignObject></g></g></g><g class="node" id="Masculine" transform="translate(683.9609375,1965)" style="opacity: 1;"><rect rx="0" ry="0" x="-83.046875" y="-19.5" width="166.09375" height="39"></rect><g class="label" transform="translate(0,0)"><g transform="translate(-73.046875,-9.5)"><foreignObject width="146.09375" height="19"><div xmlns="http://www.w3.org/1999/xhtml" style="display: inline-block; white-space: nowrap;">Masculine - Masculin</div></foreignObject></g></g></g><g class="node" id="Feminine" transform="translate(683.9609375,2054)" style="opacity: 1;"><rect rx="0" ry="0" x="-79.140625" y="-19.5" width="158.28125" height="39"></rect><g class="label" transform="translate(0,0)"><g transform="translate(-69.140625,-9.5)"><foreignObject width="138.28125" height="19"><div xmlns="http://www.w3.org/1999/xhtml" style="display: inline-block; white-space: nowrap;">Feminine - Feminin</div></foreignObject></g></g></g><g class="node" id="Function" transform="translate(240.3828125,2473.5)" style="opacity: 1;"><rect rx="0" ry="0" x="-152.703125" y="-29" width="305.40625" height="58"></rect><g class="label" transform="translate(0,0)"><g transform="translate(-142.703125,-19)"><foreignObject width="285.40625" height="38"><div xmlns="http://www.w3.org/1999/xhtml" style="display: inline-block; white-space: nowrap;">Function - Fonction<br />{Group} related - Par rapport au groupe</div></foreignObject></g></g></g><g class="node" id="Subject" transform="translate(683.9609375,2143)" style="opacity: 1;"><rect rx="0" ry="0" x="-63.5546875" y="-19.5" width="127.109375" height="39"></rect><g class="label" transform="translate(0,0)"><g transform="translate(-53.5546875,-9.5)"><foreignObject width="107.109375" height="19"><div xmlns="http://www.w3.org/1999/xhtml" style="display: inline-block; white-space: nowrap;">Subject - Sujet</div></foreignObject></g></g></g><g class="node" id="DirectObject" transform="translate(683.9609375,2232)" style="opacity: 1;"><rect rx="0" ry="0" x="-160.390625" y="-19.5" width="320.78125" height="39"></rect><g class="label" transform="translate(0,0)"><g transform="translate(-150.390625,-9.5)"><foreignObject width="300.78125" height="19"><div xmlns="http://www.w3.org/1999/xhtml" style="display: inline-block; white-space: nowrap;">DirectObject - Complément d'objet direct</div></foreignObject></g></g></g><g class="node" id="IndirectObject" transform="translate(683.9609375,2321)" style="opacity: 1;"><rect rx="0" ry="0" x="-173.1953125" y="-19.5" width="346.390625" height="39"></rect><g class="label" transform="translate(0,0)"><g transform="translate(-163.1953125,-9.5)"><foreignObject width="326.390625" height="19"><div xmlns="http://www.w3.org/1999/xhtml" style="display: inline-block; white-space: nowrap;">IndirectObject - Complément d'objet indirect</div></foreignObject></g></g></g><g class="node" id="ObjectComplement" transform="translate(683.9609375,2410)" style="opacity: 1;"><rect rx="0" ry="0" x="-132.9296875" y="-19.5" width="265.859375" height="39"></rect><g class="label" transform="translate(0,0)"><g transform="translate(-122.9296875,-9.5)"><foreignObject width="245.859375" height="19"><div xmlns="http://www.w3.org/1999/xhtml" style="display: inline-block; white-space: nowrap;">ObjectComplement - Complément</div></foreignObject></g></g></g><g class="node" id="ObjectOfPreposition" transform="translate(683.9609375,2499)" style="opacity: 1;"><rect rx="0" ry="0" x="-163.6484375" y="-19.5" width="327.296875" height="39"></rect><g class="label" transform="translate(0,0)"><g transform="translate(-153.6484375,-9.5)"><foreignObject width="307.296875" height="19"><div xmlns="http://www.w3.org/1999/xhtml" style="display: inline-block; white-space: nowrap;">ObjectOfPreposition - ObjectOfPreposition</div></foreignObject></g></g></g><g class="node" id="PedicateNominative" transform="translate(683.9609375,2588)" style="opacity: 1;"><rect rx="0" ry="0" x="-118.1015625" y="-19.5" width="236.203125" height="39"></rect><g class="label" transform="translate(0,0)"><g transform="translate(-108.1015625,-9.5)"><foreignObject width="216.203125" height="19"><div xmlns="http://www.w3.org/1999/xhtml" style="display: inline-block; white-space: nowrap;">PedicateNominative - Attribut</div></foreignObject></g></g></g><g class="node" id="Appositive" transform="translate(683.9609375,2677)" style="opacity: 1;"><rect rx="0" ry="0" x="-92.5" y="-19.5" width="185" height="39"></rect><g class="label" transform="translate(0,0)"><g transform="translate(-82.5,-9.5)"><foreignObject width="165" height="19"><div xmlns="http://www.w3.org/1999/xhtml" style="display: inline-block; white-space: nowrap;">Appositive - Apposition</div></foreignObject></g></g></g><g class="node" id="Group" transform="translate(240.3828125,2600.5)" style="opacity: 1;"><rect rx="0" ry="0" x="-123.8515625" y="-48" width="247.703125" height="96"></rect><g class="label" transform="translate(0,0)"><g transform="translate(-113.8515625,-38)"><foreignObject width="227.703125" height="76"><div xmlns="http://www.w3.org/1999/xhtml" style="display: inline-block; white-space: nowrap;">Group - Groupe<br />{Group} parent - Groupe parent<br />{Lemma[]} - Liste de lemmes<br />{Function} - Fonction du groupe</div></foreignObject></g></g></g></g></g></g></svg>
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN"
+ "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<!-- Generated by graphviz version 2.40.1 (20161225.0304)
+ -->
+<!-- Title: %0 Pages: 1 -->
+<svg width="2103pt" height="3682pt"
+ viewBox="0.00 0.00 2102.86 3682.40" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+<g id="graph0" class="graph" transform="scale(1 1) rotate(0) translate(4 3678.4)">
+<title>%0</title>
+<polygon fill="#ffffff" stroke="transparent" points="-4,4 -4,-3678.4 2098.8634,-3678.4 2098.8634,4 -4,4"/>
+<!-- Group -->
+<g id="node1" class="node">
+<title>Group</title>
+<polygon fill="none" stroke="#000000" points="42.6384,-.5 42.6384,-99.7 313.1458,-99.7 313.1458,-.5 42.6384,-.5"/>
+<text text-anchor="start" x="133.1873" y="-84.1" font-family="Times,serif" font-size="14.00" fill="#000000">Group &#45; </text>
+<text text-anchor="start" x="180.6151" y="-84.1" font-family="Times,serif" font-style="italic" font-size="14.00" fill="#000000">Groupe</text>
+<polyline fill="none" stroke="#000000" points="42.6384,-74.9 313.1458,-74.9 "/>
+<text text-anchor="start" x="84.041" y="-59.3" font-family="Times,serif" font-size="14.00" fill="#000000">{Group=} parent &#45; </text>
+<text text-anchor="start" x="191.281" y="-59.3" font-family="Times,serif" font-style="italic" font-size="14.00" fill="#000000">Groupe parent</text>
+<polyline fill="none" stroke="#000000" points="42.6384,-50.1 313.1458,-50.1 "/>
+<text text-anchor="start" x="69.9017" y="-34.5" font-family="Times,serif" font-size="14.00" fill="#000000">{Lemma[]} lemmas &#45; </text>
+<text text-anchor="start" x="194.1293" y="-34.5" font-family="Times,serif" font-style="italic" font-size="14.00" fill="#000000">Liste de lemmes</text>
+<polyline fill="none" stroke="#000000" points="42.6384,-25.3 313.1458,-25.3 "/>
+<text text-anchor="start" x="50.6384" y="-9.7" font-family="Times,serif" font-size="14.00" fill="#000000">{Function[]} function &#45; </text>
+<text text-anchor="start" x="184.9922" y="-9.7" font-family="Times,serif" font-style="italic" font-size="14.00" fill="#000000">Fonction du groupe</text>
+<text text-anchor="start" x="294.6458" y="-9.7" font-family="Times,serif" font-size="14.00" fill="#000000"> &#160;&#160;</text>
+</g>
+<!-- Function -->
+<g id="node2" class="node">
+<title>Function</title>
+<polygon fill="none" stroke="#000000" points="52.5798,-118.3 52.5798,-167.9 303.2044,-167.9 303.2044,-118.3 52.5798,-118.3"/>
+<text text-anchor="start" x="122.2834" y="-152.3" font-family="Times,serif" font-size="14.00" fill="#000000">Function &#45; </text>
+<text text-anchor="start" x="183.7224" y="-152.3" font-family="Times,serif" font-style="italic" font-size="14.00" fill="#000000">Fonction</text>
+<polyline fill="none" stroke="#000000" points="52.5798,-143.1 303.2044,-143.1 "/>
+<text text-anchor="start" x="60.5798" y="-127.5" font-family="Times,serif" font-size="14.00" fill="#000000">{Group} related &#45; </text>
+<text text-anchor="start" x="163.0304" y="-127.5" font-family="Times,serif" font-style="italic" font-size="14.00" fill="#000000">Par rapport au groupe</text>
+<text text-anchor="start" x="284.7044" y="-127.5" font-family="Times,serif" font-size="14.00" fill="#000000"> &#160;&#160;</text>
+</g>
+<!-- Subject -->
+<g id="node3" class="node">
+<title>Subject</title>
+<polygon fill="none" stroke="#000000" points="575.4565,-235.1 575.4565,-271.1 673.8885,-271.1 673.8885,-235.1 575.4565,-235.1"/>
+<text text-anchor="start" x="583.4565" y="-250" font-family="Times,serif" font-size="14.00" fill="#000000">Subject &#45; </text>
+<text text-anchor="start" x="637.1101" y="-250" font-family="Times,serif" font-style="italic" font-size="14.00" fill="#000000">Sujet</text>
+</g>
+<!-- Function&#45;&gt;Subject -->
+<g id="edge4" class="edge">
+<title>Function&#45;&gt;Subject</title>
+<path fill="none" stroke="#000000" d="M242.6472,-167.9252C305.6012,-192.06 391.7842,-225.1 391.7842,-225.1 391.7842,-225.1 495.9513,-237.6239 564.9532,-245.92"/>
+<polygon fill="#000000" stroke="#000000" points="564.9366,-249.4431 575.2829,-247.1619 565.7722,-242.4932 564.9366,-249.4431"/>
+</g>
+<!-- ObjectComplement -->
+<g id="node4" class="node">
+<title>ObjectComplement</title>
+<polygon fill="none" stroke="#000000" points="497.795,-180.1 497.795,-216.1 751.55,-216.1 751.55,-180.1 497.795,-180.1"/>
+<text text-anchor="start" x="505.795" y="-195" font-family="Times,serif" font-size="14.00" fill="#000000">ObjectComplement &#45; </text>
+<text text-anchor="start" x="627.1008" y="-195" font-family="Times,serif" font-style="italic" font-size="14.00" fill="#000000">Complément d&#39;objet</text>
+</g>
+<!-- Function&#45;&gt;ObjectComplement -->
+<g id="edge5" class="edge">
+<title>Function&#45;&gt;ObjectComplement</title>
+<path fill="none" stroke="#000000" d="M303.2421,-158.9232C349.925,-164.816 391.7842,-170.1 391.7842,-170.1 391.7842,-170.1 436.947,-175.5299 487.4959,-181.6074"/>
+<polygon fill="#000000" stroke="#000000" points="487.3195,-185.1113 497.6658,-182.8301 488.1551,-178.1613 487.3195,-185.1113"/>
+</g>
+<!-- ObjectOfPreposition -->
+<g id="node8" class="node">
+<title>ObjectOfPreposition</title>
+<polygon fill="none" stroke="#000000" points="494.9838,-125.1 494.9838,-161.1 754.3612,-161.1 754.3612,-125.1 494.9838,-125.1"/>
+<text text-anchor="start" x="502.9838" y="-140" font-family="Times,serif" font-size="14.00" fill="#000000">ObjectOfPreposition &#45; </text>
+<text text-anchor="start" x="630.5028" y="-140" font-family="Times,serif" font-style="italic" font-size="14.00" fill="#000000">ObjectOfPreposition</text>
+</g>
+<!-- Function&#45;&gt;ObjectOfPreposition -->
+<g id="edge6" class="edge">
+<title>Function&#45;&gt;ObjectOfPreposition</title>
+<path fill="none" stroke="#000000" d="M303.2368,-143.1C359.6082,-143.1 426.3709,-143.1 484.4043,-143.1"/>
+<polygon fill="#000000" stroke="#000000" points="484.7591,-146.6001 494.759,-143.1 484.759,-139.6001 484.7591,-146.6001"/>
+</g>
+<!-- PedicateNominative -->
+<g id="node9" class="node">
+<title>PedicateNominative</title>
+<polygon fill="none" stroke="#000000" points="531.9172,-70.1 531.9172,-106.1 717.4278,-106.1 717.4278,-70.1 531.9172,-70.1"/>
+<text text-anchor="start" x="539.9172" y="-85" font-family="Times,serif" font-size="14.00" fill="#000000">PedicateNominative &#45; </text>
+<text text-anchor="start" x="665.0982" y="-85" font-family="Times,serif" font-style="italic" font-size="14.00" fill="#000000">Attribut</text>
+</g>
+<!-- Function&#45;&gt;PedicateNominative -->
+<g id="edge7" class="edge">
+<title>Function&#45;&gt;PedicateNominative</title>
+<path fill="none" stroke="#000000" d="M303.2421,-126.6908C349.925,-120.5797 391.7842,-115.1 391.7842,-115.1 391.7842,-115.1 459.3353,-107.2684 521.6755,-100.041"/>
+<polygon fill="#000000" stroke="#000000" points="522.0945,-103.516 531.6248,-98.8875 521.2883,-96.5625 522.0945,-103.516"/>
+</g>
+<!-- Appositive -->
+<g id="node10" class="node">
+<title>Appositive</title>
+<polygon fill="none" stroke="#000000" points="549.0119,-15.1 549.0119,-51.1 700.3331,-51.1 700.3331,-15.1 549.0119,-15.1"/>
+<text text-anchor="start" x="557.0119" y="-30" font-family="Times,serif" font-size="14.00" fill="#000000">Appositive &#45; </text>
+<text text-anchor="start" x="630.1101" y="-30" font-family="Times,serif" font-style="italic" font-size="14.00" fill="#000000">Apposition</text>
+</g>
+<!-- Function&#45;&gt;Appositive -->
+<g id="edge8" class="edge">
+<title>Function&#45;&gt;Appositive</title>
+<path fill="none" stroke="#000000" d="M303.3729,-119.1172C332.8094,-113.4911 355.7842,-109.1 355.7842,-109.1 355.7842,-109.1 391.7842,-60.1 391.7842,-60.1 391.7842,-60.1 472.2985,-50.7655 538.6455,-43.0736"/>
+<polygon fill="#000000" stroke="#000000" points="539.208,-46.5319 548.7384,-41.9034 538.4018,-39.5785 539.208,-46.5319"/>
+</g>
+<!-- DirectObjectComplement -->
+<g id="node5" class="node">
+<title>DirectObjectComplement</title>
+<polygon fill="none" stroke="#000000" points="899.0061,-235.1 899.0061,-271.1 1223.1097,-271.1 1223.1097,-235.1 899.0061,-235.1"/>
+<text text-anchor="start" x="907.0061" y="-250" font-family="Times,serif" font-size="14.00" fill="#000000">DirectObjectComplement &#45; </text>
+<text text-anchor="start" x="1063.2895" y="-250" font-family="Times,serif" font-style="italic" font-size="14.00" fill="#000000">Complément d&#39;objet direct</text>
+</g>
+<!-- ObjectComplement&#45;&gt;DirectObjectComplement -->
+<g id="edge1" class="edge">
+<title>ObjectComplement&#45;&gt;DirectObjectComplement</title>
+<path fill="none" stroke="#000000" d="M751.6792,-212.8246C806.1756,-219.1426 857.5608,-225.1 857.5608,-225.1 857.5608,-225.1 885.2181,-228.9055 920.1405,-233.7106"/>
+<polygon fill="#000000" stroke="#000000" points="919.7823,-237.1942 930.1661,-235.0901 920.7365,-230.2595 919.7823,-237.1942"/>
+</g>
+<!-- SecondObjectComplement -->
+<g id="node6" class="node">
+<title>SecondObjectComplement</title>
+<polygon fill="none" stroke="#000000" points="895.5047,-180.1 895.5047,-216.1 1226.6111,-216.1 1226.6111,-180.1 895.5047,-180.1"/>
+<text text-anchor="start" x="903.5047" y="-195" font-family="Times,serif" font-size="14.00" fill="#000000">DirectObjectComplement &#45; </text>
+<text text-anchor="start" x="1059.7881" y="-195" font-family="Times,serif" font-style="italic" font-size="14.00" fill="#000000">Complément d&#39;objet second</text>
+</g>
+<!-- ObjectComplement&#45;&gt;SecondObjectComplement -->
+<g id="edge2" class="edge">
+<title>ObjectComplement&#45;&gt;SecondObjectComplement</title>
+<path fill="none" stroke="#000000" d="M751.7728,-198.1C793.5274,-198.1 840.7065,-198.1 885.4073,-198.1"/>
+<polygon fill="#000000" stroke="#000000" points="885.5036,-201.6001 895.5036,-198.1 885.5035,-194.6001 885.5036,-201.6001"/>
+</g>
+<!-- IndirectObjectComplement -->
+<g id="node7" class="node">
+<title>IndirectObjectComplement</title>
+<polygon fill="none" stroke="#000000" points="893.5608,-125.1 893.5608,-161.1 1228.555,-161.1 1228.555,-125.1 893.5608,-125.1"/>
+<text text-anchor="start" x="901.5608" y="-140" font-family="Times,serif" font-size="14.00" fill="#000000">DirectObjectComplement &#45; </text>
+<text text-anchor="start" x="1057.8442" y="-140" font-family="Times,serif" font-style="italic" font-size="14.00" fill="#000000">Complément d&#39;objet indirect</text>
+</g>
+<!-- ObjectComplement&#45;&gt;IndirectObjectComplement -->
+<g id="edge3" class="edge">
+<title>ObjectComplement&#45;&gt;IndirectObjectComplement</title>
+<path fill="none" stroke="#000000" d="M751.6792,-182.8301C806.1756,-176.278 857.5608,-170.1 857.5608,-170.1 857.5608,-170.1 882.5553,-166.7837 915.025,-162.4756"/>
+<polygon fill="#000000" stroke="#000000" points="915.8696,-165.8943 925.3224,-161.1094 914.9489,-158.9552 915.8696,-165.8943"/>
+</g>
+<!-- Phoneme -->
+<g id="node11" class="node">
+<title>Phoneme</title>
+<polygon fill="none" stroke="#000000" points="90.0739,-226.3 90.0739,-275.9 265.7103,-275.9 265.7103,-226.3 90.0739,-226.3"/>
+<text text-anchor="start" x="117.2364" y="-260.3" font-family="Times,serif" font-size="14.00" fill="#000000">Phoneme &#45; </text>
+<text text-anchor="start" x="180.9994" y="-260.3" font-family="Times,serif" font-style="italic" font-size="14.00" fill="#000000">Phonème</text>
+<polyline fill="none" stroke="#000000" points="90.0739,-251.1 265.7103,-251.1 "/>
+<text text-anchor="start" x="98.0739" y="-235.5" font-family="Times,serif" font-size="14.00" fill="#000000">{string} content &#45; </text>
+<text text-anchor="start" x="199.7685" y="-235.5" font-family="Times,serif" font-style="italic" font-size="14.00" fill="#000000">Contenu</text>
+<text text-anchor="start" x="247.2103" y="-235.5" font-family="Times,serif" font-size="14.00" fill="#000000"> &#160;&#160;</text>
+</g>
+<!-- Morpheme -->
+<g id="node12" class="node">
+<title>Morpheme</title>
+<polygon fill="none" stroke="#000000" points="0,-332.9 0,-407.3 355.7842,-407.3 355.7842,-332.9 0,-332.9"/>
+<text text-anchor="start" x="107.9138" y="-391.7" font-family="Times,serif" font-size="14.00" fill="#000000">Morpheme &#45; </text>
+<text text-anchor="start" x="180.9994" y="-391.7" font-family="Times,serif" font-style="italic" font-size="14.00" fill="#000000">Morphème</text>
+<polyline fill="none" stroke="#000000" points="0,-382.5 355.7842,-382.5 "/>
+<text text-anchor="start" x="103.3239" y="-366.9" font-family="Times,serif" font-size="14.00" fill="#000000">{string} content &#45; </text>
+<text text-anchor="start" x="205.0185" y="-366.9" font-family="Times,serif" font-style="italic" font-size="14.00" fill="#000000">Contenu</text>
+<polyline fill="none" stroke="#000000" points="0,-357.7 355.7842,-357.7 "/>
+<text text-anchor="start" x="8" y="-342.1" font-family="Times,serif" font-size="14.00" fill="#000000">{boolean} free &#45; </text>
+<text text-anchor="start" x="102.668" y="-342.1" font-family="Times,serif" font-style="italic" font-size="14.00" fill="#000000">Libre (existe en tant que lemme) sinon lié</text>
+<text text-anchor="start" x="337.2842" y="-342.1" font-family="Times,serif" font-size="14.00" fill="#000000"> &#160;&#160;</text>
+</g>
+<!-- GrammaticalMorpheme -->
+<g id="node13" class="node">
+<title>GrammaticalMorpheme</title>
+<polygon fill="none" stroke="#000000" points="507.826,-414.3 507.826,-463.9 741.519,-463.9 741.519,-414.3 507.826,-414.3"/>
+<text text-anchor="start" x="515.826" y="-448.3" font-family="Times,serif" font-size="14.00" fill="#000000">GrammaticalMorpheme &#45; </text>
+<text text-anchor="start" x="661.9902" y="-448.3" font-family="Times,serif" font-style="italic" font-size="14.00" fill="#000000">Grammème</text>
+<polyline fill="none" stroke="#000000" points="507.826,-439.1 741.519,-439.1 "/>
+<text text-anchor="start" x="582.487" y="-422.5" font-family="Times,serif" font-size="14.00" fill="#000000">e.g. tu, à, et &#160;&#160;&#160;&#160;</text>
+</g>
+<!-- Morpheme&#45;&gt;GrammaticalMorpheme -->
+<g id="edge11" class="edge">
+<title>Morpheme&#45;&gt;GrammaticalMorpheme</title>
+<path fill="none" stroke="#000000" d="M355.9835,-398.4092C377.3512,-401.8057 391.7842,-404.1 391.7842,-404.1 391.7842,-404.1 442.9809,-411.7942 497.3657,-419.9675"/>
+<polygon fill="#000000" stroke="#000000" points="497.1369,-423.4723 507.5461,-421.4975 498.1773,-416.5501 497.1369,-423.4723"/>
+</g>
+<!-- Affix -->
+<g id="node14" class="node">
+<title>Affix</title>
+<polygon fill="none" stroke="#000000" points="513.4652,-345.3 513.4652,-394.9 735.8798,-394.9 735.8798,-345.3 513.4652,-345.3"/>
+<text text-anchor="start" x="585.4165" y="-379.3" font-family="Times,serif" font-size="14.00" fill="#000000">Affix &#45; </text>
+<text text-anchor="start" x="627.3955" y="-379.3" font-family="Times,serif" font-style="italic" font-size="14.00" fill="#000000">Affixe</text>
+<polyline fill="none" stroke="#000000" points="513.4652,-370.1 735.8798,-370.1 "/>
+<text text-anchor="start" x="521.4652" y="-354.5" font-family="Times,serif" font-size="14.00" fill="#000000">{string=} meaning &#45; </text>
+<text text-anchor="start" x="638.0544" y="-354.5" font-family="Times,serif" font-style="italic" font-size="14.00" fill="#000000">Signification</text>
+<text text-anchor="start" x="710.3798" y="-354.5" font-family="Times,serif" font-size="14.00" fill="#000000"> &#160;&#160;&#160;&#160;</text>
+</g>
+<!-- Morpheme&#45;&gt;Affix -->
+<g id="edge12" class="edge">
+<title>Morpheme&#45;&gt;Affix</title>
+<path fill="none" stroke="#000000" d="M356.0765,-370.1C405.4797,-370.1 457.9615,-370.1 503.3023,-370.1"/>
+<polygon fill="#000000" stroke="#000000" points="503.4628,-373.6001 513.4628,-370.1 503.4628,-366.6001 503.4628,-373.6001"/>
+</g>
+<!-- Lexeme -->
+<g id="node17" class="node">
+<title>Lexeme</title>
+<polygon fill="none" stroke="#000000" points="563.0322,-290.1 563.0322,-326.1 686.3128,-326.1 686.3128,-290.1 563.0322,-290.1"/>
+<text text-anchor="start" x="571.0322" y="-305" font-family="Times,serif" font-size="14.00" fill="#000000">Lexeme &#45; </text>
+<text text-anchor="start" x="627.7798" y="-305" font-family="Times,serif" font-style="italic" font-size="14.00" fill="#000000">Lexème</text>
+</g>
+<!-- Morpheme&#45;&gt;Lexeme -->
+<g id="edge13" class="edge">
+<title>Morpheme&#45;&gt;Lexeme</title>
+<path fill="none" stroke="#000000" d="M355.9835,-341.7908C377.3512,-338.3943 391.7842,-336.1 391.7842,-336.1 391.7842,-336.1 484.153,-324.9946 552.5465,-316.7717"/>
+<polygon fill="#000000" stroke="#000000" points="553.3635,-320.1987 562.8741,-315.53 552.5278,-313.2488 553.3635,-320.1987"/>
+</g>
+<!-- Prefix -->
+<g id="node15" class="node">
+<title>Prefix</title>
+<polygon fill="none" stroke="#000000" points="1009.9113,-380.1 1009.9113,-416.1 1112.2045,-416.1 1112.2045,-380.1 1009.9113,-380.1"/>
+<text text-anchor="start" x="1017.9113" y="-395" font-family="Times,serif" font-size="14.00" fill="#000000">Prefix &#45; </text>
+<text text-anchor="start" x="1063.7809" y="-395" font-family="Times,serif" font-style="italic" font-size="14.00" fill="#000000">Prefixe</text>
+</g>
+<!-- Affix&#45;&gt;Prefix -->
+<g id="edge9" class="edge">
+<title>Affix&#45;&gt;Prefix</title>
+<path fill="none" stroke="#000000" d="M735.9201,-377.238C819.6262,-382.6089 931.2308,-389.7698 999.5228,-394.1517"/>
+<polygon fill="#000000" stroke="#000000" points="999.4844,-397.6563 1009.688,-394.8039 999.9327,-390.6707 999.4844,-397.6563"/>
+</g>
+<!-- Suffix -->
+<g id="node16" class="node">
+<title>Suffix</title>
+<polygon fill="none" stroke="#000000" points="1009.1259,-325.1 1009.1259,-361.1 1112.9899,-361.1 1112.9899,-325.1 1009.1259,-325.1"/>
+<text text-anchor="start" x="1017.1259" y="-340" font-family="Times,serif" font-size="14.00" fill="#000000">Suffix &#45; </text>
+<text text-anchor="start" x="1063.7809" y="-340" font-family="Times,serif" font-style="italic" font-size="14.00" fill="#000000">Suffixe</text>
+</g>
+<!-- Affix&#45;&gt;Suffix -->
+<g id="edge10" class="edge">
+<title>Affix&#45;&gt;Suffix</title>
+<path fill="none" stroke="#000000" d="M735.9201,-363.2169C819.386,-358.0527 930.5906,-351.1723 998.9339,-346.9437"/>
+<polygon fill="#000000" stroke="#000000" points="999.3459,-350.425 1009.1106,-346.3141 998.9135,-343.4384 999.3459,-350.425"/>
+</g>
+<!-- Locution -->
+<g id="node18" class="node">
+<title>Locution</title>
+<polygon fill="none" stroke="#000000" points="56.6517,-759.3 56.6517,-808.9 299.1325,-808.9 299.1325,-759.3 56.6517,-759.3"/>
+<text text-anchor="start" x="125.3984" y="-793.3" font-family="Times,serif" font-size="14.00" fill="#000000">Locution &#45; </text>
+<text text-anchor="start" x="187.6074" y="-793.3" font-family="Times,serif" font-style="italic" font-size="14.00" fill="#000000">Flexion</text>
+<polyline fill="none" stroke="#000000" points="56.6517,-784.1 299.1325,-784.1 "/>
+<text text-anchor="start" x="64.6517" y="-767.5" font-family="Times,serif" font-size="14.00" fill="#000000">{Lemma[]} lemmas &#45; Liste de lemmes &#160;&#160;</text>
+</g>
+<!-- NominalLocution -->
+<g id="node19" class="node">
+<title>NominalLocution</title>
+<polygon fill="none" stroke="#000000" points="507.9968,-1035.3 507.9968,-1084.9 741.3482,-1084.9 741.3482,-1035.3 507.9968,-1035.3"/>
+<text text-anchor="start" x="515.9968" y="-1069.3" font-family="Times,serif" font-size="14.00" fill="#000000">NominalLocution &#45; </text>
+<text text-anchor="start" x="627.1988" y="-1069.3" font-family="Times,serif" font-style="italic" font-size="14.00" fill="#000000">Locution nominale</text>
+<polyline fill="none" stroke="#000000" points="507.9968,-1060.1 741.3482,-1060.1 "/>
+<text text-anchor="start" x="549.3455" y="-1043.5" font-family="Times,serif" font-size="14.00" fill="#000000">e.g. éducation physique &#160;&#160;&#160;&#160;</text>
+</g>
+<!-- Locution&#45;&gt;NominalLocution -->
+<g id="edge14" class="edge">
+<title>Locution&#45;&gt;NominalLocution</title>
+<path fill="none" stroke="#000000" d="M199.9767,-808.9835C254.6258,-870.5586 391.7842,-1025.1 391.7842,-1025.1 391.7842,-1025.1 443.1819,-1032.8244 497.6857,-1041.0156"/>
+<polygon fill="#000000" stroke="#000000" points="497.4781,-1044.5236 507.8872,-1042.5487 498.5184,-1037.6013 497.4781,-1044.5236"/>
+</g>
+<!-- VerbalLocution -->
+<g id="node20" class="node">
+<title>VerbalLocution</title>
+<polygon fill="none" stroke="#000000" points="518.9028,-966.3 518.9028,-1015.9 730.4422,-1015.9 730.4422,-966.3 518.9028,-966.3"/>
+<text text-anchor="start" x="526.9028" y="-1000.3" font-family="Times,serif" font-size="14.00" fill="#000000">VerbalLocution &#45; </text>
+<text text-anchor="start" x="627.1988" y="-1000.3" font-family="Times,serif" font-style="italic" font-size="14.00" fill="#000000">Locution verbale</text>
+<polyline fill="none" stroke="#000000" points="518.9028,-991.1 730.4422,-991.1 "/>
+<text text-anchor="start" x="569.2815" y="-974.5" font-family="Times,serif" font-size="14.00" fill="#000000">e.g. prendre l&#39;air &#160;&#160;&#160;&#160;</text>
+</g>
+<!-- Locution&#45;&gt;VerbalLocution -->
+<g id="edge15" class="edge">
+<title>Locution&#45;&gt;VerbalLocution</title>
+<path fill="none" stroke="#000000" d="M208.9938,-809.1103C268.3163,-856.8141 391.7842,-956.1 391.7842,-956.1 391.7842,-956.1 450.3034,-964.8947 508.6734,-973.6669"/>
+<polygon fill="#000000" stroke="#000000" points="508.3818,-977.1623 518.7909,-975.1874 509.4222,-970.24 508.3818,-977.1623"/>
+</g>
+<!-- AdjectivalLocution -->
+<g id="node21" class="node">
+<title>AdjectivalLocution</title>
+<polygon fill="none" stroke="#000000" points="499.0697,-897.3 499.0697,-946.9 750.2753,-946.9 750.2753,-897.3 499.0697,-897.3"/>
+<text text-anchor="start" x="507.0697" y="-931.3" font-family="Times,serif" font-size="14.00" fill="#000000">AdjectivalLocution &#45; </text>
+<text text-anchor="start" x="627.5915" y="-931.3" font-family="Times,serif" font-style="italic" font-size="14.00" fill="#000000">Locution adjectivale</text>
+<polyline fill="none" stroke="#000000" points="499.0697,-922.1 750.2753,-922.1 "/>
+<text text-anchor="start" x="565.1865" y="-905.5" font-family="Times,serif" font-size="14.00" fill="#000000">e.g. comme il faut &#160;&#160;&#160;&#160;</text>
+</g>
+<!-- Locution&#45;&gt;AdjectivalLocution -->
+<g id="edge16" class="edge">
+<title>Locution&#45;&gt;AdjectivalLocution</title>
+<path fill="none" stroke="#000000" d="M229.3968,-808.9021C292.6872,-839.3797 391.7842,-887.1 391.7842,-887.1 391.7842,-887.1 437.8928,-894.0295 489.0773,-901.7219"/>
+<polygon fill="#000000" stroke="#000000" points="488.6168,-905.1919 499.026,-903.217 489.6572,-898.2696 488.6168,-905.1919"/>
+</g>
+<!-- AdverbialLocution -->
+<g id="node22" class="node">
+<title>AdverbialLocution</title>
+<polygon fill="none" stroke="#000000" points="501.4049,-828.3 501.4049,-877.9 747.9401,-877.9 747.9401,-828.3 501.4049,-828.3"/>
+<text text-anchor="start" x="509.4049" y="-862.3" font-family="Times,serif" font-size="14.00" fill="#000000">AdverbialLocution &#45; </text>
+<text text-anchor="start" x="627.5915" y="-862.3" font-family="Times,serif" font-style="italic" font-size="14.00" fill="#000000">Locution adverbiale</text>
+<polyline fill="none" stroke="#000000" points="501.4049,-853.1 747.9401,-853.1 "/>
+<text text-anchor="start" x="569.0771" y="-836.5" font-family="Times,serif" font-size="14.00" fill="#000000">e.g. la plupart de &#160;&#160;&#160;&#160;</text>
+</g>
+<!-- Locution&#45;&gt;AdverbialLocution -->
+<g id="edge17" class="edge">
+<title>Locution&#45;&gt;AdverbialLocution</title>
+<path fill="none" stroke="#000000" d="M299.212,-803.3849C347.488,-811.0587 391.7842,-818.1 391.7842,-818.1 391.7842,-818.1 439.0406,-825.202 490.9792,-833.0077"/>
+<polygon fill="#000000" stroke="#000000" points="490.6592,-836.4988 501.0683,-834.5239 491.6996,-829.5766 490.6592,-836.4988"/>
+</g>
+<!-- ConjunctiveLocution -->
+<g id="node23" class="node">
+<title>ConjunctiveLocution</title>
+<polygon fill="none" stroke="#000000" points="491.6672,-759.3 491.6672,-808.9 757.6778,-808.9 757.6778,-759.3 491.6672,-759.3"/>
+<text text-anchor="start" x="499.6672" y="-793.3" font-family="Times,serif" font-size="14.00" fill="#000000">ConjunctiveLocution &#45; </text>
+<text text-anchor="start" x="630.3138" y="-793.3" font-family="Times,serif" font-style="italic" font-size="14.00" fill="#000000">Locution conjonctive</text>
+<polyline fill="none" stroke="#000000" points="491.6672,-784.1 757.6778,-784.1 "/>
+<text text-anchor="start" x="578.2121" y="-767.5" font-family="Times,serif" font-size="14.00" fill="#000000">e.g. même si &#160;&#160;&#160;&#160;</text>
+</g>
+<!-- Locution&#45;&gt;ConjunctiveLocution -->
+<g id="edge18" class="edge">
+<title>Locution&#45;&gt;ConjunctiveLocution</title>
+<path fill="none" stroke="#000000" d="M299.3867,-784.1C355.5683,-784.1 422.6933,-784.1 481.3361,-784.1"/>
+<polygon fill="#000000" stroke="#000000" points="481.4249,-787.6001 491.4249,-784.1 481.4249,-780.6001 481.4249,-787.6001"/>
+</g>
+<!-- InterjectiveLocution -->
+<g id="node24" class="node">
+<title>InterjectiveLocution</title>
+<polygon fill="none" stroke="#000000" points="495.1868,-690.3 495.1868,-739.9 754.1582,-739.9 754.1582,-690.3 495.1868,-690.3"/>
+<text text-anchor="start" x="503.1868" y="-724.3" font-family="Times,serif" font-size="14.00" fill="#000000">InterjectiveLocution &#45; </text>
+<text text-anchor="start" x="629.1378" y="-724.3" font-family="Times,serif" font-style="italic" font-size="14.00" fill="#000000">Locution interjective</text>
+<polyline fill="none" stroke="#000000" points="495.1868,-715.1 754.1582,-715.1 "/>
+<text text-anchor="start" x="565.1935" y="-698.5" font-family="Times,serif" font-size="14.00" fill="#000000">e.g. Par exemple ! &#160;&#160;&#160;&#160;</text>
+</g>
+<!-- Locution&#45;&gt;InterjectiveLocution -->
+<g id="edge19" class="edge">
+<title>Locution&#45;&gt;InterjectiveLocution</title>
+<path fill="none" stroke="#000000" d="M299.212,-764.8151C347.488,-757.1413 391.7842,-750.1 391.7842,-750.1 391.7842,-750.1 435.4572,-743.5365 484.9784,-736.0942"/>
+<polygon fill="#000000" stroke="#000000" points="485.5807,-739.543 494.9494,-734.5956 484.5403,-732.6208 485.5807,-739.543"/>
+</g>
+<!-- PrepositionalLocution -->
+<g id="node25" class="node">
+<title>PrepositionalLocution</title>
+<polygon fill="none" stroke="#000000" points="476.0208,-621.3 476.0208,-670.9 773.3242,-670.9 773.3242,-621.3 476.0208,-621.3"/>
+<text text-anchor="start" x="484.0208" y="-655.3" font-family="Times,serif" font-size="14.00" fill="#000000">PrepositionalLocution &#45; </text>
+<text text-anchor="start" x="620.1092" y="-655.3" font-family="Times,serif" font-style="italic" font-size="14.00" fill="#000000">Locution prépositionnelle</text>
+<polyline fill="none" stroke="#000000" points="476.0208,-646.1 773.3242,-646.1 "/>
+<text text-anchor="start" x="574.3334" y="-629.5" font-family="Times,serif" font-size="14.00" fill="#000000">e.g. à cause de &#160;&#160;&#160;&#160;</text>
+</g>
+<!-- Locution&#45;&gt;PrepositionalLocution -->
+<g id="edge20" class="edge">
+<title>Locution&#45;&gt;PrepositionalLocution</title>
+<path fill="none" stroke="#000000" d="M229.3968,-759.2979C292.6872,-728.8203 391.7842,-681.1 391.7842,-681.1 391.7842,-681.1 424.7263,-676.1492 465.8315,-669.9717"/>
+<polygon fill="#000000" stroke="#000000" points="466.4935,-673.4116 475.8622,-668.4642 465.4531,-666.4893 466.4935,-673.4116"/>
+</g>
+<!-- PronominalLocution -->
+<g id="node26" class="node">
+<title>PronominalLocution</title>
+<polygon fill="none" stroke="#000000" points="490.4982,-552.3 490.4982,-601.9 758.8468,-601.9 758.8468,-552.3 490.4982,-552.3"/>
+<text text-anchor="start" x="498.4982" y="-586.3" font-family="Times,serif" font-size="14.00" fill="#000000">PronominalLocution &#45; </text>
+<text text-anchor="start" x="626.0368" y="-586.3" font-family="Times,serif" font-style="italic" font-size="14.00" fill="#000000">Locution pronominale</text>
+<polyline fill="none" stroke="#000000" points="490.4982,-577.1 758.8468,-577.1 "/>
+<text text-anchor="start" x="564.2184" y="-560.5" font-family="Times,serif" font-size="14.00" fill="#000000">e.g. quelque chose &#160;&#160;&#160;&#160;</text>
+</g>
+<!-- Locution&#45;&gt;PronominalLocution -->
+<g id="edge21" class="edge">
+<title>Locution&#45;&gt;PronominalLocution</title>
+<path fill="none" stroke="#000000" d="M208.9938,-759.0897C268.3163,-711.3859 391.7842,-612.1 391.7842,-612.1 391.7842,-612.1 432.7389,-605.945 480.2996,-598.7973"/>
+<polygon fill="#000000" stroke="#000000" points="480.8435,-602.255 490.2122,-597.3076 479.8031,-595.3327 480.8435,-602.255"/>
+</g>
+<!-- DeterminerLocution -->
+<g id="node27" class="node">
+<title>DeterminerLocution</title>
+<polygon fill="none" stroke="#000000" points="492.7564,-483.3 492.7564,-532.9 756.5886,-532.9 756.5886,-483.3 492.7564,-483.3"/>
+<text text-anchor="start" x="500.7564" y="-517.3" font-family="Times,serif" font-size="14.00" fill="#000000">DeterminerLocution &#45; </text>
+<text text-anchor="start" x="626.7088" y="-517.3" font-family="Times,serif" font-style="italic" font-size="14.00" fill="#000000">Locution déterminant</text>
+<polyline fill="none" stroke="#000000" points="492.7564,-508.1 756.5886,-508.1 "/>
+<text text-anchor="start" x="559.7391" y="-491.5" font-family="Times,serif" font-size="14.00" fill="#000000">e.g. n’importe quel &#160;&#160;&#160;&#160;</text>
+</g>
+<!-- Locution&#45;&gt;DeterminerLocution -->
+<g id="edge22" class="edge">
+<title>Locution&#45;&gt;DeterminerLocution</title>
+<path fill="none" stroke="#000000" d="M199.9767,-759.2165C254.6258,-697.6414 391.7842,-543.1 391.7842,-543.1 391.7842,-543.1 433.9976,-536.7559 482.48,-529.4696"/>
+<polygon fill="#000000" stroke="#000000" points="483.2091,-532.8994 492.5779,-527.9521 482.1688,-525.9772 483.2091,-532.8994"/>
+</g>
+<!-- VerbGroup -->
+<g id="node28" class="node">
+<title>VerbGroup</title>
+<polygon fill="none" stroke="#000000" points="85.5442,-1180.1 85.5442,-1216.1 270.24,-1216.1 270.24,-1180.1 85.5442,-1180.1"/>
+<text text-anchor="start" x="93.5442" y="-1195" font-family="Times,serif" font-size="14.00" fill="#000000">VerbGroup &#45; </text>
+<text text-anchor="start" x="168.9538" y="-1195" font-family="Times,serif" font-style="italic" font-size="14.00" fill="#000000">Groupe de verbe</text>
+</g>
+<!-- FirstVerbGroup -->
+<g id="node29" class="node">
+<title>FirstVerbGroup</title>
+<polygon fill="none" stroke="#000000" points="519.6812,-1242.3 519.6812,-1291.9 729.6638,-1291.9 729.6638,-1242.3 519.6812,-1242.3"/>
+<text text-anchor="start" x="527.6812" y="-1276.3" font-family="Times,serif" font-size="14.00" fill="#000000">FirstVerbGroup &#45; </text>
+<text text-anchor="start" x="628.7598" y="-1276.3" font-family="Times,serif" font-style="italic" font-size="14.00" fill="#000000">Premiere groupe</text>
+<polyline fill="none" stroke="#000000" points="519.6812,-1267.1 729.6638,-1267.1 "/>
+<text text-anchor="start" x="546.9298" y="-1250.5" font-family="Times,serif" font-size="14.00" fill="#000000">Infinitif en &#45;er, sauf aller &#160;&#160;&#160;&#160;</text>
+</g>
+<!-- VerbGroup&#45;&gt;FirstVerbGroup -->
+<g id="edge23" class="edge">
+<title>VerbGroup&#45;&gt;FirstVerbGroup</title>
+<path fill="none" stroke="#000000" d="M270.4643,-1212.8151C328.2711,-1222.004 391.7842,-1232.1 391.7842,-1232.1 391.7842,-1232.1 450.7353,-1240.9596 509.3184,-1249.7638"/>
+<polygon fill="#000000" stroke="#000000" points="509.0614,-1253.2644 519.4705,-1251.2896 510.1018,-1246.3422 509.0614,-1253.2644"/>
+</g>
+<!-- SecondVerbGroup -->
+<g id="node30" class="node">
+<title>SecondVerbGroup</title>
+<polygon fill="none" stroke="#000000" points="391.7842,-1173.3 391.7842,-1222.9 857.5608,-1222.9 857.5608,-1173.3 391.7842,-1173.3"/>
+<text text-anchor="start" x="513.6854" y="-1207.3" font-family="Times,serif" font-size="14.00" fill="#000000">SecondVerbGroup &#45; </text>
+<text text-anchor="start" x="630.3068" y="-1207.3" font-family="Times,serif" font-style="italic" font-size="14.00" fill="#000000">Deuxième groupe</text>
+<polyline fill="none" stroke="#000000" points="391.7842,-1198.1 857.5608,-1198.1 "/>
+<text text-anchor="start" x="399.7842" y="-1181.5" font-family="Times,serif" font-size="14.00" fill="#000000">Infinitif en &#45;ir, qui à certaines formes allongent leur radical de l’affixe –iss&#45; &#160;&#160;&#160;&#160;</text>
+</g>
+<!-- VerbGroup&#45;&gt;SecondVerbGroup -->
+<g id="edge24" class="edge">
+<title>VerbGroup&#45;&gt;SecondVerbGroup</title>
+<path fill="none" stroke="#000000" d="M270.4653,-1198.1C303.3352,-1198.1 342.0395,-1198.1 381.5735,-1198.1"/>
+<polygon fill="#000000" stroke="#000000" points="381.6393,-1201.6001 391.6393,-1198.1 381.6393,-1194.6001 381.6393,-1201.6001"/>
+</g>
+<!-- ThirdVerbGroup -->
+<g id="node31" class="node">
+<title>ThirdVerbGroup</title>
+<polygon fill="none" stroke="#000000" points="452.3412,-1104.3 452.3412,-1153.9 797.0038,-1153.9 797.0038,-1104.3 452.3412,-1104.3"/>
+<text text-anchor="start" x="519.1258" y="-1138.3" font-family="Times,serif" font-size="14.00" fill="#000000">ThirdVerbGroup &#45; </text>
+<text text-anchor="start" x="625.6392" y="-1138.3" font-family="Times,serif" font-style="italic" font-size="14.00" fill="#000000">Troisième groupe</text>
+<polyline fill="none" stroke="#000000" points="452.3412,-1129.1 797.0038,-1129.1 "/>
+<text text-anchor="start" x="460.3412" y="-1112.5" font-family="Times,serif" font-size="14.00" fill="#000000">Infinitif en &#45;ir sans élargissement, en &#45;oir, en &#45;re et aller &#160;&#160;&#160;&#160;</text>
+</g>
+<!-- VerbGroup&#45;&gt;ThirdVerbGroup -->
+<g id="edge25" class="edge">
+<title>VerbGroup&#45;&gt;ThirdVerbGroup</title>
+<path fill="none" stroke="#000000" d="M270.4643,-1183.3849C328.2711,-1174.196 391.7842,-1164.1 391.7842,-1164.1 391.7842,-1164.1 416.2954,-1160.4163 449.414,-1155.439"/>
+<polygon fill="#000000" stroke="#000000" points="450.0892,-1158.8769 459.458,-1153.9295 449.0488,-1151.9547 450.0892,-1158.8769"/>
+</g>
+<!-- Person -->
+<g id="node32" class="node">
+<title>Person</title>
+<polygon fill="none" stroke="#000000" points="119.3521,-1366.1 119.3521,-1402.1 236.4321,-1402.1 236.4321,-1366.1 119.3521,-1366.1"/>
+<text text-anchor="start" x="127.3521" y="-1381" font-family="Times,serif" font-size="14.00" fill="#000000">Person &#45; </text>
+<text text-anchor="start" x="177.1151" y="-1381" font-family="Times,serif" font-style="italic" font-size="14.00" fill="#000000">Personne</text>
+</g>
+<!-- FirstPerson -->
+<g id="node33" class="node">
+<title>FirstPerson</title>
+<polygon fill="none" stroke="#000000" points="526.6749,-1421.1 526.6749,-1457.1 722.6701,-1457.1 722.6701,-1421.1 526.6749,-1421.1"/>
+<text text-anchor="start" x="534.6749" y="-1436" font-family="Times,serif" font-size="14.00" fill="#000000">FirstPerson &#45; </text>
+<text text-anchor="start" x="610.1069" y="-1436" font-family="Times,serif" font-style="italic" font-size="14.00" fill="#000000">Premiere personne</text>
+</g>
+<!-- Person&#45;&gt;FirstPerson -->
+<g id="edge26" class="edge">
+<title>Person&#45;&gt;FirstPerson</title>
+<path fill="none" stroke="#000000" d="M236.622,-1391.5136C299.9425,-1399.5067 391.7842,-1411.1 391.7842,-1411.1 391.7842,-1411.1 455.6288,-1418.776 516.4617,-1426.0899"/>
+<polygon fill="#000000" stroke="#000000" points="516.2355,-1429.5878 526.5819,-1427.3066 517.0712,-1422.6379 516.2355,-1429.5878"/>
+</g>
+<!-- SecondPerson -->
+<g id="node34" class="node">
+<title>SecondPerson</title>
+<polygon fill="none" stroke="#000000" points="512.6791,-1366.1 512.6791,-1402.1 736.6659,-1402.1 736.6659,-1366.1 512.6791,-1366.1"/>
+<text text-anchor="start" x="520.6791" y="-1381" font-family="Times,serif" font-size="14.00" fill="#000000">SecondPerson &#45; </text>
+<text text-anchor="start" x="611.6539" y="-1381" font-family="Times,serif" font-style="italic" font-size="14.00" fill="#000000">Deuxième personne</text>
+</g>
+<!-- Person&#45;&gt;SecondPerson -->
+<g id="edge27" class="edge">
+<title>Person&#45;&gt;SecondPerson</title>
+<path fill="none" stroke="#000000" d="M236.7603,-1384.1C303.9993,-1384.1 415.8613,-1384.1 502.2299,-1384.1"/>
+<polygon fill="#000000" stroke="#000000" points="502.3647,-1387.6001 512.3647,-1384.1 502.3646,-1380.6001 502.3647,-1387.6001"/>
+</g>
+<!-- ThirdPerson -->
+<g id="node35" class="node">
+<title>ThirdPerson</title>
+<polygon fill="none" stroke="#000000" points="518.1195,-1311.1 518.1195,-1347.1 731.2255,-1347.1 731.2255,-1311.1 518.1195,-1311.1"/>
+<text text-anchor="start" x="526.1195" y="-1326" font-family="Times,serif" font-size="14.00" fill="#000000">ThirdPerson &#45; </text>
+<text text-anchor="start" x="606.9863" y="-1326" font-family="Times,serif" font-style="italic" font-size="14.00" fill="#000000">Troisième personne</text>
+</g>
+<!-- Person&#45;&gt;ThirdPerson -->
+<g id="edge28" class="edge">
+<title>Person&#45;&gt;ThirdPerson</title>
+<path fill="none" stroke="#000000" d="M236.622,-1376.4118C299.9425,-1368.1227 391.7842,-1356.1 391.7842,-1356.1 391.7842,-1356.1 449.8731,-1349.3654 508.0285,-1342.6232"/>
+<polygon fill="#000000" stroke="#000000" points="508.5806,-1346.0827 518.111,-1341.4543 507.7744,-1339.1293 508.5806,-1346.0827"/>
+</g>
+<!-- Tense -->
+<g id="node36" class="node">
+<title>Tense</title>
+<polygon fill="none" stroke="#000000" points="128.2974,-1586.1 128.2974,-1622.1 227.4868,-1622.1 227.4868,-1586.1 128.2974,-1586.1"/>
+<text text-anchor="start" x="136.2974" y="-1601" font-family="Times,serif" font-size="14.00" fill="#000000">Tense &#45; </text>
+<text text-anchor="start" x="181.3844" y="-1601" font-family="Times,serif" font-style="italic" font-size="14.00" fill="#000000">Temps</text>
+</g>
+<!-- Present -->
+<g id="node37" class="node">
+<title>Present</title>
+<polygon fill="none" stroke="#000000" points="569.1523,-1696.1 569.1523,-1732.1 680.1927,-1732.1 680.1927,-1696.1 569.1523,-1696.1"/>
+<text text-anchor="start" x="577.1523" y="-1711" font-family="Times,serif" font-size="14.00" fill="#000000">Present &#45; </text>
+<text text-anchor="start" x="630.0205" y="-1711" font-family="Times,serif" font-style="italic" font-size="14.00" fill="#000000">Présent</text>
+</g>
+<!-- Tense&#45;&gt;Present -->
+<g id="edge29" class="edge">
+<title>Tense&#45;&gt;Present</title>
+<path fill="none" stroke="#000000" d="M225.0964,-1622.1968C288.0854,-1646.3449 391.7842,-1686.1 391.7842,-1686.1 391.7842,-1686.1 490.0853,-1697.9187 558.9572,-1706.1991"/>
+<polygon fill="#000000" stroke="#000000" points="558.5436,-1709.6745 568.8899,-1707.3933 559.3793,-1702.7245 558.5436,-1709.6745"/>
+</g>
+<!-- Futur -->
+<g id="node38" class="node">
+<title>Futur</title>
+<polygon fill="none" stroke="#000000" points="580.5084,-1641.1 580.5084,-1677.1 668.8366,-1677.1 668.8366,-1641.1 580.5084,-1641.1"/>
+<text text-anchor="start" x="588.5084" y="-1656" font-family="Times,serif" font-size="14.00" fill="#000000">Futur &#45; </text>
+<text text-anchor="start" x="630.5028" y="-1656" font-family="Times,serif" font-style="italic" font-size="14.00" fill="#000000">Futur</text>
+</g>
+<!-- Tense&#45;&gt;Futur -->
+<g id="edge30" class="edge">
+<title>Tense&#45;&gt;Futur</title>
+<path fill="none" stroke="#000000" d="M227.5009,-1610.3622C290.6868,-1618.3383 391.7842,-1631.1 391.7842,-1631.1 391.7842,-1631.1 501.2248,-1644.258 570.0602,-1652.534"/>
+<polygon fill="#000000" stroke="#000000" points="569.9735,-1656.0487 580.3198,-1653.7675 570.8091,-1649.0988 569.9735,-1656.0487"/>
+</g>
+<!-- Past -->
+<g id="node39" class="node">
+<title>Past</title>
+<polygon fill="none" stroke="#000000" points="583.1432,-1586.1 583.1432,-1622.1 666.2018,-1622.1 666.2018,-1586.1 583.1432,-1586.1"/>
+<text text-anchor="start" x="591.1432" y="-1601" font-family="Times,serif" font-size="14.00" fill="#000000">Past &#45; </text>
+<text text-anchor="start" x="626.1362" y="-1601" font-family="Times,serif" font-style="italic" font-size="14.00" fill="#000000">Passé</text>
+</g>
+<!-- Tense&#45;&gt;Past -->
+<g id="edge31" class="edge">
+<title>Tense&#45;&gt;Past</title>
+<path fill="none" stroke="#000000" d="M227.843,-1604.1C313.1796,-1604.1 486.1995,-1604.1 572.8197,-1604.1"/>
+<polygon fill="#000000" stroke="#000000" points="572.9431,-1607.6001 582.9431,-1604.1 572.9431,-1600.6001 572.9431,-1607.6001"/>
+</g>
+<!-- Imperfect -->
+<g id="node40" class="node">
+<title>Imperfect</title>
+<polygon fill="none" stroke="#000000" points="557.5974,-1531.1 557.5974,-1567.1 691.7476,-1567.1 691.7476,-1531.1 557.5974,-1531.1"/>
+<text text-anchor="start" x="565.5974" y="-1546" font-family="Times,serif" font-size="14.00" fill="#000000">Imperfect &#45; </text>
+<text text-anchor="start" x="631.6648" y="-1546" font-family="Times,serif" font-style="italic" font-size="14.00" fill="#000000">Imparfait</text>
+</g>
+<!-- Tense&#45;&gt;Imperfect -->
+<g id="edge32" class="edge">
+<title>Tense&#45;&gt;Imperfect</title>
+<path fill="none" stroke="#000000" d="M227.5009,-1597.6059C290.6868,-1589.3344 391.7842,-1576.1 391.7842,-1576.1 391.7842,-1576.1 479.3135,-1565.9523 547.0507,-1558.0991"/>
+<polygon fill="#000000" stroke="#000000" points="547.7812,-1561.538 557.3116,-1556.9095 546.975,-1554.5845 547.7812,-1561.538"/>
+</g>
+<!-- SimplePast -->
+<g id="node41" class="node">
+<title>SimplePast</title>
+<polygon fill="none" stroke="#000000" points="542.8932,-1476.1 542.8932,-1512.1 706.4518,-1512.1 706.4518,-1476.1 542.8932,-1476.1"/>
+<text text-anchor="start" x="550.8932" y="-1491" font-family="Times,serif" font-size="14.00" fill="#000000">SimplePast &#45; </text>
+<text text-anchor="start" x="625.5552" y="-1491" font-family="Times,serif" font-style="italic" font-size="14.00" fill="#000000">Passé simple</text>
+</g>
+<!-- Tense&#45;&gt;SimplePast -->
+<g id="edge33" class="edge">
+<title>Tense&#45;&gt;SimplePast</title>
+<path fill="none" stroke="#000000" d="M224.3035,-1586.0902C287.2109,-1561.6793 391.7842,-1521.1 391.7842,-1521.1 391.7842,-1521.1 467.7846,-1512.2889 532.9534,-1504.7335"/>
+<polygon fill="#000000" stroke="#000000" points="533.3619,-1508.2097 542.8923,-1503.5812 532.5557,-1501.2562 533.3619,-1508.2097"/>
+</g>
+<!-- Mood -->
+<g id="node42" class="node">
+<title>Mood</title>
+<polygon fill="none" stroke="#000000" points="131.0099,-1888.1 131.0099,-1924.1 224.7743,-1924.1 224.7743,-1888.1 131.0099,-1888.1"/>
+<text text-anchor="start" x="139.0099" y="-1903" font-family="Times,serif" font-size="14.00" fill="#000000">Mood &#45; </text>
+<text text-anchor="start" x="184.1151" y="-1903" font-family="Times,serif" font-style="italic" font-size="14.00" fill="#000000">Mode</text>
+</g>
+<!-- Inifinitive -->
+<g id="node43" class="node">
+<title>Inifinitive</title>
+<polygon fill="none" stroke="#000000" points="563.021,-2026.1 563.021,-2062.1 686.324,-2062.1 686.324,-2026.1 563.021,-2026.1"/>
+<text text-anchor="start" x="571.021" y="-2041" font-family="Times,serif" font-size="14.00" fill="#000000">Infinitive &#45; </text>
+<text text-anchor="start" x="634.7798" y="-2041" font-family="Times,serif" font-style="italic" font-size="14.00" fill="#000000">Infinitif</text>
+</g>
+<!-- Mood&#45;&gt;Inifinitive -->
+<g id="edge34" class="edge">
+<title>Mood&#45;&gt;Inifinitive</title>
+<path fill="none" stroke="#000000" d="M213.212,-1924.2643C273.9634,-1955.5073 391.7842,-2016.1 391.7842,-2016.1 391.7842,-2016.1 484.153,-2027.2054 552.5465,-2035.4283"/>
+<polygon fill="#000000" stroke="#000000" points="552.5278,-2038.9512 562.8741,-2036.67 553.3635,-2032.0013 552.5278,-2038.9512"/>
+</g>
+<!-- Indicative -->
+<g id="node44" class="node">
+<title>Indicative</title>
+<polygon fill="none" stroke="#000000" points="559.143,-1971.1 559.143,-2007.1 690.202,-2007.1 690.202,-1971.1 559.143,-1971.1"/>
+<text text-anchor="start" x="567.143" y="-1986" font-family="Times,serif" font-size="14.00" fill="#000000">Indicative &#45; </text>
+<text text-anchor="start" x="634.7798" y="-1986" font-family="Times,serif" font-style="italic" font-size="14.00" fill="#000000">Indicatif</text>
+</g>
+<!-- Mood&#45;&gt;Indicative -->
+<g id="edge35" class="edge">
+<title>Mood&#45;&gt;Indicative</title>
+<path fill="none" stroke="#000000" d="M224.8316,-1918.17C287.7943,-1934.3601 391.7842,-1961.1 391.7842,-1961.1 391.7842,-1961.1 480.6448,-1971.7836 548.5868,-1979.9523"/>
+<polygon fill="#000000" stroke="#000000" points="548.5236,-1983.4698 558.8699,-1981.1886 549.3592,-1976.5198 548.5236,-1983.4698"/>
+</g>
+<!-- Participle -->
+<g id="node45" class="node">
+<title>Participle</title>
+<polygon fill="none" stroke="#000000" points="559.1381,-1916.1 559.1381,-1952.1 690.2069,-1952.1 690.2069,-1916.1 559.1381,-1916.1"/>
+<text text-anchor="start" x="567.1381" y="-1931" font-family="Times,serif" font-size="14.00" fill="#000000">Participle &#45; </text>
+<text text-anchor="start" x="632.4481" y="-1931" font-family="Times,serif" font-style="italic" font-size="14.00" fill="#000000">Participe</text>
+</g>
+<!-- Mood&#45;&gt;Participle -->
+<g id="edge36" class="edge">
+<title>Mood&#45;&gt;Participle</title>
+<path fill="none" stroke="#000000" d="M224.861,-1909.0436C301.9537,-1913.875 456.0097,-1923.5298 548.7581,-1929.3424"/>
+<polygon fill="#000000" stroke="#000000" points="548.7236,-1932.847 558.923,-1929.9794 549.1615,-1925.8607 548.7236,-1932.847"/>
+</g>
+<!-- Subjunctive -->
+<g id="node46" class="node">
+<title>Subjunctive</title>
+<polygon fill="none" stroke="#000000" points="548.2356,-1861.1 548.2356,-1897.1 701.1094,-1897.1 701.1094,-1861.1 548.2356,-1861.1"/>
+<text text-anchor="start" x="556.2356" y="-1876" font-family="Times,serif" font-size="14.00" fill="#000000">Subjunctive &#45; </text>
+<text text-anchor="start" x="634.7798" y="-1876" font-family="Times,serif" font-style="italic" font-size="14.00" fill="#000000">Subjonctif</text>
+</g>
+<!-- Mood&#45;&gt;Subjunctive -->
+<g id="edge37" class="edge">
+<title>Mood&#45;&gt;Subjunctive</title>
+<path fill="none" stroke="#000000" d="M224.861,-1903.2616C299.0055,-1898.7808 444.3394,-1889.998 537.8561,-1884.3465"/>
+<polygon fill="#000000" stroke="#000000" points="538.0956,-1887.8385 547.8662,-1883.7416 537.6733,-1880.8513 538.0956,-1887.8385"/>
+</g>
+<!-- Imperative -->
+<g id="node47" class="node">
+<title>Imperative</title>
+<polygon fill="none" stroke="#000000" points="554.0001,-1806.1 554.0001,-1842.1 695.3449,-1842.1 695.3449,-1806.1 554.0001,-1806.1"/>
+<text text-anchor="start" x="562.0001" y="-1821" font-family="Times,serif" font-size="14.00" fill="#000000">Imperative &#45; </text>
+<text text-anchor="start" x="634.2975" y="-1821" font-family="Times,serif" font-style="italic" font-size="14.00" fill="#000000">Impératif</text>
+</g>
+<!-- Mood&#45;&gt;Imperative -->
+<g id="edge38" class="edge">
+<title>Mood&#45;&gt;Imperative</title>
+<path fill="none" stroke="#000000" d="M224.8316,-1894.03C287.7943,-1877.8399 391.7842,-1851.1 391.7842,-1851.1 391.7842,-1851.1 476.4202,-1841.2877 543.6479,-1833.4936"/>
+<polygon fill="#000000" stroke="#000000" points="544.3194,-1836.9393 553.8498,-1832.3109 543.5132,-1829.9859 544.3194,-1836.9393"/>
+</g>
+<!-- Conditional -->
+<g id="node48" class="node">
+<title>Conditional</title>
+<polygon fill="none" stroke="#000000" points="541.2286,-1751.1 541.2286,-1787.1 708.1164,-1787.1 708.1164,-1751.1 541.2286,-1751.1"/>
+<text text-anchor="start" x="549.2286" y="-1766" font-family="Times,serif" font-size="14.00" fill="#000000">Conditional &#45; </text>
+<text text-anchor="start" x="627.0028" y="-1766" font-family="Times,serif" font-style="italic" font-size="14.00" fill="#000000">Conditionnel</text>
+</g>
+<!-- Mood&#45;&gt;Conditional -->
+<g id="edge39" class="edge">
+<title>Mood&#45;&gt;Conditional</title>
+<path fill="none" stroke="#000000" d="M213.212,-1887.9357C273.9634,-1856.6927 391.7842,-1796.1 391.7842,-1796.1 391.7842,-1796.1 466.0032,-1787.4954 530.6441,-1780.0012"/>
+<polygon fill="#000000" stroke="#000000" points="531.3931,-1783.4379 540.9235,-1778.8095 530.5869,-1776.4845 531.3931,-1783.4379"/>
+</g>
+<!-- Gender -->
+<g id="node49" class="node">
+<title>Gender</title>
+<polygon fill="none" stroke="#000000" points="126.3654,-2163.1 126.3654,-2199.1 229.4188,-2199.1 229.4188,-2163.1 126.3654,-2163.1"/>
+<text text-anchor="start" x="134.3654" y="-2178" font-family="Times,serif" font-size="14.00" fill="#000000">Gender &#45; </text>
+<text text-anchor="start" x="187.2224" y="-2178" font-family="Times,serif" font-style="italic" font-size="14.00" fill="#000000">Genre</text>
+</g>
+<!-- Masculine -->
+<g id="node50" class="node">
+<title>Masculine</title>
+<polygon fill="none" stroke="#000000" points="555.6353,-2246.1 555.6353,-2282.1 693.7097,-2282.1 693.7097,-2246.1 555.6353,-2246.1"/>
+<text text-anchor="start" x="563.6353" y="-2261" font-family="Times,serif" font-size="14.00" fill="#000000">Masculine &#45; </text>
+<text text-anchor="start" x="633.6101" y="-2261" font-family="Times,serif" font-style="italic" font-size="14.00" fill="#000000">Masculin</text>
+</g>
+<!-- Gender&#45;&gt;Masculine -->
+<g id="edge40" class="edge">
+<title>Gender&#45;&gt;Masculine</title>
+<path fill="none" stroke="#000000" d="M229.6694,-2194.414C292.9714,-2210.6914 391.7842,-2236.1 391.7842,-2236.1 391.7842,-2236.1 477.7293,-2246.4331 545.1985,-2254.5449"/>
+<polygon fill="#000000" stroke="#000000" points="545.0826,-2258.0561 555.4289,-2255.7749 545.9182,-2251.1061 545.0826,-2258.0561"/>
+</g>
+<!-- Feminine -->
+<g id="node51" class="node">
+<title>Feminine</title>
+<polygon fill="none" stroke="#000000" points="561.0659,-2191.1 561.0659,-2227.1 688.2791,-2227.1 688.2791,-2191.1 561.0659,-2191.1"/>
+<text text-anchor="start" x="569.0659" y="-2206" font-family="Times,serif" font-size="14.00" fill="#000000">Feminine &#45; </text>
+<text text-anchor="start" x="633.6101" y="-2206" font-family="Times,serif" font-style="italic" font-size="14.00" fill="#000000">Feminin</text>
+</g>
+<!-- Gender&#45;&gt;Feminine -->
+<g id="edge41" class="edge">
+<title>Gender&#45;&gt;Feminine</title>
+<path fill="none" stroke="#000000" d="M229.58,-2184.3393C308.6504,-2189.2947 459.991,-2198.7793 550.6808,-2204.4629"/>
+<polygon fill="#000000" stroke="#000000" points="550.689,-2207.9702 560.8884,-2205.1026 551.1269,-2200.9839 550.689,-2207.9702"/>
+</g>
+<!-- InvariableGender -->
+<g id="node52" class="node">
+<title>InvariableGender</title>
+<polygon fill="none" stroke="#000000" points="515.0346,-2136.1 515.0346,-2172.1 734.3104,-2172.1 734.3104,-2136.1 515.0346,-2136.1"/>
+<text text-anchor="start" x="523.0346" y="-2151" font-family="Times,serif" font-size="14.00" fill="#000000">InvariableGender &#45; </text>
+<text text-anchor="start" x="632.6378" y="-2151" font-family="Times,serif" font-style="italic" font-size="14.00" fill="#000000">Genre invariable</text>
+</g>
+<!-- Gender&#45;&gt;InvariableGender -->
+<g id="edge42" class="edge">
+<title>Gender&#45;&gt;InvariableGender</title>
+<path fill="none" stroke="#000000" d="M229.58,-2177.9764C296.3751,-2173.9398 414.7431,-2166.7865 504.5556,-2161.359"/>
+<polygon fill="#000000" stroke="#000000" points="505.0371,-2164.8363 514.8077,-2160.7394 504.6148,-2157.8491 505.0371,-2164.8363"/>
+</g>
+<!-- EpiceneGender -->
+<g id="node53" class="node">
+<title>EpiceneGender</title>
+<polygon fill="none" stroke="#000000" points="542.63,-2081.1 542.63,-2117.1 706.715,-2117.1 706.715,-2081.1 542.63,-2081.1"/>
+<text text-anchor="start" x="550.63" y="-2096" font-family="Times,serif" font-size="14.00" fill="#000000">EpiceneGender &#45; </text>
+<text text-anchor="start" x="648.574" y="-2096" font-family="Times,serif" font-style="italic" font-size="14.00" fill="#000000">Épicène</text>
+</g>
+<!-- Gender&#45;&gt;EpiceneGender -->
+<g id="edge43" class="edge">
+<title>Gender&#45;&gt;EpiceneGender</title>
+<path fill="none" stroke="#000000" d="M229.6694,-2167.786C292.9714,-2151.5086 391.7842,-2126.1 391.7842,-2126.1 391.7842,-2126.1 467.2269,-2117.3535 532.2343,-2109.8169"/>
+<polygon fill="#000000" stroke="#000000" points="533.0344,-2113.2476 542.5648,-2108.6192 532.2282,-2106.2942 533.0344,-2113.2476"/>
+</g>
+<!-- Number -->
+<g id="node54" class="node">
+<title>Number</title>
+<polygon fill="none" stroke="#000000" points="118.1894,-2356.1 118.1894,-2392.1 237.5948,-2392.1 237.5948,-2356.1 118.1894,-2356.1"/>
+<text text-anchor="start" x="126.1894" y="-2371" font-family="Times,serif" font-size="14.00" fill="#000000">Number &#45; </text>
+<text text-anchor="start" x="183.7224" y="-2371" font-family="Times,serif" font-style="italic" font-size="14.00" fill="#000000">Nombre</text>
+</g>
+<!-- Singular -->
+<g id="node55" class="node">
+<title>Singular</title>
+<polygon fill="none" stroke="#000000" points="561.4579,-2411.1 561.4579,-2447.1 687.8871,-2447.1 687.8871,-2411.1 561.4579,-2411.1"/>
+<text text-anchor="start" x="569.4579" y="-2426" font-family="Times,serif" font-size="14.00" fill="#000000">Singular &#45; </text>
+<text text-anchor="start" x="628.5575" y="-2426" font-family="Times,serif" font-style="italic" font-size="14.00" fill="#000000">Singulier</text>
+</g>
+<!-- Number&#45;&gt;Singular -->
+<g id="edge44" class="edge">
+<title>Number&#45;&gt;Singular</title>
+<path fill="none" stroke="#000000" d="M237.7574,-2381.6569C301.0342,-2389.6445 391.7842,-2401.1 391.7842,-2401.1 391.7842,-2401.1 482.7956,-2412.0422 551.0295,-2420.246"/>
+<polygon fill="#000000" stroke="#000000" points="550.996,-2423.7671 561.3424,-2421.4859 551.8317,-2416.8171 550.996,-2423.7671"/>
+</g>
+<!-- Plural -->
+<g id="node56" class="node">
+<title>Plural</title>
+<polygon fill="none" stroke="#000000" points="575.4579,-2356.1 575.4579,-2392.1 673.8871,-2392.1 673.8871,-2356.1 575.4579,-2356.1"/>
+<text text-anchor="start" x="583.4579" y="-2371" font-family="Times,serif" font-size="14.00" fill="#000000">Plural &#45; </text>
+<text text-anchor="start" x="628.5575" y="-2371" font-family="Times,serif" font-style="italic" font-size="14.00" fill="#000000">Pluriel</text>
+</g>
+<!-- Number&#45;&gt;Plural -->
+<g id="edge45" class="edge">
+<title>Number&#45;&gt;Plural</title>
+<path fill="none" stroke="#000000" d="M237.6833,-2374.1C323.2536,-2374.1 479.7183,-2374.1 565.1435,-2374.1"/>
+<polygon fill="#000000" stroke="#000000" points="565.1996,-2377.6001 575.1995,-2374.1 565.1995,-2370.6001 565.1996,-2377.6001"/>
+</g>
+<!-- InvariableNumber -->
+<g id="node57" class="node">
+<title>InvariableNumber</title>
+<polygon fill="none" stroke="#000000" points="499.6696,-2301.1 499.6696,-2337.1 749.6754,-2337.1 749.6754,-2301.1 499.6696,-2301.1"/>
+<text text-anchor="start" x="507.6696" y="-2316" font-family="Times,serif" font-size="14.00" fill="#000000">InvariableNumber &#45; </text>
+<text text-anchor="start" x="621.9488" y="-2316" font-family="Times,serif" font-style="italic" font-size="14.00" fill="#000000">Invariable en nombre</text>
+</g>
+<!-- Number&#45;&gt;InvariableNumber -->
+<g id="edge46" class="edge">
+<title>Number&#45;&gt;InvariableNumber</title>
+<path fill="none" stroke="#000000" d="M237.7574,-2366.2632C301.0342,-2357.9798 391.7842,-2346.1 391.7842,-2346.1 391.7842,-2346.1 438.0831,-2340.7323 489.394,-2334.7836"/>
+<polygon fill="#000000" stroke="#000000" points="489.8358,-2338.2559 499.3662,-2333.6274 489.0296,-2331.3025 489.8358,-2338.2559"/>
+</g>
+<!-- Inflection -->
+<g id="node58" class="node">
+<title>Inflection</title>
+<polygon fill="none" stroke="#000000" points="43.4322,-2567.9 43.4322,-2642.3 312.352,-2642.3 312.352,-2567.9 43.4322,-2567.9"/>
+<text text-anchor="start" x="123.4615" y="-2626.7" font-family="Times,serif" font-size="14.00" fill="#000000">Inflection &#45; </text>
+<text text-anchor="start" x="189.5443" y="-2626.7" font-family="Times,serif" font-style="italic" font-size="14.00" fill="#000000">Flexion</text>
+<polyline fill="none" stroke="#000000" points="43.4322,-2617.5 312.352,-2617.5 "/>
+<text text-anchor="start" x="99.0567" y="-2601.9" font-family="Times,serif" font-size="14.00" fill="#000000">{Lemma} lemma &#45; </text>
+<text text-anchor="start" x="208.5185" y="-2601.9" font-family="Times,serif" font-style="italic" font-size="14.00" fill="#000000">Lèmme</text>
+<polyline fill="none" stroke="#000000" points="43.4322,-2592.7 312.352,-2592.7 "/>
+<text text-anchor="start" x="51.4322" y="-2577.1" font-family="Times,serif" font-size="14.00" fill="#000000">{Morphemes[]} morphemes &#45; </text>
+<text text-anchor="start" x="221.5364" y="-2577.1" font-family="Times,serif" font-style="italic" font-size="14.00" fill="#000000">Morphèmes</text>
+<text text-anchor="start" x="293.852" y="-2577.1" font-family="Times,serif" font-size="14.00" fill="#000000"> &#160;&#160;</text>
+</g>
+<!-- Declension -->
+<g id="node59" class="node">
+<title>Declension</title>
+<polygon fill="none" stroke="#000000" points="535.1183,-2633.9 535.1183,-2708.3 714.2267,-2708.3 714.2267,-2633.9 535.1183,-2633.9"/>
+<text text-anchor="start" x="553.4384" y="-2692.7" font-family="Times,serif" font-size="14.00" fill="#000000">Declension &#45; </text>
+<text text-anchor="start" x="628.0752" y="-2692.7" font-family="Times,serif" font-style="italic" font-size="14.00" fill="#000000">Déclinaison</text>
+<polyline fill="none" stroke="#000000" points="535.1183,-2683.5 714.2267,-2683.5 "/>
+<text text-anchor="start" x="543.1183" y="-2666.9" font-family="Times,serif" font-size="14.00" fill="#000000">{Number} number &#45; Nombre</text>
+<polyline fill="none" stroke="#000000" points="535.1183,-2658.7 714.2267,-2658.7 "/>
+<text text-anchor="start" x="544.8823" y="-2642.1" font-family="Times,serif" font-size="14.00" fill="#000000">{Gender} gender &#45; Genre &#160;&#160;&#160;&#160;</text>
+</g>
+<!-- Inflection&#45;&gt;Declension -->
+<g id="edge47" class="edge">
+<title>Inflection&#45;&gt;Declension</title>
+<path fill="none" stroke="#000000" d="M312.5468,-2624.9917C380.6951,-2635.0588 461.9993,-2647.0693 524.5406,-2656.3082"/>
+<polygon fill="#000000" stroke="#000000" points="524.4015,-2659.8255 534.8057,-2657.8245 525.4245,-2652.9007 524.4015,-2659.8255"/>
+</g>
+<!-- Conjugation -->
+<g id="node60" class="node">
+<title>Conjugation</title>
+<polygon fill="none" stroke="#000000" points="535.1183,-2465.7 535.1183,-2614.5 714.2267,-2614.5 714.2267,-2465.7 535.1183,-2465.7"/>
+<text text-anchor="start" x="548.8422" y="-2598.9" font-family="Times,serif" font-size="14.00" fill="#000000">Conjugation &#45; </text>
+<text text-anchor="start" x="629.7258" y="-2598.9" font-family="Times,serif" font-style="italic" font-size="14.00" fill="#000000">Conjugaison</text>
+<polyline fill="none" stroke="#000000" points="535.1183,-2589.7 714.2267,-2589.7 "/>
+<text text-anchor="start" x="561.3764" y="-2573.1" font-family="Times,serif" font-size="14.00" fill="#000000">{Mood} mood &#45; Mode</text>
+<polyline fill="none" stroke="#000000" points="535.1183,-2564.9 714.2267,-2564.9 "/>
+<text text-anchor="start" x="560.227" y="-2548.3" font-family="Times,serif" font-size="14.00" fill="#000000">{Tense} tense &#45; Temps</text>
+<polyline fill="none" stroke="#000000" points="535.1183,-2540.1 714.2267,-2540.1 "/>
+<text text-anchor="start" x="549.7186" y="-2523.5" font-family="Times,serif" font-size="14.00" fill="#000000">{Person} mood &#45; Personne</text>
+<polyline fill="none" stroke="#000000" points="535.1183,-2515.3 714.2267,-2515.3 "/>
+<text text-anchor="start" x="543.1183" y="-2498.7" font-family="Times,serif" font-size="14.00" fill="#000000">{Number} number &#45; Nombre</text>
+<polyline fill="none" stroke="#000000" points="535.1183,-2490.5 714.2267,-2490.5 "/>
+<text text-anchor="start" x="544.8823" y="-2473.9" font-family="Times,serif" font-size="14.00" fill="#000000">{Gender} gender &#45; Genre &#160;&#160;&#160;&#160;</text>
+</g>
+<!-- Inflection&#45;&gt;Conjugation -->
+<g id="edge48" class="edge">
+<title>Inflection&#45;&gt;Conjugation</title>
+<path fill="none" stroke="#000000" d="M312.5468,-2585.5097C380.6951,-2575.5951 461.9993,-2563.7666 524.5406,-2554.6677"/>
+<polygon fill="#000000" stroke="#000000" points="525.4138,-2558.0776 534.8057,-2553.1743 524.4059,-2551.1506 525.4138,-2558.0776"/>
+</g>
+<!-- Lemma -->
+<g id="node61" class="node">
+<title>Lemma</title>
+<polygon fill="none" stroke="#000000" points="48.6822,-2982.9 48.6822,-3057.3 307.102,-3057.3 307.102,-2982.9 48.6822,-2982.9"/>
+<text text-anchor="start" x="129.2988" y="-3041.7" font-family="Times,serif" font-size="14.00" fill="#000000">Lemma &#45; </text>
+<text text-anchor="start" x="183.7224" y="-3041.7" font-family="Times,serif" font-style="italic" font-size="14.00" fill="#000000">Lemme</text>
+<polyline fill="none" stroke="#000000" points="48.6822,-3032.5 307.102,-3032.5 "/>
+<text text-anchor="start" x="56.6822" y="-3016.9" font-family="Times,serif" font-size="14.00" fill="#000000">{Morphemes[]} morphemes &#45; </text>
+<text text-anchor="start" x="226.7864" y="-3016.9" font-family="Times,serif" font-style="italic" font-size="14.00" fill="#000000">Morphèmes</text>
+<polyline fill="none" stroke="#000000" points="48.6822,-3007.7 307.102,-3007.7 "/>
+<text text-anchor="start" x="82.1321" y="-2992.1" font-family="Times,serif" font-size="14.00" fill="#000000">{string} meaning &#45; </text>
+<text text-anchor="start" x="190.8267" y="-2992.1" font-family="Times,serif" font-style="italic" font-size="14.00" fill="#000000">Signification</text>
+<text text-anchor="start" x="263.1521" y="-2992.1" font-family="Times,serif" font-size="14.00" fill="#000000"> &#160;&#160;</text>
+</g>
+<!-- Noun -->
+<g id="node62" class="node">
+<title>Noun</title>
+<polygon fill="none" stroke="#000000" points="529.7724,-3425.3 529.7724,-3474.9 719.5726,-3474.9 719.5726,-3425.3 529.7724,-3425.3"/>
+<text text-anchor="start" x="589.2903" y="-3459.3" font-family="Times,serif" font-size="14.00" fill="#000000">Noun &#45; </text>
+<text text-anchor="start" x="632.0575" y="-3459.3" font-family="Times,serif" font-style="italic" font-size="14.00" fill="#000000">Nom</text>
+<polyline fill="none" stroke="#000000" points="529.7724,-3450.1 719.5726,-3450.1 "/>
+<text text-anchor="start" x="537.7724" y="-3433.5" font-family="Times,serif" font-size="14.00" fill="#000000">{boolean} animate &#45; Animé &#160;&#160;&#160;&#160;</text>
+</g>
+<!-- Lemma&#45;&gt;Noun -->
+<g id="edge61" class="edge">
+<title>Lemma&#45;&gt;Noun</title>
+<path fill="none" stroke="#000000" d="M205.8548,-3057.4895C263.8328,-3135.0132 391.7842,-3306.1 391.7842,-3306.1 391.7842,-3306.1 507.1269,-3377.4189 575.4664,-3419.6748"/>
+<polygon fill="#000000" stroke="#000000" points="574.0262,-3422.8993 584.3723,-3425.1815 577.7076,-3416.9455 574.0262,-3422.8993"/>
+</g>
+<!-- Determiner -->
+<g id="node70" class="node">
+<title>Determiner</title>
+<polygon fill="none" stroke="#000000" points="543.5015,-3260.1 543.5015,-3296.1 705.8435,-3296.1 705.8435,-3260.1 543.5015,-3260.1"/>
+<text text-anchor="start" x="551.5015" y="-3275" font-family="Times,serif" font-size="14.00" fill="#000000">Determiner &#45; </text>
+<text text-anchor="start" x="626.9055" y="-3275" font-family="Times,serif" font-style="italic" font-size="14.00" fill="#000000">Déterminant</text>
+</g>
+<!-- Lemma&#45;&gt;Determiner -->
+<g id="edge62" class="edge">
+<title>Lemma&#45;&gt;Determiner</title>
+<path fill="none" stroke="#000000" d="M212.4953,-3057.4709C273.0314,-3122.8489 391.7842,-3251.1 391.7842,-3251.1 391.7842,-3251.1 468.032,-3259.9398 533.2712,-3267.5034"/>
+<polygon fill="#000000" stroke="#000000" points="532.8829,-3270.9817 543.2195,-3268.6567 533.6891,-3264.0283 532.8829,-3270.9817"/>
+</g>
+<!-- Pronoun -->
+<g id="node76" class="node">
+<title>Pronoun</title>
+<polygon fill="none" stroke="#000000" points="564.9537,-3205.1 564.9537,-3241.1 684.3913,-3241.1 684.3913,-3205.1 564.9537,-3205.1"/>
+<text text-anchor="start" x="572.9537" y="-3220" font-family="Times,serif" font-size="14.00" fill="#000000">Pronoun &#45; </text>
+<text text-anchor="start" x="632.0575" y="-3220" font-family="Times,serif" font-style="italic" font-size="14.00" fill="#000000">Pronom</text>
+</g>
+<!-- Lemma&#45;&gt;Pronoun -->
+<g id="edge63" class="edge">
+<title>Lemma&#45;&gt;Pronoun</title>
+<path fill="none" stroke="#000000" d="M223.2531,-3057.4251C286.0392,-3109.0883 391.7842,-3196.1 391.7842,-3196.1 391.7842,-3196.1 485.795,-3206.9992 554.3566,-3214.9479"/>
+<polygon fill="#000000" stroke="#000000" points="554.3614,-3218.4718 564.698,-3216.1468 555.1676,-3211.5184 554.3614,-3218.4718"/>
+</g>
+<!-- Verb -->
+<g id="node77" class="node">
+<title>Verb</title>
+<polygon fill="none" stroke="#000000" points="484.7848,-3111.9 484.7848,-3186.3 764.5602,-3186.3 764.5602,-3111.9 484.7848,-3111.9"/>
+<text text-anchor="start" x="587.7531" y="-3170.7" font-family="Times,serif" font-size="14.00" fill="#000000">Verb &#45; </text>
+<text text-anchor="start" x="627.3955" y="-3170.7" font-family="Times,serif" font-style="italic" font-size="14.00" fill="#000000">Verbe</text>
+<polyline fill="none" stroke="#000000" points="484.7848,-3161.5 764.5602,-3161.5 "/>
+<text text-anchor="start" x="534.9535" y="-3145.9" font-family="Times,serif" font-size="14.00" fill="#000000">{boolean} auxiliary &#45; </text>
+<text text-anchor="start" x="657.6327" y="-3145.9" font-family="Times,serif" font-style="italic" font-size="14.00" fill="#000000">Auxiliaire</text>
+<polyline fill="none" stroke="#000000" points="484.7848,-3136.7 764.5602,-3136.7 "/>
+<text text-anchor="start" x="492.7848" y="-3121.1" font-family="Times,serif" font-size="14.00" fill="#000000">{VerbGroup} verbGroup &#45; </text>
+<text text-anchor="start" x="645.774" y="-3121.1" font-family="Times,serif" font-style="italic" font-size="14.00" fill="#000000">Groupe de verbe</text>
+<text text-anchor="start" x="739.0602" y="-3121.1" font-family="Times,serif" font-size="14.00" fill="#000000"> &#160;&#160;&#160;&#160;</text>
+</g>
+<!-- Lemma&#45;&gt;Verb -->
+<g id="edge64" class="edge">
+<title>Lemma&#45;&gt;Verb</title>
+<path fill="none" stroke="#000000" d="M275.1371,-3057.3809C331.6399,-3079.0424 391.7842,-3102.1 391.7842,-3102.1 391.7842,-3102.1 429.445,-3109.7005 474.4772,-3118.7886"/>
+<polygon fill="#000000" stroke="#000000" points="474.0022,-3122.2632 484.497,-3120.8107 475.387,-3115.4015 474.0022,-3122.2632"/>
+</g>
+<!-- Adverb -->
+<g id="node78" class="node">
+<title>Adverb</title>
+<polygon fill="none" stroke="#000000" points="565.7531,-3057.1 565.7531,-3093.1 683.5919,-3093.1 683.5919,-3057.1 565.7531,-3057.1"/>
+<text text-anchor="start" x="573.7531" y="-3072" font-family="Times,serif" font-size="14.00" fill="#000000">Adverb &#45; </text>
+<text text-anchor="start" x="627.3955" y="-3072" font-family="Times,serif" font-style="italic" font-size="14.00" fill="#000000">Adverbe</text>
+</g>
+<!-- Lemma&#45;&gt;Adverb -->
+<g id="edge65" class="edge">
+<title>Lemma&#45;&gt;Adverb</title>
+<path fill="none" stroke="#000000" d="M307.2484,-3036.4289C352.293,-3042.115 391.7842,-3047.1 391.7842,-3047.1 391.7842,-3047.1 486.6215,-3058.5022 555.2572,-3066.7542"/>
+<polygon fill="#000000" stroke="#000000" points="555.2576,-3070.2794 565.6039,-3067.9982 556.0932,-3063.3295 555.2576,-3070.2794"/>
+</g>
+<!-- Adjective -->
+<g id="node79" class="node">
+<title>Adjective</title>
+<polygon fill="none" stroke="#000000" points="560.697,-3002.1 560.697,-3038.1 688.648,-3038.1 688.648,-3002.1 560.697,-3002.1"/>
+<text text-anchor="start" x="568.697" y="-3017" font-family="Times,serif" font-size="14.00" fill="#000000">Adjective &#45; </text>
+<text text-anchor="start" x="634.7798" y="-3017" font-family="Times,serif" font-style="italic" font-size="14.00" fill="#000000">Adjectif</text>
+</g>
+<!-- Lemma&#45;&gt;Adjective -->
+<g id="edge66" class="edge">
+<title>Lemma&#45;&gt;Adjective</title>
+<path fill="none" stroke="#000000" d="M307.1195,-3020.1C386.0127,-3020.1 484.0849,-3020.1 550.1992,-3020.1"/>
+<polygon fill="#000000" stroke="#000000" points="550.528,-3023.6001 560.5279,-3020.1 550.5279,-3016.6001 550.528,-3023.6001"/>
+</g>
+<!-- Interjection -->
+<g id="node80" class="node">
+<title>Interjection</title>
+<polygon fill="none" stroke="#000000" points="546.3148,-2947.1 546.3148,-2983.1 703.0302,-2983.1 703.0302,-2947.1 546.3148,-2947.1"/>
+<text text-anchor="start" x="554.3148" y="-2962" font-family="Times,serif" font-size="14.00" fill="#000000">Interjection &#45; </text>
+<text text-anchor="start" x="630.5028" y="-2962" font-family="Times,serif" font-style="italic" font-size="14.00" fill="#000000">Interjection</text>
+</g>
+<!-- Lemma&#45;&gt;Interjection -->
+<g id="edge67" class="edge">
+<title>Lemma&#45;&gt;Interjection</title>
+<path fill="none" stroke="#000000" d="M307.2484,-3003.1663C352.293,-2997.2697 391.7842,-2992.1 391.7842,-2992.1 391.7842,-2992.1 470.2763,-2983 536.1234,-2975.366"/>
+<polygon fill="#000000" stroke="#000000" points="536.6215,-2978.8318 546.1518,-2974.2033 535.8152,-2971.8783 536.6215,-2978.8318"/>
+</g>
+<!-- Preposition -->
+<g id="node81" class="node">
+<title>Preposition</title>
+<polygon fill="none" stroke="#000000" points="546.5857,-2892.1 546.5857,-2928.1 702.7593,-2928.1 702.7593,-2892.1 546.5857,-2892.1"/>
+<text text-anchor="start" x="554.5857" y="-2907" font-family="Times,serif" font-size="14.00" fill="#000000">Preposition &#45; </text>
+<text text-anchor="start" x="630.0205" y="-2907" font-family="Times,serif" font-style="italic" font-size="14.00" fill="#000000">Préposition</text>
+</g>
+<!-- Lemma&#45;&gt;Preposition -->
+<g id="edge68" class="edge">
+<title>Lemma&#45;&gt;Preposition</title>
+<path fill="none" stroke="#000000" d="M273.8891,-2982.8487C330.7505,-2960.7839 391.7842,-2937.1 391.7842,-2937.1 391.7842,-2937.1 470.5276,-2927.9708 536.4394,-2920.3293"/>
+<polygon fill="#000000" stroke="#000000" points="536.9458,-2923.7942 546.4762,-2919.1657 536.1396,-2916.8407 536.9458,-2923.7942"/>
+</g>
+<!-- Conjunction -->
+<g id="node82" class="node">
+<title>Conjunction</title>
+<polygon fill="none" stroke="#000000" points="541.6192,-2837.1 541.6192,-2873.1 707.7258,-2873.1 707.7258,-2837.1 541.6192,-2837.1"/>
+<text text-anchor="start" x="549.6192" y="-2852" font-family="Times,serif" font-size="14.00" fill="#000000">Conjunction &#45; </text>
+<text text-anchor="start" x="630.5028" y="-2852" font-family="Times,serif" font-style="italic" font-size="14.00" fill="#000000">Conjonction</text>
+</g>
+<!-- Lemma&#45;&gt;Conjunction -->
+<g id="edge69" class="edge">
+<title>Lemma&#45;&gt;Conjunction</title>
+<path fill="none" stroke="#000000" d="M235.7744,-2982.7552C299.1194,-2941.8859 391.7842,-2882.1 391.7842,-2882.1 391.7842,-2882.1 466.4915,-2873.4388 531.2806,-2865.9274"/>
+<polygon fill="#000000" stroke="#000000" points="532.0504,-2869.3617 541.5808,-2864.7333 531.2442,-2862.4083 532.0504,-2869.3617"/>
+</g>
+<!-- Numeral -->
+<g id="node83" class="node">
+<title>Numeral</title>
+<polygon fill="none" stroke="#000000" points="563.4172,-2782.1 563.4172,-2818.1 685.9278,-2818.1 685.9278,-2782.1 563.4172,-2782.1"/>
+<text text-anchor="start" x="571.4172" y="-2797" font-family="Times,serif" font-size="14.00" fill="#000000">Numeral &#45; </text>
+<text text-anchor="start" x="632.0554" y="-2797" font-family="Times,serif" font-style="italic" font-size="14.00" fill="#000000">Nombre</text>
+</g>
+<!-- Lemma&#45;&gt;Numeral -->
+<g id="edge70" class="edge">
+<title>Lemma&#45;&gt;Numeral</title>
+<path fill="none" stroke="#000000" d="M219.1326,-2982.8877C281.2872,-2926.8041 391.7842,-2827.1 391.7842,-2827.1 391.7842,-2827.1 484.4256,-2816.3596 552.849,-2808.4269"/>
+<polygon fill="#000000" stroke="#000000" points="553.6488,-2811.8577 563.1792,-2807.2292 552.8426,-2804.9043 553.6488,-2811.8577"/>
+</g>
+<!-- Other -->
+<g id="node84" class="node">
+<title>Other</title>
+<polygon fill="none" stroke="#000000" points="578.9698,-2727.1 578.9698,-2763.1 670.3752,-2763.1 670.3752,-2727.1 578.9698,-2727.1"/>
+<text text-anchor="start" x="586.9698" y="-2742" font-family="Times,serif" font-size="14.00" fill="#000000">Other &#45; </text>
+<text text-anchor="start" x="630.5028" y="-2742" font-family="Times,serif" font-style="italic" font-size="14.00" fill="#000000">Autre</text>
+</g>
+<!-- Lemma&#45;&gt;Other -->
+<g id="edge71" class="edge">
+<title>Lemma&#45;&gt;Other</title>
+<path fill="none" stroke="#000000" d="M210.1455,-2982.7034C269.8982,-2913.4223 391.7842,-2772.1 391.7842,-2772.1 391.7842,-2772.1 499.7469,-2759.5833 568.6556,-2751.5943"/>
+<polygon fill="#000000" stroke="#000000" points="569.4088,-2755.0306 578.9391,-2750.4021 568.6026,-2748.0771 569.4088,-2755.0306"/>
+</g>
+<!-- CommonNoun -->
+<g id="node63" class="node">
+<title>CommonNoun</title>
+<polygon fill="none" stroke="#000000" points="938.4567,-3494.1 938.4567,-3618.1 1183.6591,-3618.1 1183.6591,-3494.1 938.4567,-3494.1"/>
+<text text-anchor="start" x="973.3689" y="-3602.5" font-family="Times,serif" font-size="14.00" fill="#000000">CommonNoun &#45; </text>
+<text text-anchor="start" x="1068.2539" y="-3602.5" font-family="Times,serif" font-style="italic" font-size="14.00" fill="#000000">Nom commun</text>
+<polyline fill="none" stroke="#000000" points="938.4567,-3593.3 1183.6591,-3593.3 "/>
+<text text-anchor="start" x="958.8082" y="-3577.7" font-family="Times,serif" font-size="14.00" fill="#000000">{boolean} countable &#45; </text>
+<text text-anchor="start" x="1086.1508" y="-3577.7" font-family="Times,serif" font-style="italic" font-size="14.00" fill="#000000">Dénombrable</text>
+<polyline fill="none" stroke="#000000" points="938.4567,-3568.5 1183.6591,-3568.5 "/>
+<text text-anchor="start" x="978.7358" y="-3552.9" font-family="Times,serif" font-size="14.00" fill="#000000">{boolean} concrete &#45; </text>
+<text text-anchor="start" x="1099.063" y="-3552.9" font-family="Times,serif" font-style="italic" font-size="14.00" fill="#000000">Concret</text>
+<polyline fill="none" stroke="#000000" points="938.4567,-3543.7 1183.6591,-3543.7 "/>
+<text text-anchor="start" x="990.0177" y="-3528.1" font-family="Times,serif" font-size="14.00" fill="#000000">{Gender} gender &#45; </text>
+<text text-anchor="start" x="1097.9017" y="-3528.1" font-family="Times,serif" font-style="italic" font-size="14.00" fill="#000000">Genre</text>
+<polyline fill="none" stroke="#000000" points="938.4567,-3518.9 1183.6591,-3518.9 "/>
+<text text-anchor="start" x="946.4567" y="-3503.3" font-family="Times,serif" font-size="14.00" fill="#000000">{boolean} collective &#45; </text>
+<text text-anchor="start" x="1073.7951" y="-3503.3" font-family="Times,serif" font-style="italic" font-size="14.00" fill="#000000">Nom collectif</text>
+<text text-anchor="start" x="1151.1591" y="-3503.3" font-family="Times,serif" font-size="14.00" fill="#000000"> &#160;&#160;&#160;&#160;&#160;&#160;</text>
+</g>
+<!-- Noun&#45;&gt;CommonNoun -->
+<g id="edge49" class="edge">
+<title>Noun&#45;&gt;CommonNoun</title>
+<path fill="none" stroke="#000000" d="M719.6306,-3473.1658C780.6891,-3487.9971 860.9044,-3507.4818 928.2404,-3523.838"/>
+<polygon fill="#000000" stroke="#000000" points="927.5344,-3527.2682 938.078,-3526.2276 929.1867,-3520.466 927.5344,-3527.2682"/>
+</g>
+<!-- ProperNoun -->
+<g id="node64" class="node">
+<title>ProperNoun</title>
+<polygon fill="none" stroke="#000000" points="978.9986,-3425.3 978.9986,-3474.9 1143.1172,-3474.9 1143.1172,-3425.3 978.9986,-3425.3"/>
+<text text-anchor="start" x="986.9986" y="-3459.3" font-family="Times,serif" font-size="14.00" fill="#000000">ProperNoun &#45; </text>
+<text text-anchor="start" x="1067.0842" y="-3459.3" font-family="Times,serif" font-style="italic" font-size="14.00" fill="#000000">Nom propre</text>
+<polyline fill="none" stroke="#000000" points="978.9986,-3450.1 1143.1172,-3450.1 "/>
+<text text-anchor="start" x="1015.5698" y="-3433.5" font-family="Times,serif" font-size="14.00" fill="#000000">e.g. Nicolas &#160;&#160;&#160;&#160;&#160;&#160;</text>
+</g>
+<!-- Noun&#45;&gt;ProperNoun -->
+<g id="edge50" class="edge">
+<title>Noun&#45;&gt;ProperNoun</title>
+<path fill="none" stroke="#000000" d="M719.6306,-3450.1C793.5059,-3450.1 895.4246,-3450.1 968.6453,-3450.1"/>
+<polygon fill="#000000" stroke="#000000" points="968.7807,-3453.6001 978.7806,-3450.1 968.7806,-3446.6001 968.7807,-3453.6001"/>
+</g>
+<!-- CommonStandardNoun -->
+<g id="node65" class="node">
+<title>CommonStandardNoun</title>
+<polygon fill="none" stroke="#000000" points="1272.4391,-3624.3 1272.4391,-3673.9 1564.5051,-3673.9 1564.5051,-3624.3 1272.4391,-3624.3"/>
+<text text-anchor="start" x="1280.4391" y="-3658.3" font-family="Times,serif" font-size="14.00" fill="#000000">CommonStandardNoun &#45; </text>
+<text text-anchor="start" x="1425.0871" y="-3658.3" font-family="Times,serif" font-style="italic" font-size="14.00" fill="#000000">Nom commun standard</text>
+<polyline fill="none" stroke="#000000" points="1272.4391,-3649.1 1564.5051,-3649.1 "/>
+<text text-anchor="start" x="1370.6446" y="-3632.5" font-family="Times,serif" font-size="14.00" fill="#000000">e.g. maison &#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;</text>
+</g>
+<!-- CommonNoun&#45;&gt;CommonStandardNoun -->
+<g id="edge51" class="edge">
+<title>CommonNoun&#45;&gt;CommonStandardNoun</title>
+<path fill="none" stroke="#000000" d="M1183.8353,-3591.6969C1226.8121,-3604.1572 1264.555,-3615.1 1264.555,-3615.1 1264.555,-3615.1 1277.5643,-3617.9737 1296.0186,-3622.0503"/>
+<polygon fill="#000000" stroke="#000000" points="1295.2824,-3625.4719 1305.802,-3624.2114 1296.7923,-3618.6367 1295.2824,-3625.4719"/>
+</g>
+<!-- CommonCompoundNoun -->
+<g id="node66" class="node">
+<title>CommonCompoundNoun</title>
+<polygon fill="none" stroke="#000000" points="1264.555,-3506.5 1264.555,-3605.7 1572.3892,-3605.7 1572.3892,-3506.5 1264.555,-3506.5"/>
+<text text-anchor="start" x="1272.555" y="-3590.1" font-family="Times,serif" font-size="14.00" fill="#000000">CommonCompoundNoun &#45; </text>
+<text text-anchor="start" x="1429.6672" y="-3590.1" font-family="Times,serif" font-style="italic" font-size="14.00" fill="#000000">Nom commun composé</text>
+<polyline fill="none" stroke="#000000" points="1264.555,-3580.9 1572.3892,-3580.9 "/>
+<text text-anchor="start" x="1350.5161" y="-3565.3" font-family="Times,serif" font-size="14.00" fill="#000000">{Noun[]} nouns &#45; </text>
+<text text-anchor="start" x="1452.9863" y="-3565.3" font-family="Times,serif" font-style="italic" font-size="14.00" fill="#000000">Noms</text>
+<polyline fill="none" stroke="#000000" points="1264.555,-3556.1 1572.3892,-3556.1 "/>
+<text text-anchor="start" x="1336.6491" y="-3540.5" font-family="Times,serif" font-size="14.00" fill="#000000">{&#39;&#39;|&#39; &#39;|&#39;&#45;&#39;} junction &#45; </text>
+<text text-anchor="start" x="1452.8547" y="-3540.5" font-family="Times,serif" font-style="italic" font-size="14.00" fill="#000000">Jonction</text>
+<polyline fill="none" stroke="#000000" points="1264.555,-3531.3 1572.3892,-3531.3 "/>
+<text text-anchor="start" x="1361.714" y="-3514.7" font-family="Times,serif" font-size="14.00" fill="#000000">e.g. chou&#45;fleur &#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;</text>
+</g>
+<!-- CommonNoun&#45;&gt;CommonCompoundNoun -->
+<g id="edge52" class="edge">
+<title>CommonNoun&#45;&gt;CommonCompoundNoun</title>
+<path fill="none" stroke="#000000" d="M1184.0596,-3556.1C1206.6755,-3556.1 1230.614,-3556.1 1254.2142,-3556.1"/>
+<polygon fill="#000000" stroke="#000000" points="1254.303,-3559.6001 1264.303,-3556.1 1254.303,-3552.6001 1254.303,-3559.6001"/>
+</g>
+<!-- CommonComplexNoun -->
+<g id="node67" class="node">
+<title>CommonComplexNoun</title>
+<polygon fill="none" stroke="#000000" points="1268.1544,-3412.9 1268.1544,-3487.3 1568.7898,-3487.3 1568.7898,-3412.9 1268.1544,-3412.9"/>
+<text text-anchor="start" x="1276.1544" y="-3471.7" font-family="Times,serif" font-size="14.00" fill="#000000">CommonComplexNoun &#45; </text>
+<text text-anchor="start" x="1422.3718" y="-3471.7" font-family="Times,serif" font-style="italic" font-size="14.00" fill="#000000">Nom commun complexe</text>
+<polyline fill="none" stroke="#000000" points="1268.1544,-3462.5 1568.7898,-3462.5 "/>
+<text text-anchor="start" x="1350.5161" y="-3446.9" font-family="Times,serif" font-size="14.00" fill="#000000">{Noun[]} nouns &#45; </text>
+<text text-anchor="start" x="1452.9863" y="-3446.9" font-family="Times,serif" font-style="italic" font-size="14.00" fill="#000000">Noms</text>
+<polyline fill="none" stroke="#000000" points="1268.1544,-3437.7 1568.7898,-3437.7 "/>
+<text text-anchor="start" x="1320.8991" y="-3422.1" font-family="Times,serif" font-size="14.00" fill="#000000">{&#39;&#39;|&#39; &#39;|&#39;&#45;&#39;} junction &#45; </text>
+<text text-anchor="start" x="1437.1047" y="-3422.1" font-family="Times,serif" font-style="italic" font-size="14.00" fill="#000000">Jonction</text>
+<text text-anchor="start" x="1484.5451" y="-3422.1" font-family="Times,serif" font-size="14.00" fill="#000000"> &#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;</text>
+</g>
+<!-- CommonNoun&#45;&gt;CommonComplexNoun -->
+<g id="edge53" class="edge">
+<title>CommonNoun&#45;&gt;CommonComplexNoun</title>
+<path fill="none" stroke="#000000" d="M1184.0596,-3519.6208C1215.9011,-3510.1774 1250.3642,-3499.9565 1282.8138,-3490.3328"/>
+<polygon fill="#000000" stroke="#000000" points="1284.2226,-3493.5658 1292.8146,-3487.3668 1282.2322,-3486.8547 1284.2226,-3493.5658"/>
+</g>
+<!-- CommonComplexSyntagmaNoun -->
+<g id="node68" class="node">
+<title>CommonComplexSyntagmaNoun</title>
+<polygon fill="none" stroke="#000000" points="1644.7346,-3460.3 1644.7346,-3509.9 2058.518,-3509.9 2058.518,-3460.3 1644.7346,-3460.3"/>
+<text text-anchor="start" x="1652.7346" y="-3494.3" font-family="Times,serif" font-size="14.00" fill="#000000">CommonComplexSyntagmaNoun &#45; </text>
+<text text-anchor="start" x="1854.945" y="-3494.3" font-family="Times,serif" font-style="italic" font-size="14.00" fill="#000000">Nom commun complexe syntagme</text>
+<polyline fill="none" stroke="#000000" points="1644.7346,-3485.1 2058.518,-3485.1 "/>
+<text text-anchor="start" x="1786.3142" y="-3468.5" font-family="Times,serif" font-size="14.00" fill="#000000">e.g. grand&#45;chose &#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;</text>
+</g>
+<!-- CommonComplexNoun&#45;&gt;CommonComplexSyntagmaNoun -->
+<g id="edge54" class="edge">
+<title>CommonComplexNoun&#45;&gt;CommonComplexSyntagmaNoun</title>
+<path fill="none" stroke="#000000" d="M1569.0565,-3462.2676C1590.2377,-3463.9791 1612.3499,-3465.7658 1634.4703,-3467.5532"/>
+<polygon fill="#000000" stroke="#000000" points="1634.3815,-3471.0574 1644.6309,-3468.3742 1634.9453,-3464.0801 1634.3815,-3471.0574"/>
+</g>
+<!-- CommonComplexExpressionNoun -->
+<g id="node69" class="node">
+<title>CommonComplexExpressionNoun</title>
+<polygon fill="none" stroke="#000000" points="1608.3892,-3391.3 1608.3892,-3440.9 2094.8634,-3440.9 2094.8634,-3391.3 1608.3892,-3391.3"/>
+<text text-anchor="start" x="1616.3892" y="-3425.3" font-family="Times,serif" font-size="14.00" fill="#000000">CommonComplexExpressionNoun &#45; </text>
+<text text-anchor="start" x="1824.8142" y="-3425.3" font-family="Times,serif" font-style="italic" font-size="14.00" fill="#000000">Nom commun complexe expression complète</text>
+<polyline fill="none" stroke="#000000" points="1608.3892,-3416.1 2094.8634,-3416.1 "/>
+<text text-anchor="start" x="1778.9257" y="-3399.5" font-family="Times,serif" font-size="14.00" fill="#000000">e.g. je&#45;ne&#45;sais&#45;quoi &#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;</text>
+</g>
+<!-- CommonComplexNoun&#45;&gt;CommonComplexExpressionNoun -->
+<g id="edge55" class="edge">
+<title>CommonComplexNoun&#45;&gt;CommonComplexExpressionNoun</title>
+<path fill="none" stroke="#000000" d="M1569.0565,-3438.28C1578.5737,-3437.533 1588.2789,-3436.7712 1598.0884,-3436.0012"/>
+<polygon fill="#000000" stroke="#000000" points="1598.6496,-3439.468 1608.3451,-3435.1961 1598.1018,-3432.4895 1598.6496,-3439.468"/>
+</g>
+<!-- DemonstrativeDeterminer -->
+<g id="node71" class="node">
+<title>DemonstrativeDeterminer</title>
+<polygon fill="none" stroke="#000000" points="901.0669,-3356.3 901.0669,-3405.9 1221.0489,-3405.9 1221.0489,-3356.3 901.0669,-3356.3"/>
+<text text-anchor="start" x="909.0669" y="-3390.3" font-family="Times,serif" font-size="14.00" fill="#000000">DemonstrativeDeterminer &#45; </text>
+<text text-anchor="start" x="1066.8889" y="-3390.3" font-family="Times,serif" font-style="italic" font-size="14.00" fill="#000000">Déterminant démonstratif</text>
+<polyline fill="none" stroke="#000000" points="901.0669,-3381.1 1221.0489,-3381.1 "/>
+<text text-anchor="start" x="1030.736" y="-3364.5" font-family="Times,serif" font-size="14.00" fill="#000000">e.g. ce &#160;&#160;&#160;&#160;&#160;&#160;</text>
+</g>
+<!-- Determiner&#45;&gt;DemonstrativeDeterminer -->
+<g id="edge56" class="edge">
+<title>Determiner&#45;&gt;DemonstrativeDeterminer</title>
+<path fill="none" stroke="#000000" d="M696.0237,-3296.1442C775.6832,-3316.2896 893.5608,-3346.1 893.5608,-3346.1 893.5608,-3346.1 909.7649,-3349.486 932.0931,-3354.1517"/>
+<polygon fill="#000000" stroke="#000000" points="931.5034,-3357.604 942.0079,-3356.2235 932.9352,-3350.752 931.5034,-3357.604"/>
+</g>
+<!-- IndefiniteDeterminer -->
+<g id="node72" class="node">
+<title>IndefiniteDeterminer</title>
+<polygon fill="none" stroke="#000000" points="928.67,-3287.3 928.67,-3336.9 1193.4458,-3336.9 1193.4458,-3287.3 928.67,-3287.3"/>
+<text text-anchor="start" x="936.67" y="-3321.3" font-family="Times,serif" font-size="14.00" fill="#000000">IndefiniteDeterminer &#45; </text>
+<text text-anchor="start" x="1066.4962" y="-3321.3" font-family="Times,serif" font-style="italic" font-size="14.00" fill="#000000">Déterminant indéfini</text>
+<polyline fill="none" stroke="#000000" points="928.67,-3312.1 1193.4458,-3312.1 "/>
+<text text-anchor="start" x="1029.9506" y="-3295.5" font-family="Times,serif" font-size="14.00" fill="#000000">e.g. un &#160;&#160;&#160;&#160;&#160;&#160;</text>
+</g>
+<!-- Determiner&#45;&gt;IndefiniteDeterminer -->
+<g id="edge57" class="edge">
+<title>Determiner&#45;&gt;IndefiniteDeterminer</title>
+<path fill="none" stroke="#000000" d="M705.9858,-3284.4353C765.4481,-3289.0682 847.6616,-3295.4737 918.0059,-3300.9544"/>
+<polygon fill="#000000" stroke="#000000" points="918.0526,-3304.4686 928.2943,-3301.756 918.5964,-3297.4897 918.0526,-3304.4686"/>
+</g>
+<!-- DefiniteDeterminer -->
+<g id="node73" class="node">
+<title>DefiniteDeterminer</title>
+<polygon fill="none" stroke="#000000" points="938.3923,-3218.3 938.3923,-3267.9 1183.7235,-3267.9 1183.7235,-3218.3 938.3923,-3218.3"/>
+<text text-anchor="start" x="946.3923" y="-3252.3" font-family="Times,serif" font-size="14.00" fill="#000000">DefiniteDeterminer &#45; </text>
+<text text-anchor="start" x="1067.6645" y="-3252.3" font-family="Times,serif" font-style="italic" font-size="14.00" fill="#000000">Déterminant défini</text>
+<polyline fill="none" stroke="#000000" points="938.3923,-3243.1 1183.7235,-3243.1 "/>
+<text text-anchor="start" x="1031.898" y="-3226.5" font-family="Times,serif" font-size="14.00" fill="#000000">e.g. le &#160;&#160;&#160;&#160;&#160;&#160;</text>
+</g>
+<!-- Determiner&#45;&gt;DefiniteDeterminer -->
+<g id="edge58" class="edge">
+<title>Determiner&#45;&gt;DefiniteDeterminer</title>
+<path fill="none" stroke="#000000" d="M705.9858,-3271.5783C768.2783,-3266.5822 855.5394,-3259.5835 927.966,-3253.7745"/>
+<polygon fill="#000000" stroke="#000000" points="928.3949,-3257.2515 938.0831,-3252.9631 927.8352,-3250.2739 928.3949,-3257.2515"/>
+</g>
+<!-- ExclamatoryDeterminer -->
+<g id="node74" class="node">
+<title>ExclamatoryDeterminer</title>
+<polygon fill="none" stroke="#000000" points="912.8318,-3149.3 912.8318,-3198.9 1209.284,-3198.9 1209.284,-3149.3 912.8318,-3149.3"/>
+<text text-anchor="start" x="920.8318" y="-3183.3" font-family="Times,serif" font-size="14.00" fill="#000000">ExclamatoryDeterminer &#45; </text>
+<text text-anchor="start" x="1067.7646" y="-3183.3" font-family="Times,serif" font-style="italic" font-size="14.00" fill="#000000">Déterminant exclamatif</text>
+<polyline fill="none" stroke="#000000" points="912.8318,-3174.1 1209.284,-3174.1 "/>
+<text text-anchor="start" x="1018.2921" y="-3157.5" font-family="Times,serif" font-size="14.00" fill="#000000">e.g. Quelle &#160;&#160;&#160;&#160;&#160;&#160;</text>
+</g>
+<!-- Determiner&#45;&gt;ExclamatoryDeterminer -->
+<g id="edge59" class="edge">
+<title>Determiner&#45;&gt;ExclamatoryDeterminer</title>
+<path fill="none" stroke="#000000" d="M706.1255,-3268.6567C773.2838,-3260.8707 857.5608,-3251.1 857.5608,-3251.1 857.5608,-3251.1 893.5608,-3209.1 893.5608,-3209.1 893.5608,-3209.1 909.7649,-3205.714 932.0931,-3201.0483"/>
+<polygon fill="#000000" stroke="#000000" points="932.9352,-3204.448 942.0079,-3198.9765 931.5034,-3197.596 932.9352,-3204.448"/>
+</g>
+<!-- PossessiveDeterminer -->
+<g id="node75" class="node">
+<title>PossessiveDeterminer</title>
+<polygon fill="none" stroke="#000000" points="925.6467,-3080.3 925.6467,-3129.9 1196.4691,-3129.9 1196.4691,-3080.3 925.6467,-3080.3"/>
+<text text-anchor="start" x="933.6467" y="-3114.3" font-family="Times,serif" font-size="14.00" fill="#000000">PossessiveDeterminer &#45; </text>
+<text text-anchor="start" x="1068.9315" y="-3114.3" font-family="Times,serif" font-style="italic" font-size="14.00" fill="#000000">Déterminant possesif</text>
+<polyline fill="none" stroke="#000000" points="925.6467,-3105.1 1196.4691,-3105.1 "/>
+<text text-anchor="start" x="1024.5053" y="-3088.5" font-family="Times,serif" font-size="14.00" fill="#000000">e.g. mon &#160;&#160;&#160;&#160;&#160;&#160;</text>
+</g>
+<!-- Determiner&#45;&gt;PossessiveDeterminer -->
+<g id="edge60" class="edge">
+<title>Determiner&#45;&gt;PossessiveDeterminer</title>
+<path fill="none" stroke="#000000" d="M706.1255,-3268.6567C773.2838,-3260.8707 857.5608,-3251.1 857.5608,-3251.1 857.5608,-3251.1 893.5608,-3140.1 893.5608,-3140.1 893.5608,-3140.1 909.7649,-3136.714 932.0931,-3132.0483"/>
+<polygon fill="#000000" stroke="#000000" points="932.9352,-3135.448 942.0079,-3129.9765 931.5034,-3128.596 932.9352,-3135.448"/>
+</g>
+</g>
+</svg>

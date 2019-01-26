@@ -5,16 +5,17 @@
   "license": "MIT",
   "homepage": "https://github.com/dimitrinicolas/french-linguistic",
   "scripts": {
-    "build": "mmdc -i ./src/diagram.mmd -o ./bin/diagram.svg && sed -i -e 's/\\<br\\>/\\<br \\/\\>/g' ./bin/diagram.svg"
+    "build": "node ./build"
   },
   "keywords": [
     "french",
     "linguistic",
     "classification",
     "lemma",
-    "morpheme"
+    "morpheme",
+    "grammar"
   ],
   "dependencies": {
-    "mermaid.cli": "^0.5.1"
+    "viz.js": "^2.1.2"
   }
 }
