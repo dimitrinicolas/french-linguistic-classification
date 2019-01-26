@@ -28,8 +28,8 @@ Lemma --> Other["Other - Autre"]
 
 Inflection["Inflection - Flexion<br>{Lemma} lemma - Lèmme<br>{Morphemes[]} Morphemes - Morphèmes"]
 
-  Inflection --> Declension["Declension - Déclinaison"]
-  Conjugation --> Conjugation["Conjugation - Conjugaison"]
+  Inflection --> Declension["Declension - Déclinaison<br>{Number} number - Nombre<br>{Gender} gender - Genre"]
+  Inflection --> Conjugation["Conjugation - Conjugaison"]
 
 %% declinaison ou conjugaison
 %% number: singular, plural, invariable
@@ -38,7 +38,7 @@ Inflection["Inflection - Flexion<br>{Lemma} lemma - Lèmme<br>{Morphemes[]} Morp
 
 %%'abbreviation','auxiliary','impersonal','defective','onomatopoeia','negation','determinant','adjective','demonstrative','possessive','personal','relative','indefinite','interrogative','exclamatory','definite','negative','subordination' et 'coordination'
 
-  Noun --> CommonNoun["CommonNoun - Nom commun<br>{boolean} countable - Dénombrable<br>{boolean} concrete - Concret<br>{Gender} gender - Genre<br>{boolean} invariableGender - Genre invariable<br>{boolean} collective - Nom collectif"]
+  Noun --> CommonNoun["CommonNoun - Nom commun<br>{boolean} countable - Dénombrable<br>{boolean} concrete - Concret<br>{Gender} gender - Genre<br>{boolean} collective - Nom collectif"]
     CommonNoun --> CommonStandardNoun["CommonStandardNoun - Nom commun standard<br>e.g. maison"]
     CommonNoun --> CommonCompoundNoun["CommonCompoundNoun - Nom commun composé<br>{Noun[]} nouns - Noms<br>{''|' '|'-'} junction - Jonction<br>e.g.  chou-fleur"]
     CommonNoun --> CommonComplexNoun["CommonComplexNoun - Nom commun complexe<br>{Noun[]} nouns - Noms<br>{''|' '|'-'} junction - Jonction"]
@@ -95,12 +95,22 @@ Morpheme["Morpheme - Morphème<br>{boolean} free - Libre (existe en tant que lem
 Phoneme["Phoneme - Phonème<br>{string} content - Contenu"]
 
 %% ===================
+%% Number
+%% ===================
+
+Number["Number - Nombre"]
+Number --> Singular["Singular - Singulier"]
+Number --> Plural["Plural - Pluriel"]
+Number --> Invariable["Invariable - Invariable en nombre"]
+
+%% ===================
 %% Gender
 %% ===================
 
 Gender["Gender - Genre"]
 Gender --> Masculine["Masculine - Masculin"]
 Gender --> Feminine["Feminine - Feminin"]
+Gender --> Invariable["Invariable - Genre invariable"]
 
 %% ===================
 %% Function
