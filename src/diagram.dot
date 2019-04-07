@@ -41,19 +41,44 @@ digraph {
   ]
 
     Subject [ label = <Subject - <i>Sujet</i>> ]
+    Verbal [ label = <Verbal - <i>Verbal</i>> ]
+
     ObjectComplement [ label = <ObjectComplement - <i>Complément d'objet</i>> ]
 
       DirectObjectComplement [ label = <DirectObjectComplement - <i>Complément d'objet direct</i>> ]
-      SecondObjectComplement [ label = <DirectObjectComplement - <i>Complément d'objet second</i>> ]
-      IndirectObjectComplement [ label = <DirectObjectComplement - <i>Complément d'objet indirect</i>> ]
+      SecondObjectComplement [ label = <SecondObjectComplement - <i>Complément d'objet second</i>> ]
+      IndirectObjectComplement [ label = <IndirectObjectComplement - <i>Complément d'objet indirect</i>> ]
 
       ObjectComplement -> { DirectObjectComplement SecondObjectComplement IndirectObjectComplement }
+
+    CircumstantialComplement [ label = <CircumstantialComplement - <i>Complément circonstanciel</i>> ]
+
+      CircumstantialComplementOfTime [
+        label = <
+          CircumstantialComplementOfTime - <i>Complément circonstanciel de temps</i>|
+          <i>Réponds à "Quand ?"</i>
+        >
+      ]
+      CircumstantialComplementOfPlace [
+        label = <
+          CircumstantialComplementOfPlace - <i>Complément circonstanciel de lieu</i>|
+          <i>Réponds à "Où ?"</i>
+        >
+      ]
+      AdditionalCircumstantialComplement [
+        label = <
+          AdditionalCircumstantialComplement - <i>Complément circonstanciel de manière</i>|
+          <i>Réponds à "Comment ?"</i>
+        >
+      ]
+
+      CircumstantialComplement -> { CircumstantialComplementOfTime CircumstantialComplementOfPlace AdditionalCircumstantialComplement }
 
     ObjectOfPreposition [ label = <ObjectOfPreposition - <i>ObjectOfPreposition</i>> ]
     PedicateNominative [ label = <PedicateNominative - <i>Attribut</i>> ]
     Appositive [ label = <Appositive - <i>Apposition</i>> ]
 
-    Function -> { Subject ObjectComplement ObjectOfPreposition PedicateNominative Appositive}
+    Function -> { Subject Verbal ObjectComplement CircumstantialComplement ObjectOfPreposition PedicateNominative Appositive}
 
   /**
    * QUASI-STATIC
@@ -195,13 +220,13 @@ digraph {
     SecondVerbGroup [
       label = <
         SecondVerbGroup - <i>Deuxième groupe</i>|
-        Infinitif en -ir, qui à certaines formes allongent leur radical de l’affixe –iss-
+        <i>Infinitif en -ir, qui à certaines formes allongent leur radical de l’affixe –iss-</i>
       >
     ]
     ThirdVerbGroup [
       label = <
         ThirdVerbGroup - <i>Troisième groupe</i>|
-        Infinitif en -ir sans élargissement, en -oir, en -re et aller
+        <i>Infinitif en -ir sans élargissement, en -oir, en -re et aller</i>
       >
     ]
 
@@ -417,6 +442,50 @@ digraph {
       Determiner -> { DemonstrativeDeterminer IndefiniteDeterminer DefiniteDeterminer ExclamatoryDeterminer PossessiveDeterminer}
 
     Pronoun [ label = <Pronoun - <i>Pronom</i>> ]
+
+      PersonalPronoun [
+        label = <
+          PersonalPronoun - <i>Pronom personnel</i>|
+          e.g. Subject: je, tu|
+          e.g. DirectObjectComplement: me, te|
+          e.g. CircumstantialComplementOfPlace: en, y|
+          e.g. Accented: moi, toi
+        >
+      ]
+
+      DemonstrativePronoun [
+        label = <
+          DemonstrativePronoun - <i>Pronom démonstratif</i>|
+          e.g. ce, cela
+        >
+      ]
+
+      /**
+       * TODO: ce ne sont pas des lemmes mais des locutions :
+       */
+      PossessivePronoun [
+        label = <
+          PossessivePronoun - <i>Pronom possesif</i>|
+          e.g. le mien, le vôtre
+        >
+      ]
+
+      InterrogativePronoun [
+        label = <
+          InterrogativePronoun - <i>Pronom interrogatif</i>|
+          e.g. qui ?, que ?
+        >
+      ]
+
+      RelativePronoun [
+        label = <
+          RelativePronoun - <i>Pronom relatif</i>|
+          e.g. qui, que
+        >
+      ]
+
+      Pronoun -> { PersonalPronoun DemonstrativePronoun PossessivePronoun InterrogativePronoun RelativePronoun}
+
     Verb [
       label = <
         Verb - <i>Verbe</i>|
@@ -424,14 +493,35 @@ digraph {
         \{VerbGroup\} verbGroup - <i>Groupe de verbe</i>
       >
     ]
-    Adverb [ label = <Adverb - <i>Adverbe</i>> ]
-    Adjective [ label = <Adjective - <i>Adjectif</i>> ]
-    Interjection [ label = <Interjection - <i>Interjection</i>> ]
-    Preposition [ label = <Preposition - <i>Préposition</i>> ]
-    Conjunction [ label = <Conjunction - <i>Conjonction</i>> ]
+    Adverb [ label = <
+      Adverb - <i>Adverbe</i>|
+      e.g. hier
+    > ]
+    Adjective [ label = <
+      Adjective - <i>Adjectif</i>|
+      e.g. grand
+    > ]
+    Interjection [ label = <
+      Interjection - <i>Interjection</i>|
+      e.g. Ah, Bon
+    > ]
+    Preposition [ label = <
+      Preposition - <i>Préposition</i>|
+      e.g. à, devant
+    > ]
+    Conjunction [ label = <
+      Conjunction - <i>Conjonction</i>|
+      e.g. et, car
+    > ]
     Numeral [ label = <Numeral - <i>Nombre</i>> ]
     Other [ label = <Other - <i>Autre</i>> ]
     
     Lemma -> { Noun Determiner Pronoun Verb Adverb Adjective Interjection Preposition Conjunction Numeral Other }
 
 }
+
+/**
+ * TODO: fonction d'adjectif : épithète, attribut
+ * TODO: pronom : personnel, démonstratif, possessif, interrogatif, relatif
+ * TODO: intégrer les locutions à la logique globale
+ */

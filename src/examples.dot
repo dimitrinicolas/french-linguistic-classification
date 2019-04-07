@@ -1,0 +1,80 @@
+digraph {
+  graph [
+    rankdir = LR
+    splines = polyline
+  ]
+
+  node [
+    shape = record
+  ]
+
+  subgraph cluster_1 {
+		label = "Example 1";
+
+    subgraph cluster_1_1 {
+      label = <
+        Group<br/>
+        parent = null<br/>
+        function = Subject
+      >
+
+      w1_1 [
+        label = <
+          Tu
+        >
+      ]
+    }
+
+    subgraph cluster_1_2 {
+      label = <
+        Group<br/>
+        parent = null<br/>
+        function = Verbal
+      >
+
+      w1_2 [
+        label = <
+          me|
+          Pronoun
+        >
+      ]
+
+      w1_3 [
+        label = <
+          racontes
+        >
+      ]
+    }
+
+    w1_4 [
+      label = <
+        ton
+      >
+    ]
+
+    w1_5 [
+      label = <
+        histoire
+      >
+    ]
+
+    w1_6 [
+      label = <
+        , parce que tu l'as adorée.
+      >
+    ]
+
+    w1_1->w1_2->w1_3->w1_4->w1_5->w1_6
+	}
+
+
+  Group [
+    label = <
+      Group - <i>Groupe</i>|
+      \{Group=\} parent - <i>Groupe parent</i>|
+      \{Lemma[]\} lemmas - <i>Liste de lemmes</i>|
+      \{Function[]\} function - <i>Fonction du groupe</i>
+    >
+  ]
+
+}
